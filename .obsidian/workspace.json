@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "2024-11-25-23-06-55"
             }
-          },
-          {
-            "id": "616f7e25668dced2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,12 +94,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from conflict-files-obsidian-git"
+              "title": "Outgoing links"
             }
           },
           {
@@ -175,7 +159,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "616f7e25668dced2",
+  "active": "caf2074a3f9acbd7",
   "lastOpenFiles": [
     "content/posts/2024-11-25-23-06-55.md",
     "conflict-files-obsidian-git.md",
