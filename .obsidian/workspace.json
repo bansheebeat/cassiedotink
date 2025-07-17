@@ -11,10 +11,14 @@
             "id": "b1232890edf6c6b2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/2024-11-25-23-06-55.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-11-25-23-06-55"
             }
           }
         ]
@@ -90,11 +94,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/posts/2024-11-25-23-06-55.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 2024-11-25-23-06-55"
             }
           },
           {
@@ -118,12 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "content/posts/2024-11-25-23-06-55.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 2024-11-25-23-06-55"
             }
           },
           {
