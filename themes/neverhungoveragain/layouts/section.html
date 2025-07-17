@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <h1>All {{ .Title }}</h1>
+  {{ .Content }}
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+  {{ range $paginator.Pages }}
+  <article>
+    <time>
+      {{ .PublishDate.Format "2 January 2006" }}
+    </time>
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <div class="barcode">
+      {{ .Params.url }}
+    </div>
+    {{ .Summary }}
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </article>
+  {{ end }}
+
+  {{ partial "pagination.html" . }}
+
+{{ end }}

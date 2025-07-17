@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on cassie.ink</title>
+    <link>https://example.org/tags/</link>
+    <description>Recent content in Tags on cassie.ink</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week-Notes</title>
+      <link>https://example.org/tags/week-notes/</link>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/week-notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meta</title>
+      <link>https://example.org/tags/meta/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/meta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech</title>
+      <link>https://example.org/tags/tech/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/tech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life</title>
+      <link>https://example.org/tags/life/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Politics</title>
+      <link>https://example.org/tags/politics/</link>
+      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/politics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>https://example.org/tags/ai/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Internet</title>
+      <link>https://example.org/tags/internet/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/internet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Literature</title>
+      <link>https://example.org/tags/literature/</link>
+      <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/literature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>https://example.org/tags/music/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/music/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompts</title>
+      <link>https://example.org/tags/prompts/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/prompts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Home</title>
+      <link>https://example.org/tags/home/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/home/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teaching</title>
+      <link>https://example.org/tags/teaching/</link>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/teaching/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Games</title>
+      <link>https://example.org/tags/games/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/games/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pokemon</title>
+      <link>https://example.org/tags/pokemon/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/pokemon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Media-Log</title>
+      <link>https://example.org/tags/media-log/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/media-log/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exercise</title>
+      <link>https://example.org/tags/exercise/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/exercise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Undergrad</title>
+      <link>https://example.org/tags/undergrad/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.org/tags/undergrad/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

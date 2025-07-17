@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on cassie.ink</title>
+    <link>https://example.org/tags/meta/</link>
+    <description>Recent content in Meta on cassie.ink</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>an ode to gitsync</title>
+      <link>https://example.org/an-ode-to-gitsync/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/an-ode-to-gitsync/</guid>
+      <description>&lt;p&gt;Since I &lt;a href=&#34;https://esotericbullshit.net/what%27s-this-%28and-how-it-works%29/&#34;&gt;moved this site to Hugo&lt;/a&gt;, I&amp;rsquo;ve been using an app called GitJournal to post from my phone. I have a beautiful desk setup with a clacky mechanical keyboard that&amp;rsquo;s a joy to write on, but the simple fact is that I&amp;rsquo;m a lazy shit and want to update my blog from the couch. It&amp;rsquo;s all mostly worked fine, with some headaches. I originally intended to use GitJournal to store my Github repo to my phone&amp;rsquo;s filesystem and then point an Obsidian&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; vault at that.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>what&#39;s this? (and how it works)</title>
+      <link>https://example.org/what&#39;s-this-(and-how-it-works)/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/what&#39;s-this-(and-how-it-works)/</guid>
+      <description>&lt;p&gt;Welcome to esotericbullshit.net, the new home of my blog and web stuff.&lt;/p&gt;&#xA;&lt;p&gt;Previously, this blog was hosted at bearblog under the domain cassie.land. Now, I&amp;rsquo;m using the SSG Hugo to create the site, which deploys to Github Pages for hosting.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;So why the move?&lt;/strong&gt; I love bearblog and recommend it to just about anyone who wants to get into blogging and the small web — it&amp;rsquo;s dead simple for folks with no web expertise, it has an awesome community, and the discover page allows you to share your content and connect with folks also using the platform. Unfortunately, I am, at heart, a tinkerer — bearblog felt a little &lt;em&gt;too&lt;/em&gt; easy, and a little limiting for some of the visions I have. And, ultimately, I just want to &lt;strong&gt;own my content&lt;/strong&gt; and &lt;strong&gt;embrace new technologies and challenges&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>my year in lists</title>
+      <link>https://example.org/my-year-in-lists/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.org/my-year-in-lists/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m not a New Years Resolution person; listening to a lot of &lt;a href=&#34;https://loscampesinos.bandcamp.com/track/my-year-in-lists-2&#34;&gt;&amp;ldquo;My Year in Lists&amp;rdquo;&lt;/a&gt; by Los Campesinos! as a teen made me quite cynical about the whole thing.&lt;/p&gt;&#xA;&lt;p&gt;However, I &lt;em&gt;am&lt;/em&gt; a very goal-oriented, reflective person. In late 2022, after years of gaining weight and developing some really negative patterns of self-talk around my body image, I decided to join a gym. Of course I&amp;rsquo;d like to see the number on the scale go down, but the main goal was just to get healthier and develop healthier habits. I started running, because that&amp;rsquo;s what I used to do (not well), and eventually convinced a friend to join with me. Together, we set the goal of running a 5K, and we did our first in May of 2023, in about 41 minutes (in our defense, it was an &lt;em&gt;extremely&lt;/em&gt; hilly course, but also progress, progress&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;). We ran three more as the year went by; my most recent was November, where I finished in around 36 minutes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What&#39;s This?</title>
+      <link>https://example.org/what&#39;s-this/</link>
+      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.org/what&#39;s-this/</guid>
+      <description>&lt;p&gt;Well, I have another blog.&lt;/p&gt;&#xA;&lt;p&gt;Welcome to &lt;a href=&#34;https://cassie.land&#34;&gt;cassie.land&lt;/a&gt;, the latest (as of writing this) web project that I&amp;rsquo;ve started and may promptly abandon.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s the truth: These past few months have shown me the impermanence of online platforms. I have quit reddit with the third-party API shutdowns, and while I am probably better off for it, it does feel like losing one of the bastions of the internet I once knew. I regret to inform that I am officially an old person on the internet; I yearn for the days of hyper-specific Geocities pages with incredibly useful information written by a thirteen year old screaming into the void (and for the days where our search engines actually directed us to that information rather than some circuitous tripe written by AI that packs in every SEO keyword without actually saying anything).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

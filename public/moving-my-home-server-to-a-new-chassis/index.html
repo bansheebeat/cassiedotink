@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Moving my home server to a new chassis | cassie.ink</title>
+
+      <link rel="stylesheet" href="/css/main.min.5a164c9a59f1a958be86d8ce4b2d76abdac00feffb2fc1cdbffab05e19b706bf.css" integrity="sha256-WhZMmlnxqVi&#43;htjOSy12q9rAD&#43;/7L8HNv/qwXhm3Br8=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/fonts.min.a821e68a1b4a65ac46a906c1dd114d374075c2ecad31f7cc8e5d90d4b41a28a1.css" integrity="sha256-qCHmihtKZaxGqQbB3RFNN0B1wuytMffMjl2Q1LQaKKE=" crossorigin="anonymous">
+
+
+        <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <header>
+    <h1>
+    <a href="https://example.org/">
+        cassie
+        <svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-droplet"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" /></svg>
+        ink
+    </a>
+</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/week-notes/">Week Notes</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main class='page'>
+    
+  <article>
+    
+    
+    <time datetime="2024-03-10T00:00:00&#43;00:00">March 10, 2024</time>
+
+    <h1>Moving my home server to a new chassis</h1>
+
+    <div class="barcode">
+      moving-my-home-server-to-a-new-chassis
+    </div>
+
+      <p>I have a home server (running Unraid) that I use to backup computers, as media storage, and to run various apps. It&rsquo;s mostly been cobbled together from used parts I found for cheap, and it generally followed <a href="https://forums.serverbuilds.net/t/guide-nas-killer-4-0-fast-quiet-power-efficient-and-flexible-starting-at-125/667">Serverbuild&rsquo;s NAS Killer 4 guide</a>. It runs like a dream, and putting it together is one of the best decisions I&rsquo;ve ever made. More recently, with streaming sites like Netflix, Hulu, etc. cracking down on password sharing, it has become my pathway to shedding some monthly subscriptions and owning my own media.</p>
+<p>For years, that server has lived in an old NZXT case that I had used when I built my first PC, primarily because I had the case laying around and because it still had bays for 3.5&quot; drives (most modern PC cases only include one or two and instead provide storage for 2.5&quot; drives). That bulky case has been shoved away in whatever corner of my apartments I could find, but now that I own a house, I have dreams of setting up a proper server rack in a closet somewhere. My home&rsquo;s basement has a strange little room that housed only the oil tank and is conveniently right below my office space, so that&rsquo;s the intended home. We replaced and relocated the tank and ran electrical to it, so it&rsquo;s now good to go.</p>
+<p>I purchased a rack mount case (Rosewill RSV-L4500U) off of the <a href="https://www.reddit.com/r/hardwareswap/">hardwareswap</a> Discord not too long ago and intended to move the server when I had some free time. Just a few days ago, I found that one of my 6TB drives was throwing errors in Unraid. I ran a SMART test, which seemed to clear, so I thought I would start by checking the physical connections — and if I was going to have to take the server down, I might as well move it into the new case.</p>
+<p>Easy enough, right? I&rsquo;ve been tinkering with and building PCs for over ten years now. I&rsquo;m at a stage where I can put one together and confidently turn it on on the first try. There was a bit of an adjustment period to a proper server case (particularly the drive cages — I like the idea of them, but the screwless design is a proper pain in the ass), but for the most part, this was smooth sailing — at least in the context of what was to come.</p>
+<p><img src="https://cdn.cassie.land/images/2024/02/PXL_20240219_164002815.jpg" alt="The new case" title="The new case"></p>
+<p><img src="https:///cdn.cassie.land/images/2024/02/PXL_20240219_164215573.jpg" alt="The old server" title="The old server"></p>
+<p><img src="https:///cdn.cassie.land/images/2024/02/PXL_20240219_180817832.jpg" alt="Transferred" title="Transfered"></p>
+<p>I&rsquo;m normally better at straightening up the cables, but with a non-modular PSU, I don&rsquo;t have a lot of options. I&rsquo;ll replace it one day&hellip;</p>
+<p>Now, part of what I wanted to do was also replace my cache drive. I had been running it off of an <em>old</em> 120GB SSD which would fill up pretty easily. I had a 500GB SSD kicking around to swap to; I had thought I&rsquo;d set my appdata folder to copy to my array so that I could just pop in the new drive, remove the old one, and be good to go. This was my fatal error.</p>
+<p>I boot up the server — first try — and see the new cache drive needs to be formatted. Great. I do so, then check my Dockers. <em>Everything is gone.</em></p>
+<p>Oh fuck — but I can just put in the old drive, right? I do so. It is, according to Unraid, unmountable.</p>
+<p>Well, I had switched from an xfs file system to btrfs with the new drive. Maybe I just need to set the cache pool to accept xfs again.</p>
+<p>The drive is still unreadable.</p>
+<p>I try <code>xfs_repair</code> on it with no luck. I spent several hours trying all kinds of drive recovery and tricks online. Nothing.</p>
+<p>This resulted in me having to recreate all of my Docker containers — all of my -arr setups, my Plex configuration (including all of my playlists), etc. It took <em>hours</em>, but I learned my lesson: all of that is set to automatically backup now. If I&rsquo;m looking for silver linings, this finally forced me to migrate from Jackett to Prowlarr, which removes a lot of manual configuration on my part; my indexers all automatically sync to Radarr, Sonarr, Lidarr, etc. It&rsquo;s a pain in the ass, and something is still off with my Lidarr config, but again, lessons learned&hellip;</p>
+<p>A few weeks later, the supposed failed drive is running just fine and passing all checks and tests. I&rsquo;m getting frequent warnings that some of the drives are running hot, so I&rsquo;m planning to replace the stock fans (which I&rsquo;ve read some folks online confirming that they&rsquo;re awful) with Arctic P12s. Further down the line, I need to get a proper rack and run cables down to my &ldquo;server room&rdquo; (old furnace room in my basement) — for now, the server will continue to live on the floor of my office.</p>
+
+
+    
+  <div class="tags">
+    <ul>
+        <li>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-tag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z" /></svg>
+          <a href="/tags/home/">Home</a>
+        </li>
+        <li>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-tag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z" /></svg>
+          <a href="/tags/life/">Life</a>
+        </li>
+        <li>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-tag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z" /></svg>
+          <a href="/tags/tech/">Tech</a>
+        </li>
+    </ul>
+  </div>
+
+  </article>
+  
+
+  </main>
+  <footer>
+        <ul class="social">
+        <li>
+            <a href="mailto:me@cassie.ink">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+            </a>
+        </li>
+        <li>
+            <a href="/index.xml">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f26522" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-rss">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                    <path d="M4 4a16 16 0 0 1 16 16" />
+                    <path d="M4 11a9 9 0 0 1 9 9" />
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a rel="me" href="https://social.lol/@cass">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6364ff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-mastodon">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M18.648 15.254c-1.816 1.763 -6.648 1.626 -6.648 1.626a18.262 18.262 0 0 1 -3.288 -.256c1.127 1.985 4.12 2.81 8.982 2.475c-1.945 2.013 -13.598 5.257 -13.668 -7.636l-.026 -1.154c0 -3.036 .023 -4.115 1.352 -5.633c1.671 -1.91 6.648 -1.666 6.648 -1.666s4.977 -.243 6.648 1.667c1.329 1.518 1.352 2.597 1.352 5.633s-.456 4.074 -1.352 4.944z" />
+                    <path d="M12 11.204v-2.926c0 -1.258 -.895 -2.278 -2 -2.278s-2 1.02 -2 2.278v4.722m4 -4.722c0 -1.258 .895 -2.278 2 -2.278s2 1.02 2 2.278v4.722" />
+                  </svg>
+            </a>
+        </li>
+        <li>
+            <a href="https://listenbrainz.org/user/babyspace/">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#eb743b"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-metabrainz"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7v10l7 4v-18z" /><path d="M21 7v10l-7 4v-18z" /></svg>
+            </a>
+        </li>
+    </ul>
+    <p class="forget">
+        don't forget to have fun.
+    </p>
+    <p class="copyright">
+        all errors &copy; cassie
+    </p>
+
+  </footer>
+</body>
+</html>

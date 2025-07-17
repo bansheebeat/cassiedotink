@@ -1,0 +1,75 @@
+/* Domaine Display */
+@font-face {
+    font-family: "Domaine Display";
+    src: url("/fonts/DomaineDisplayBlack.woff2")format("woff2");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Domaine Display";
+    src: url("/fonts/DomaineDisplayRegular.woff2")format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Domaine Display";
+    src: url("/fonts/DomaineDisplayRegularItalic.woff2")format("woff2");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Domaine Display";
+    src: url("/fonts/DomaineDisplayBold.woff2")format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Domaine Display";
+    src: url("/fonts/DomaineDisplayBoldItalic.woff2")format("woff2");
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Domaine Text */
+@font-face {
+    font-family: "Domaine Text";
+    src: url("/fonts/DomaineTextRegular.woff2")format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Domaine Text";
+    src: url("/fonts/DomaineTextRegularItalic.woff2")format("woff2");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Domaine Text";
+    src: url("/fonts/DomaineTextBold.woff2")format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Domaine Text";
+    src: url("/fonts/DomaineTextBoldItalic.woff2")format("woff2");
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Barcode */
+/* libre-barcode-128-text-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Libre Barcode';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/LibreBarcode.woff2') format('woff2');
+  }
+  

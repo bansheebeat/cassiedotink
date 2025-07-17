@@ -1,0 +1,29 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'cassie.ink'
+theme = 'neverhungoveragain'
+
+[module]
+[[module.mounts]]
+  source = 'content'
+  target = 'content'
+  excludeFiles = ['templates/*.md']
+
+[pagination]
+  disableAliases = false
+  pagerSize = 5
+  path = 'page'
+
+[menus]
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 10
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 30
+  [[menus.main]]
+    name = 'Week Notes'
+    pageRef = '/tags/week-notes'
+    weight = 40
