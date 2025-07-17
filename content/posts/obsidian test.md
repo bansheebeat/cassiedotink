@@ -8,3 +8,5 @@ tags:
 draft: false
 ---
 making sure posting from computer obsidian is working!
+
+And from my phone?
