@@ -1,6 +1,6 @@
 ---
 title: "(week notes #)"
-date: <% tp.file.creation_date("YYYY-MM-DD") %>
+date: "{{date}}"
 tags:
   - week-notes
 draft: true
