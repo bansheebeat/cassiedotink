@@ -6,7 +6,7 @@ tags:
   - meta
 draft: false
 ---
-Welcome to esotericbullshit.net, the new home of my blog and web stuff.
+Welcome to cassie.ink, the new home of my blog and web stuff.
 
 Previously, this blog was hosted at bearblog under the domain cassie.land. Now, I'm using the SSG Hugo to create the site, which deploys to Github Pages for hosting.
 

@@ -7,7 +7,7 @@ tags:
   - meta
 draft: false
 ---
-Since I [moved this site to Hugo](https://esotericbullshit.net/what%27s-this-%28and-how-it-works%29/), I've been using an app called GitJournal to post from my phone. I have a beautiful desk setup with a clacky mechanical keyboard that's a joy to write on, but the simple fact is that I'm a lazy shit and want to update my blog from the couch. It's all mostly worked fine, with some headaches. I originally intended to use GitJournal to store my Github repo to my phone's filesystem and then point an Obsidian[^1] vault at that.
+Since I [moved this site to Hugo](https://cassie.ink/what%27s-this-%28and-how-it-works%29/), I've been using an app called GitJournal to post from my phone. I have a beautiful desk setup with a clacky mechanical keyboard that's a joy to write on, but the simple fact is that I'm a lazy shit and want to update my blog from the couch. It's all mostly worked fine, with some headaches. I originally intended to use GitJournal to store my Github repo to my phone's filesystem and then point an Obsidian[^1] vault at that.
 
 Unfortunately, GitJournal currently [cannot store the repo](https://github.com/GitJournal/GitJournal/issues/925) in the Android filesystem due to a permissions issue, so I can't use it with Obsidian. GitJournal's note-taking app is serviceable, but again, I want to use Obsidian. I've been making-do with GitJournal for a few months now — for once in my life, not fixing what's broken — operating under the assumption that there were no other options.
 
