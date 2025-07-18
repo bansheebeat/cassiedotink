@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/obsidian test.md",
+                "file": "content/week-notes/25.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "obsidian test"
+              "title": "25"
             }
           }
         ]
@@ -132,5 +132,8 @@
     }
   },
   "active": "df152da4c3c17af0",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "content/week-notes/025 unused.md",
+    "content/week-notes/25.md"
+  ]
 }
