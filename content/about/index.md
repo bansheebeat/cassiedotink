@@ -1,3 +1,7 @@
+---
+title: about
+---
+
 # hi, my name is cassie.
 
 I'm an English teacher from New York. This is the home of the esoteric bullshit that I am incomprehensibly fixated on, which includes books, video games, music, and thinking way too much about everything.

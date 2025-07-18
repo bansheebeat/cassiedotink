@@ -387,7 +387,7 @@
       <description>&lt;p&gt;Well, I have another blog.&lt;/p&gt;&#xA;&lt;p&gt;Welcome to &lt;a href=&#34;https://cassie.land&#34;&gt;cassie.land&lt;/a&gt;, the latest (as of writing this) web project that I&amp;rsquo;ve started and may promptly abandon.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s the truth: These past few months have shown me the impermanence of online platforms. I have quit reddit with the third-party API shutdowns, and while I am probably better off for it, it does feel like losing one of the bastions of the internet I once knew. I regret to inform that I am officially an old person on the internet; I yearn for the days of hyper-specific Geocities pages with incredibly useful information written by a thirteen year old screaming into the void (and for the days where our search engines actually directed us to that information rather than some circuitous tripe written by AI that packs in every SEO keyword without actually saying anything).&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
+      <title>about</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
