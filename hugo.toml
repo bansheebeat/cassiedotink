@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'cassie.ink'
 theme = 'neverhungoveragain'
 
+enableRobotsTXT = true
+
 [module]
 [[module.mounts]]
   source = 'content'

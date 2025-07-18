@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on cassie.ink</title>
-    <link>https://cassie.ink/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on cassie.ink</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cassie.ink/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Literature</title>
+      <link>http://localhost:1313/tags/literature/</link>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/literature/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Meta</title>
-      <link>https://cassie.ink/tags/meta/</link>
+      <link>http://localhost:1313/tags/meta/</link>
       <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/meta/</guid>
+      <guid>http://localhost:1313/tags/meta/</guid>
       <description></description>
     </item>
     <item>
       <title>Week-Notes</title>
-      <link>https://cassie.ink/tags/week-notes/</link>
-      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/week-notes/</guid>
+      <link>http://localhost:1313/tags/week-notes/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/week-notes/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech</title>
-      <link>https://cassie.ink/tags/tech/</link>
+      <link>http://localhost:1313/tags/tech/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/tech/</guid>
+      <guid>http://localhost:1313/tags/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>https://cassie.ink/tags/life/</link>
+      <link>http://localhost:1313/tags/life/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/life/</guid>
+      <guid>http://localhost:1313/tags/life/</guid>
       <description></description>
     </item>
     <item>
       <title>Politics</title>
-      <link>https://cassie.ink/tags/politics/</link>
+      <link>http://localhost:1313/tags/politics/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/politics/</guid>
+      <guid>http://localhost:1313/tags/politics/</guid>
       <description></description>
     </item>
     <item>
       <title>Ai</title>
-      <link>https://cassie.ink/tags/ai/</link>
+      <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/ai/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Internet</title>
-      <link>https://cassie.ink/tags/internet/</link>
+      <link>http://localhost:1313/tags/internet/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/internet/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Literature</title>
-      <link>https://cassie.ink/tags/literature/</link>
-      <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/literature/</guid>
+      <guid>http://localhost:1313/tags/internet/</guid>
       <description></description>
     </item>
     <item>
       <title>Music</title>
-      <link>https://cassie.ink/tags/music/</link>
+      <link>http://localhost:1313/tags/music/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/music/</guid>
+      <guid>http://localhost:1313/tags/music/</guid>
       <description></description>
     </item>
     <item>
       <title>Prompts</title>
-      <link>https://cassie.ink/tags/prompts/</link>
+      <link>http://localhost:1313/tags/prompts/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/prompts/</guid>
+      <guid>http://localhost:1313/tags/prompts/</guid>
       <description></description>
     </item>
     <item>
       <title>Home</title>
-      <link>https://cassie.ink/tags/home/</link>
+      <link>http://localhost:1313/tags/home/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/home/</guid>
+      <guid>http://localhost:1313/tags/home/</guid>
       <description></description>
     </item>
     <item>
       <title>Teaching</title>
-      <link>https://cassie.ink/tags/teaching/</link>
+      <link>http://localhost:1313/tags/teaching/</link>
       <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/teaching/</guid>
+      <guid>http://localhost:1313/tags/teaching/</guid>
       <description></description>
     </item>
     <item>
       <title>Games</title>
-      <link>https://cassie.ink/tags/games/</link>
+      <link>http://localhost:1313/tags/games/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/games/</guid>
+      <guid>http://localhost:1313/tags/games/</guid>
       <description></description>
     </item>
     <item>
       <title>Pokemon</title>
-      <link>https://cassie.ink/tags/pokemon/</link>
+      <link>http://localhost:1313/tags/pokemon/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/pokemon/</guid>
+      <guid>http://localhost:1313/tags/pokemon/</guid>
       <description></description>
     </item>
     <item>
       <title>Media-Log</title>
-      <link>https://cassie.ink/tags/media-log/</link>
+      <link>http://localhost:1313/tags/media-log/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/media-log/</guid>
+      <guid>http://localhost:1313/tags/media-log/</guid>
       <description></description>
     </item>
     <item>
       <title>Exercise</title>
-      <link>https://cassie.ink/tags/exercise/</link>
+      <link>http://localhost:1313/tags/exercise/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/exercise/</guid>
+      <guid>http://localhost:1313/tags/exercise/</guid>
       <description></description>
     </item>
     <item>
       <title>Undergrad</title>
-      <link>https://cassie.ink/tags/undergrad/</link>
+      <link>http://localhost:1313/tags/undergrad/</link>
       <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/tags/undergrad/</guid>
+      <guid>http://localhost:1313/tags/undergrad/</guid>
       <description></description>
     </item>
   </channel>

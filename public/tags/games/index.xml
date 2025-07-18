@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Games on cassie.ink</title>
-    <link>https://cassie.ink/tags/games/</link>
+    <link>http://localhost:1313/tags/games/</link>
     <description>Recent content in Games on cassie.ink</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cassie.ink/tags/games/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/games/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Early thoughts on Pokémon Unbound</title>
-      <link>https://cassie.ink/early-thoughts-on-pokemon-unbound/</link>
+      <link>http://localhost:1313/early-thoughts-on-pokemon-unbound/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/early-thoughts-on-pokemon-unbound/</guid>
+      <guid>http://localhost:1313/early-thoughts-on-pokemon-unbound/</guid>
       <description>&lt;p&gt;I downloaded &lt;em&gt;Pokémon: Unbound&lt;/em&gt; the other day to play alongside my partner. We are both big &lt;em&gt;Pokémon&lt;/em&gt; fans — like buy the new games every year fans — though my interest has waned over the last few years (I loved &lt;em&gt;Legends Arceus&lt;/em&gt; and generally felt that &lt;em&gt;Scarlet/Violet&lt;/em&gt; were slaps in the face&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;). I have fond memories of the classic games, and I&amp;rsquo;ve read a lot of positive buzz about &lt;em&gt;Unbound&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

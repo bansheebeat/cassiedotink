@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Literature on cassie.ink</title>
-    <link>https://cassie.ink/tags/literature/</link>
+    <link>http://localhost:1313/tags/literature/</link>
     <description>Recent content in Literature on cassie.ink</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cassie.ink/tags/literature/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/literature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Climbing my personal Mount Doom (I finished reading Lord of the Rings)</title>
+      <link>http://localhost:1313/finished-lord-of-the-rings/</link>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/finished-lord-of-the-rings/</guid>
+      <description>&lt;p&gt;Peter Jackson&amp;rsquo;s &lt;em&gt;The Lord of the Rings: The Fellowship of the Ring&lt;/em&gt; released in 2001, when I was seven years old. At the time, my media diet consisted mostly of watching &lt;em&gt;The Powerpuff Girls&lt;/em&gt; and obsessively reading and re-reading the first four &lt;em&gt;Harry Potter&lt;/em&gt; books.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; I would like to say that my father was thoughtful and felt that I would have enjoyed another fantasy series with wizards and magic but knew that a three-plus-hour theater experience was tall ask for a seven year old. Unfortunately, I know him, and I think it more likely that he is cheap and thought the movie looked cool, so when &lt;em&gt;Fellowship&lt;/em&gt; released on home media, we trucked to the neighborhood knock-off Blockbuster and rented it on VHS. That night, I crowded with my two older siblings around a (by today&amp;rsquo;s standards) laughably small tube TV and tucked in with no expectations or understanding of what the movie would be about.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>I finished The Basic Eight and I can&#39;t decide if I enjoyed it</title>
-      <link>https://cassie.ink/the-basic-eight/</link>
+      <link>http://localhost:1313/the-basic-eight/</link>
       <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/the-basic-eight/</guid>
+      <guid>http://localhost:1313/the-basic-eight/</guid>
       <description>&lt;p&gt;Spoilers to follow.&lt;/p&gt;&#xA;&lt;p&gt;I wrote in my week notes:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;The Basic Eight&lt;/em&gt; by Daniel Handler.&lt;/strong&gt; Handler&amp;rsquo;s &lt;em&gt;Adverbs&lt;/em&gt; is often what I cite when folks ask what my favorite book is, and I loved &lt;em&gt;Watch Your Mouth&lt;/em&gt;, too. I need light reprieves from &lt;em&gt;The Odyssey&lt;/em&gt;, too, so this seemed an excellent time to round out my reading of Handler&amp;rsquo;s bibliography. I&amp;rsquo;m about halfway through and enraptured by the narrative voice. It&amp;rsquo;s pretentious, as a story narrated by a precocious high school senior should be, without being cloying, and with Handler&amp;rsquo;s charming humor throughout. I love it so far and have faith that the feeling will continue. I normally hate books set in high school, but this one takes me back to my high school self — somehow, in a good way, which I don&amp;rsquo;t think I&amp;rsquo;ve ever felt before.&lt;/p&gt;</description>
     </item>
     <item>
       <title>LITR 308 Emily Dickinson &amp; Queer Theory</title>
-      <link>https://cassie.ink/emily-dickinson-queer-theory/</link>
+      <link>http://localhost:1313/emily-dickinson-queer-theory/</link>
       <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/emily-dickinson-queer-theory/</guid>
+      <guid>http://localhost:1313/emily-dickinson-queer-theory/</guid>
       <description>&lt;p&gt;The lives of many literary greats remain a relative mystery; literary critics and historians are often left to piece together details from letters, documentation, and, sometimes controversially, the author&amp;rsquo;s work read for repeated motifs. They then draw what conclusions they can about the authors&amp;rsquo; lives. One of the most prolific female poets in the English literary canon, Emily Dickinson&amp;rsquo;s life is preserved in letters and artifacts from her life. When examined as a body of work, Dickinson&amp;rsquo;s poetry reveals a pattern of focus on women&amp;rsquo;s interior lives and relationships that may be regarded as queer, especially with the added dimension of her close relationship with her sister-in-law. This essay examines a selection of her poems through a queer lens, highlighting the poems&amp;rsquo; relationships to female love and Dickinson&amp;rsquo;s life and arguing against established patterns of erasing Dickinson&amp;rsquo;s queer identity.&lt;/p&gt;</description>
     </item>
     <item>
       <title>LITR 250 Close Reading 2E</title>
-      <link>https://cassie.ink/litr-250-close-reading-2e/</link>
+      <link>http://localhost:1313/litr-250-close-reading-2e/</link>
       <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/litr-250-close-reading-2e/</guid>
+      <guid>http://localhost:1313/litr-250-close-reading-2e/</guid>
       <description>&lt;p&gt;In the beginning of Chapter VIII in the third section of &lt;em&gt;To the Lighthouse&lt;/em&gt;, pages 186-187, Virginia Woolf&amp;rsquo;s unique approach to perspective and introspection create a subjective presentation of reality and relationships, supported by extended metaphors of fluidity and stillness. On a boat trip mandated by Mr. Ramsay to the titular lighthouse, Cam and James anatomize and unfold their feelings towards their father. Cam evolves as the boat moves across the sea while James&amp;rsquo;s unflinching rage and violence towards the patriarch repeat in this section as the sailboat halts and space contracts to exacerbate his indignation. Woolf thus frames and explores the figure of Mr. Ramsay and the nominal motif of a journey through individual introspection and excurses. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;</description>
     </item>
   </channel>

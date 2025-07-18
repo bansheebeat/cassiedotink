@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on cassie.ink</title>
-    <link>https://cassie.ink/tags/home/</link>
+    <link>http://localhost:1313/tags/home/</link>
     <description>Recent content in Home on cassie.ink</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cassie.ink/tags/home/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/home/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Moving to a rack mount setup</title>
-      <link>https://cassie.ink/moving-to-a-rack-mount-setup/</link>
+      <link>http://localhost:1313/moving-to-a-rack-mount-setup/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/moving-to-a-rack-mount-setup/</guid>
-      <description>&lt;p&gt;I wrote a post a few months ago &lt;a href=&#34;https://cassie.ink/moving-my-home-server-to-a-new-chassis/&#34;&gt;cataloguing moving my home server&lt;/a&gt; from the old NZXT case I had leftover from my old PC into a Rosewill chassis that would let me, eventually, move to a proper rack setup. This past Prime Day, I purchased a Riveco 15U rack and then some sliding rails to go along with it, with the hope of finally moving the loud and hot NAS into the basement where it belongs.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/moving-to-a-rack-mount-setup/</guid>
+      <description>&lt;p&gt;I wrote a post a few months ago &lt;a href=&#34;http://localhost:1313/moving-my-home-server-to-a-new-chassis/&#34;&gt;cataloguing moving my home server&lt;/a&gt; from the old NZXT case I had leftover from my old PC into a Rosewill chassis that would let me, eventually, move to a proper rack setup. This past Prime Day, I purchased a Riveco 15U rack and then some sliding rails to go along with it, with the hope of finally moving the loud and hot NAS into the basement where it belongs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Moving my home server to a new chassis</title>
-      <link>https://cassie.ink/moving-my-home-server-to-a-new-chassis/</link>
+      <link>http://localhost:1313/moving-my-home-server-to-a-new-chassis/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/moving-my-home-server-to-a-new-chassis/</guid>
+      <guid>http://localhost:1313/moving-my-home-server-to-a-new-chassis/</guid>
       <description>&lt;p&gt;I have a home server (running Unraid) that I use to backup computers, as media storage, and to run various apps. It&amp;rsquo;s mostly been cobbled together from used parts I found for cheap, and it generally followed &lt;a href=&#34;https://forums.serverbuilds.net/t/guide-nas-killer-4-0-fast-quiet-power-efficient-and-flexible-starting-at-125/667&#34;&gt;Serverbuild&amp;rsquo;s NAS Killer 4 guide&lt;/a&gt;. It runs like a dream, and putting it together is one of the best decisions I&amp;rsquo;ve ever made. More recently, with streaming sites like Netflix, Hulu, etc. cracking down on password sharing, it has become my pathway to shedding some monthly subscriptions and owning my own media.&lt;/p&gt;</description>
     </item>
   </channel>
