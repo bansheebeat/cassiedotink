@@ -2,218 +2,221 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://cassie.ink/</loc>
+    <lastmod>2025-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cassie.ink/posts/</loc>
+    <lastmod>2025-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cassie.ink/cassie-ink-is-my-new-home/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cassie.ink/tags/meta/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cassie.ink/tags/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cassie.ink/week-notes/</loc>
     <lastmod>2025-03-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/</loc>
-    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/week-notes/024/</loc>
+    <loc>https://cassie.ink/week-notes/024/</loc>
     <lastmod>2025-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://cassie.ink/tags/week-notes/</loc>
     <lastmod>2025-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/week-notes/</loc>
-    <lastmod>2025-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/week-notes/023/</loc>
+    <loc>https://cassie.ink/week-notes/023/</loc>
     <lastmod>2025-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/022/</loc>
+    <loc>https://cassie.ink/week-notes/022/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/021/</loc>
+    <loc>https://cassie.ink/week-notes/021/</loc>
     <lastmod>2025-01-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/020/</loc>
+    <loc>https://cassie.ink/week-notes/020/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/019/</loc>
+    <loc>https://cassie.ink/week-notes/019/</loc>
     <lastmod>2025-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/</loc>
-    <lastmod>2024-12-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/week-notes/018/</loc>
+    <loc>https://cassie.ink/week-notes/018/</loc>
     <lastmod>2024-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/017/</loc>
+    <loc>https://cassie.ink/week-notes/017/</loc>
     <lastmod>2024-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/016/</loc>
+    <loc>https://cassie.ink/week-notes/016/</loc>
     <lastmod>2024-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/an-ode-to-gitsync/</loc>
+    <loc>https://cassie.ink/an-ode-to-gitsync/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/meta/</loc>
+    <loc>https://cassie.ink/week-notes/015/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/015/</loc>
+    <loc>https://cassie.ink/tags/tech/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/tech/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://example.org/week-notes/014/</loc>
+    <loc>https://cassie.ink/week-notes/014/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/life/</loc>
+    <loc>https://cassie.ink/tags/life/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/politics/</loc>
+    <loc>https://cassie.ink/tags/politics/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/reflections-on-elections/</loc>
+    <loc>https://cassie.ink/reflections-on-elections/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/013/</loc>
+    <loc>https://cassie.ink/week-notes/013/</loc>
     <lastmod>2024-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/012/</loc>
+    <loc>https://cassie.ink/week-notes/012/</loc>
     <lastmod>2024-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/011/</loc>
+    <loc>https://cassie.ink/week-notes/011/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/010/</loc>
+    <loc>https://cassie.ink/week-notes/010/</loc>
     <lastmod>2024-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/009/</loc>
+    <loc>https://cassie.ink/week-notes/009/</loc>
     <lastmod>2024-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/008/</loc>
+    <loc>https://cassie.ink/week-notes/008/</loc>
     <lastmod>2024-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/007/</loc>
+    <loc>https://cassie.ink/week-notes/007/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/ai/</loc>
+    <loc>https://cassie.ink/tags/ai/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/write-brief/</loc>
+    <loc>https://cassie.ink/write-brief/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/internet/</loc>
+    <loc>https://cassie.ink/tags/internet/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/what&#39;s-this-(and-how-it-works)/</loc>
+    <loc>https://cassie.ink/what&#39;s-this-(and-how-it-works)/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/006/</loc>
+    <loc>https://cassie.ink/week-notes/006/</loc>
     <lastmod>2024-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/005/</loc>
+    <loc>https://cassie.ink/week-notes/005/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/the-basic-eight/</loc>
+    <loc>https://cassie.ink/the-basic-eight/</loc>
     <lastmod>2024-08-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/literature/</loc>
+    <loc>https://cassie.ink/tags/literature/</loc>
     <lastmod>2024-08-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/004/</loc>
+    <loc>https://cassie.ink/week-notes/004/</loc>
     <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/music/</loc>
+    <loc>https://cassie.ink/tags/music/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/prompts/</loc>
+    <loc>https://cassie.ink/tags/prompts/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/smooth-runs-the-water-where-the-brook-is-deep/</loc>
+    <loc>https://cassie.ink/smooth-runs-the-water-where-the-brook-is-deep/</loc>
     <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/003/</loc>
+    <loc>https://cassie.ink/week-notes/003/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/home/</loc>
+    <loc>https://cassie.ink/tags/home/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/moving-to-a-rack-mount-setup/</loc>
+    <loc>https://cassie.ink/moving-to-a-rack-mount-setup/</loc>
     <lastmod>2024-08-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/002/</loc>
+    <loc>https://cassie.ink/week-notes/002/</loc>
     <lastmod>2024-07-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/week-notes/001/</loc>
+    <loc>https://cassie.ink/week-notes/001/</loc>
     <lastmod>2024-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/breaking-silences/</loc>
+    <loc>https://cassie.ink/breaking-silences/</loc>
     <lastmod>2024-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/teaching/</loc>
+    <loc>https://cassie.ink/tags/teaching/</loc>
     <lastmod>2024-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/your-silence-will-not-protect-you/</loc>
+    <loc>https://cassie.ink/your-silence-will-not-protect-you/</loc>
     <lastmod>2024-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/moving-my-home-server-to-a-new-chassis/</loc>
+    <loc>https://cassie.ink/moving-my-home-server-to-a-new-chassis/</loc>
     <lastmod>2024-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/thirteen-to-know-me/</loc>
+    <loc>https://cassie.ink/thirteen-to-know-me/</loc>
     <lastmod>2024-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/coming-out/</loc>
+    <loc>https://cassie.ink/coming-out/</loc>
     <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/early-thoughts-on-pokemon-unbound/</loc>
+    <loc>https://cassie.ink/early-thoughts-on-pokemon-unbound/</loc>
     <lastmod>2024-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/games/</loc>
+    <loc>https://cassie.ink/tags/games/</loc>
     <lastmod>2024-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/pokemon/</loc>
+    <loc>https://cassie.ink/tags/pokemon/</loc>
     <lastmod>2024-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/media-log-2024-01/</loc>
+    <loc>https://cassie.ink/media-log-2024-01/</loc>
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/media-log/</loc>
+    <loc>https://cassie.ink/tags/media-log/</loc>
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/hate-for-the-island/</loc>
+    <loc>https://cassie.ink/hate-for-the-island/</loc>
     <lastmod>2024-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/exercise/</loc>
+    <loc>https://cassie.ink/tags/exercise/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/my-year-in-lists/</loc>
+    <loc>https://cassie.ink/my-year-in-lists/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/intentional-listening/</loc>
+    <loc>https://cassie.ink/intentional-listening/</loc>
     <lastmod>2023-12-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/emily-dickinson-queer-theory/</loc>
+    <loc>https://cassie.ink/emily-dickinson-queer-theory/</loc>
     <lastmod>2023-12-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/undergrad/</loc>
+    <loc>https://cassie.ink/tags/undergrad/</loc>
     <lastmod>2023-12-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/litr-250-close-reading-2e/</loc>
+    <loc>https://cassie.ink/litr-250-close-reading-2e/</loc>
     <lastmod>2023-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/media-log-august-2023/</loc>
+    <loc>https://cassie.ink/media-log-august-2023/</loc>
     <lastmod>2023-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/on-teaching/</loc>
+    <loc>https://cassie.ink/on-teaching/</loc>
     <lastmod>2023-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/stages-of-moving/</loc>
+    <loc>https://cassie.ink/stages-of-moving/</loc>
     <lastmod>2023-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/old-woman-yells-at-the-cloud/</loc>
+    <loc>https://cassie.ink/old-woman-yells-at-the-cloud/</loc>
     <lastmod>2023-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/media-log-july-2023/</loc>
+    <loc>https://cassie.ink/media-log-july-2023/</loc>
     <lastmod>2023-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/what&#39;s-this/</loc>
+    <loc>https://cassie.ink/what&#39;s-this/</loc>
     <lastmod>2023-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/about/</loc>
+    <loc>https://cassie.ink/about/</loc>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://cassie.ink/categories/</loc>
   </url>
 </urlset>

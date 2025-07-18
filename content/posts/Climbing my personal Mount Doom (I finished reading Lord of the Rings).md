@@ -1,6 +1,6 @@
 ---
 title: Climbing my personal Mount Doom (I finished reading Lord of the Rings)
-date: 2025-07-17
+date: 2025-07-18
 url: finished-lord-of-the-rings
 tags:
   - literature
