@@ -4,7 +4,7 @@ date: 2025-07-18
 url: i-finished-lord-of-the-rings
 tags:
   - literature
-draft: true
+draft: false
 ---
 Peter Jackson's *The Lord of the Rings: The Fellowship of the Ring* released in 2001 when I was seven years old. At the time, my media diet consisted mostly of *The Powerpuff Girls* and obsessively reading and re-reading the first four *Harry Potter* books.[^1] I would like to say that my father was thoughtful and felt that I would have enjoyed another fantasy series with wizards and magic but knew that a three-plus-hour theater experience was tall ask for a seven year old. Unfortunately, I know him, and I think it more likely that he is cheap and thought the movie looked cool, so when *Fellowship* released on home media, we trucked to the neighborhood  knock-off and rented it on VHS. That night, I crowded with my two older siblings around a (by today's standards) laughably small tube TV. We tucked in with no expectations or understanding of what the movie would be about.
 
