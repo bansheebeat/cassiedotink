@@ -214,7 +214,7 @@ nav ul {
       font-size: 3rem;
 }
 
-.home article h2:not(:first-child), h1 {
+.home article h2:not(:first-child), .home article h1:not(:first-child) {
   font-size: 2rem;
   color: var(--claret);
   text-align: left;
