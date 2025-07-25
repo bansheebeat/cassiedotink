@@ -211,6 +211,18 @@ nav ul {
       text-decoration: none;
       border: none;
       color: var(--text);
+      font-size: 3rem;
+}
+
+.home article h2:not(:first-child), h1 {
+  font-size: 2rem;
+  color: var(--claret);
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.home article h2:first-of-type {
+  text-align: center;
 }
 
 .home .all {

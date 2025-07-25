@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/FX chains by the utterly inept.md",
+                "file": "content/week-notes/025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "FX chains by the utterly inept"
+              "title": "025"
             }
           }
         ]
@@ -160,6 +160,10 @@
   },
   "active": "2b46cb42e34b3438",
   "lastOpenFiles": [
+    "content/week-notes/022.md",
+    "content/week-notes/025.md",
+    "content/week-notes/024.md",
+    "content/posts/FX chains by the utterly inept.md",
     "public/posts/fx-chains-by-the-utterly-inept/index.html",
     "public/posts/fx-chains-by-the-utterly-inept",
     "public/tags/podcasting/index.xml",
@@ -170,10 +174,7 @@
     "public/week-notes/025-unused",
     "public/tags/podcasting/index.html",
     "public/tags/podcasting",
-    "public/tags/audio/index.html",
     "content/posts/Climbing my personal Mount Doom (I finished reading Lord of the Rings).md",
-    "content/posts/FX chains by the utterly inept.md",
-    "content/week-notes/25.md",
     "content/week-notes/025 unused.md",
     "content/posts/2024-11-25-23-06-55.md",
     "conflict-files-obsidian-git.md",

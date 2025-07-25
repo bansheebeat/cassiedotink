@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Politics on cassie.ink</title>
-    <link>https://cassie.ink/tags/politics/</link>
+    <link>http://localhost:1313/tags/politics/</link>
     <description>Recent content in Politics on cassie.ink</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cassie.ink/tags/politics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/politics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reflections on elections</title>
-      <link>https://cassie.ink/reflections-on-elections/</link>
+      <link>http://localhost:1313/reflections-on-elections/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://cassie.ink/reflections-on-elections/</guid>
+      <guid>http://localhost:1313/reflections-on-elections/</guid>
       <description>&lt;p&gt;2016 was the first year I was eligible to vote in a presidential election. I was away at college, so I completed an absentee ballot, and, like most, felt confident in what I thought would be the result. I was no big fan of Clinton&amp;rsquo;s — I voted for Bernie in the primaries — but the other option was laughable: I couldn&amp;rsquo;t believe that a major political party put such a clown up as their candidate, and I thought the electorate was smart enough to see him for the fraud (and fascist) he was.&lt;/p&gt;</description>
     </item>
   </channel>
