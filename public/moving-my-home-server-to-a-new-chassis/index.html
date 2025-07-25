@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
+
+  <meta name="description" content="I have a home server (running Unraid) that I use to backup computers, as media storage, and to run various apps. It&rsquo;s mostly been cobbled together from used parts I found for cheap, and it generally followed Serverbuild&rsquo;s NAS Killer 4 guide. It runs like a dream, and putting it together is one of the best decisions I&rsquo;ve ever made. More recently, with streaming sites like Netflix, Hulu, etc. cracking down on password sharing, it has become my pathway to shedding some monthly subscriptions and owning my own media.
+">
+
 <title>Moving my home server to a new chassis | cassie.ink</title>
 
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/fonts.css">
+      <link rel="stylesheet" href="/css/main.min.d27f54e33c76349a4285da3e0b8b0a3fa1fc9bff419aa253e691d236ac4c9ee9.css" integrity="sha256-0n9U4zx2NJpChdo&#43;C4sKP6H8m/9BmqJT5pHSNqxMnuk=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/fonts.min.4879ae43d6a282946fd0d78c7a066af5fd8590f668f8a169e5be89fd317a5e61.css" integrity="sha256-SHmuQ9aigpRv0NeMegZq9f2FkPZo&#43;KFp5b6J/TF6XmE=" crossorigin="anonymous">
 
 
-      <script src="/js/main.js"></script>
+        <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
 
 </head>
 <body>
   <header>
     <h1>
-    <a href="http://localhost:1313/">
+    <a href="https://cassie.ink/">
         cassie
         <svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-droplet"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" /></svg>
         ink
@@ -55,9 +59,9 @@
 <p>For years, that server has lived in an old NZXT case that I had used when I built my first PC, primarily because I had the case laying around and because it still had bays for 3.5&quot; drives (most modern PC cases only include one or two and instead provide storage for 2.5&quot; drives). That bulky case has been shoved away in whatever corner of my apartments I could find, but now that I own a house, I have dreams of setting up a proper server rack in a closet somewhere. My home&rsquo;s basement has a strange little room that housed only the oil tank and is conveniently right below my office space, so that&rsquo;s the intended home. We replaced and relocated the tank and ran electrical to it, so it&rsquo;s now good to go.</p>
 <p>I purchased a rack mount case (Rosewill RSV-L4500U) off of the <a href="https://www.reddit.com/r/hardwareswap/">hardwareswap</a> Discord not too long ago and intended to move the server when I had some free time. Just a few days ago, I found that one of my 6TB drives was throwing errors in Unraid. I ran a SMART test, which seemed to clear, so I thought I would start by checking the physical connections — and if I was going to have to take the server down, I might as well move it into the new case.</p>
 <p>Easy enough, right? I&rsquo;ve been tinkering with and building PCs for over ten years now. I&rsquo;m at a stage where I can put one together and confidently turn it on on the first try. There was a bit of an adjustment period to a proper server case (particularly the drive cages — I like the idea of them, but the screwless design is a proper pain in the ass), but for the most part, this was smooth sailing — at least in the context of what was to come.</p>
-<p><img src="https://cdn.cassie.land/images/2024/02/PXL_20240219_164002815.jpg" alt="The new case" title="The new case"></p>
-<p><img src="https:///cdn.cassie.land/images/2024/02/PXL_20240219_164215573.jpg" alt="The old server" title="The old server"></p>
-<p><img src="https:///cdn.cassie.land/images/2024/02/PXL_20240219_180817832.jpg" alt="Transferred" title="Transfered"></p>
+<p><img src="https://cdn.cassie.ink/images/2024/02/PXL_20240219_164002815.jpg" alt="The new case" title="The new case"></p>
+<p><img src="https:///cdn.cassie.ink/images/2024/02/PXL_20240219_164215573.jpg" alt="The old server" title="The old server"></p>
+<p><img src="https:///cdn.cassie.ink/images/2024/02/PXL_20240219_180817832.jpg" alt="Transferred" title="Transfered"></p>
 <p>I&rsquo;m normally better at straightening up the cables, but with a non-modular PSU, I don&rsquo;t have a lot of options. I&rsquo;ll replace it one day&hellip;</p>
 <p>Now, part of what I wanted to do was also replace my cache drive. I had been running it off of an <em>old</em> 120GB SSD which would fill up pretty easily. I had a 500GB SSD kicking around to swap to; I had thought I&rsquo;d set my appdata folder to copy to my array so that I could just pop in the new drive, remove the old one, and be good to go. This was my fatal error.</p>
 <p>I boot up the server — first try — and see the new cache drive needs to be formatted. Great. I do so, then check my Dockers. <em>Everything is gone.</em></p>

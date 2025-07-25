@@ -22,7 +22,7 @@ draft: false
 
 * **_Best Buds_, Mom Jeans** - I had high hopes for this group based on the band name and that they are often mentioned in the same breath as Joyce Manor. _Best Buds_ was a disappointment; the only song I found somewhat tolerable was "Edward 40hands," but the rest is plagued by cloyingly nasal vocals that drag down some pleasant guitar licks.
 
-last.fm listening report: [https://cdn.cassie.land/lastfm/lastfm-2024-01.png](https://cdn.cassie.land/lastfm/lastfm-2024-01.png)
+last.fm listening report: [https://cdn.cassie.ink/lastfm/lastfm-2024-01.png](https://cdn.cassie.ink/lastfm/lastfm-2024-01.png)
 # Movies
 * **_Fast X_** - an enjoyable entry in the _Fast_ series, and I can officially say that I'm caught up (aside from _Hobbes & Shaw_; maybe that will feature later on this list). It's by far not the best _Fast_ movie (I think that's still _Fast Five_), and I don't really care for Jason Momoa as a villain. There's something tired and a little problematic about the "wacky sociopath" trope, but the flair for drama and action is alive and well in this film. It's definitely the best of the post-7 films, but I can see how some might be turned off by the copious fan service and many celebrity cameos. Personally, I come to these films for cheap thrills and excess; I know what I'm in for and don't begrudge them for indulging that.
 

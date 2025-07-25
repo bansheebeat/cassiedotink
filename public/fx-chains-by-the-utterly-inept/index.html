@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+  <meta name="description" content="Once upon a time ago (and a time, and a time), I had a podcast. I miss podcasting dearly and think about going back often — otherwise, what am I to do with a partial, flawed understanding of normalizing to a target loudness and editing around the disgusting noises my mouth makes? Well, share it with others, of course.1
+In case it was not clear, I am not a professional. I am a blockhead who likes to tinker and who has watched a lot of YouTube videos. These are the FX chains I use for my voice, which may or may not be helpful to other people who do not have my voice. This is not an exhaustive audio guide or overview of how I edit my audio. Maybe another time.
+">
+
+<title>FX chains by the utterly inept | cassie.ink</title>
+
+      <link rel="stylesheet" href="/css/main.min.d27f54e33c76349a4285da3e0b8b0a3fa1fc9bff419aa253e691d236ac4c9ee9.css" integrity="sha256-0n9U4zx2NJpChdo&#43;C4sKP6H8m/9BmqJT5pHSNqxMnuk=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/fonts.min.4879ae43d6a282946fd0d78c7a066af5fd8590f668f8a169e5be89fd317a5e61.css" integrity="sha256-SHmuQ9aigpRv0NeMegZq9f2FkPZo&#43;KFp5b6J/TF6XmE=" crossorigin="anonymous">
+
+
+        <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <header>
+    <h1>
+    <a href="https://cassie.ink/">
+        cassie
+        <svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-droplet"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" /></svg>
+        ink
+    </a>
+</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/week-notes/">Week Notes</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main class='page'>
+    
+  <article>
+    
+    
+    <time datetime="2025-07-24T00:00:00&#43;00:00">July 24, 2025</time>
+
+    <h1>FX chains by the utterly inept</h1>
+
+    <div class="barcode">
+      fx-chains-by-the-utterly-inept
+    </div>
+
+      <p>Once upon a time ago (and a time, and a time), I had a podcast. I miss podcasting dearly and think about going back often — otherwise, what am I to do with a partial, flawed understanding of normalizing to a target loudness and editing around the disgusting noises my mouth makes? Well, share it with others, of course.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>In case it was not clear, I am not a professional. I am a blockhead who likes to tinker and who has watched a lot of YouTube videos. These are the FX chains I use for my voice, which may or may not be helpful to other people who do not have my voice. This is not an exhaustive audio guide or overview of <em>how</em> I edit my audio. Maybe another time.</p>
+<p>Currently, I use a RØDE Procaster as my microphone and a MOTU M2 as my interface. I have a Fethead between the two because otherwise people complain I am too quiet on Discord. I bought a pop filter designed for the RØDE Podmic; it fits on my Procaster and works, but it looks a little ridiculous, so sometimes I take it off.  I paid several hundred dollars this setup so that I can capture my two dollar voice with fidelity.</p>
+<p>Back when I was podcasting with a co-host over long distances, I swore by <a href="https://ecastr.com/">Ennuicaster</a> for recording because I admired the creator&rsquo;s pedantic approach to audio and hostility toward their end user.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>  Ennuicaster is clunky and temperamental, but the pricing model is fair and the audio it spits out is top-notch.  It is also the only recording application that I know of with a prominently featured weasel mascot. If I&rsquo;m recording just myself, or something in person, I record straight into <a href="https://www.reaper.fm/">Reaper</a>, which I also use to edit.</p>
+<p>I have a project template set up to automatically open in Reaper with my FX chains. Theoretically, they are specific to my voice, but I imagine you can steal a lot of this for yourself. I&rsquo;ll do my best to explain what each step does and provide an audio sample for A/B comparison.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p>Here is the raw audio I&rsquo;ll work with, with no editing aside from when I fucked up the second sentence of my favorite book.</p>
+<figure class="audio">
+    <audio controls preload="metadata">
+      <source src="https://cdn.cassie.ink/audio/2025/fxchainexample-1.mp3" type="audio/mpeg">
+    </audio>
+    <figcaption>Raw Audio</figcaption>
+  </figure>
+<h2 id="individual-track-chain">Individual Track Chain</h2>
+<p>I start by normalizing the track to -23 LUFS. It&rsquo;s important to normalize as if it&rsquo;s one long item — I made cuts where I messed up, and if I normalized each item individually, there would be weird modulations in volume mid-sentence. Our final target volume will be -19 LUFS (for a mono podcast); I start with -23 to give me some headroom — I&rsquo;ll boost later in the chain.</p>
+<p><img src="https://cdn.cassie.ink/images/2025/07/Screenshot%202025-07-24%20220700.png" alt="Normalization"></p>
+<figure class="audio">
+    <audio controls preload="metadata">
+      <source src="https://cdn.cassie.ink/audio/2025/fxchainexample-2.mp3" type="audio/mpeg">
+    </audio>
+    <figcaption>Audio after normalization</figcaption>
+  </figure>
+<p>Now I start adding FX to my individual track (not the master). I have collected many paid VSTs over the years; you can almost certainly copy their exact effects into Reaper&rsquo;s free (and excellent) equivalents. I start with <strong>FabFilter&rsquo;s Pro-DS</strong>, which removes some of the harsh sibilance.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> I believe this is almost entirely the &ldquo;Female Wide Band&rdquo; preset. The settings are pretty conservative; I used to really hammer them down and produced many podcast episodes where I sounded as though I had a lisp.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<p><img src="https://cdn.cassie.ink/images/2025/07/Screenshot%202025-07-24%20221619.png" alt="De-essing"></p>
+<pre tabindex="0"><code>Mode: Single Vocal
+Threshold: -36 dB
+Range: 6 dB
+Band Processing: Wide Band
+Lookahead: 12.00 ms (enabled)
+High-Pass Frequency: 6.834 kHz
+Low-Pass Frequnecy: 14 kHz
+</code></pre><p>I like Pro-DS because it has a nice display of what it is and isn&rsquo;t attenuating. You could easily achieve this with a free de-esser or an EQ curve.</p>
+<figure class="audio">
+    <audio controls preload="metadata">
+      <source src="https://cdn.cassie.ink/audio/2025/fxchainexample-3-ds.mp3" type="audio/mpeg">
+    </audio>
+    <figcaption>Audio after de-essing</figcaption>
+  </figure>
+<p>I incidentally picked a great passage to read — there are a lot of <em>s</em> sounds. Can you notice a difference? Probably not, but they are ever-so-slightly softer.</p>
+<p>The next step is <strong>Mouth De-click</strong> from iZotope. If you spend money on <em>any</em> VST, I really recommend this one. It gets rid of the disgusting wet mouth sounds. If you ever want to vomit, check the box that says &ldquo;Output clicks only&rdquo; and listen through to your audio. I am almost certainly using a preset here, too.</p>
+<p><img src="https://cdn.cassie.ink/images/2025/07/Screenshot%202025-07-24%20223107.png" alt="Mouth De-Click"></p>
+<pre tabindex="0"><code>Sensitivity: 4.00
+Frequency Skew: 0.00
+</code></pre><figure class="audio">
+    <audio controls preload="metadata">
+      <source src="https://cdn.cassie.ink/audio/2025/fxchainexample-4.mp3" type="audio/mpeg">
+    </audio>
+    <figcaption>Audio after Mouth De-click</figcaption>
+  </figure>
+<p>Next, I use <strong>ReaGate</strong> as to reduce noise and breaths, which I believe I copied <a href="https://www.youtube.com/watch?v=VBKoC1sPtWs">almost entirely from this video</a>.  I tend to inhale sharply when I laugh, and I am in general not very good at breathing, so the gate cleans that up a little.</p>
+<p><img src="https://cdn.cassie.ink/images/2025/07/Screenshot%202025-07-24%20223529.png" alt="ReaGate"></p>
+<pre tabindex="0"><code>Threshold: -27 dB
+Attack: 3 ms
+Release: 100 ms
+Pre-open: 5 ms
+Hold: 5 ms
+Lowpass: 20000 Hz
+Hipass: 0 Hz
+Dry: -11.5 dB
+Wet: -3.8 dB
+</code></pre><p>I believe the video goes into this, but there&rsquo;s a mix of  &ldquo;wet&rdquo; (the processed audio) and &ldquo;dry&rdquo; (the raw audio) going on here to make the effect a little more smooth: I&rsquo;m not removing <em>all</em> of the breath, just attenuating it. I like to think of it like lowering the opacity for a breathing layer in Photoshop. I have no recollection of how I arrived at these numbers, but I like them. In the example below, pay attention to the word &ldquo;neighborhood&rdquo; — the breath after it is way less noticeable.</p>
+<figure class="audio">
+    <audio controls preload="metadata">
+      <source src="https://cdn.cassie.ink/audio/2025/fxchainexample-5.mp3" type="audio/mpeg">
+    </audio>
+    <figcaption>Audio after gate</figcaption>
+  </figure>
+<p>Sometimes the gate can make certain words or laughs sound funny, in which case I use a bypass envelope.</p>
+<p>Now it&rsquo;s time for an EQ, which is perhaps the part of this chain most specific to my voice. I spent a lot of time playing with curves and settings (and, again, watching YouTube videos) until I found something I liked for my nasally voice. I am using FabFilter&rsquo;s <strong>Pro-Q 4</strong>, but again, you can just copy my curve into whatever EQ VST that you have.</p>
+<p><img src="https://cdn.cassie.ink/images/2025/07/Screenshot%202025-07-24%20224618.png" alt="EQ Curve"></p>
+<pre tabindex="0"><code>Band 1 Frequency: 80 Hz
+Band 1 Gain: 0.00 dB
+Band 1 Q: 1.036
+Band 1 Shape: Low Cut
+
+Band 2 Frequency: 194.49 Hz
+Band 2 Gain: +3.59 dB
+Band 2 Q: .765
+Band 2 Shape: Bell
+
+Band 3 Frequency: 617 Hz
+Band 3 Gain: -5.14 dB
+Band 3 Q: 2.096
+Band 3 Shape: Bell
+
+Band 4 Frequency: 6966 Hz
+Band 4 Gain: +3.51 dB
+Band 4 Q: 1.0
+Band 4 Shape: High Shelf
+</code></pre><p>I&rsquo;ve found this curve preserves a faithful representation of my voice but makes it a little more warm.</p>
+<figure class="audio">
+    <audio controls preload="metadata">
+      <source src="https://cdn.cassie.ink/audio/2025/fxchainexample-6.mp3" type="audio/mpeg">
+    </audio>
+    <figcaption>Audio after EQing</figcaption>
+  </figure>
+<p>Now, I add a second EQ curve — this time to tamp down the remaining sibilance, which may have been amplified by my previous EQ curve. The next step is compression where I don&rsquo;t want to further accentuate my whistly <em>s</em> sounds. This curve is again specific to my voice — I swept for the frequency that I found harsh and attenuated it.</p>
+<p><img src="https://cdn.cassie.ink/images/2025/07/Screenshot%202025-07-24%20225711.png" alt="EQ De-essing"></p>
+<pre tabindex="0"><code>Band 1 Frequency: 5540 Hz
+Band 1 Gain: -3.00 dB
+Band 1 Q: 3.800
+Band 1 Shape: Bell
+</code></pre><p>There will still be whistle in here — I&rsquo;m working with the voice that I have — but it&rsquo;s a little bit smoother.</p>
+<figure class="audio">
+    <audio controls preload="metadata">
+      <source src="https://cdn.cassie.ink/audio/2025/fxchainexample-7.mp3" type="audio/mpeg">
+    </audio>
+    <figcaption>Audio after second de-essing</figcaption>
+  </figure>
+<p>Now it&rsquo;s time to compress! A compressor helps to even out the difference between loud speech and quieter speech. The example audio that I&rsquo;m using here is pretty even to begin with, but when I&rsquo;m talking to another human, I tend to be less monotone. I&rsquo;m again using a FabFilter VST — <strong>Pro-C 2</strong> — but you can copy these settings into any compressor.</p>
+<p><img src="https://cdn.cassie.ink/images/2025/07/Screenshot%202025-07-24%20225928.png" alt="Compression"></p>
+<pre tabindex="0"><code>Threshold: -12 dB
+Ratio: 4.00:1
+Knee: +18.00 dB
+Range: +60.00 dB
+Attack: 1.000 ms
+Release: 100.0 ms
+Lookahead: 0.300 ms
+Hold: 0.000 ms
+Wet: 100%
+Dry: 0%
+Auto Gain: On
+Output Level: +2.00 dB
+</code></pre><p>This step boosts the overall loudness of the track, so the example audio should seem a bit boosted compared to the previous ones.</p>
+<figure class="audio">
+    <audio controls preload="metadata">
+      <source src="https://cdn.cassie.ink/audio/2025/fxchainexample-8.mp3" type="audio/mpeg">
+    </audio>
+    <figcaption>Audio after compressing</figcaption>
+  </figure>
+<p>This next step is entirely optional, but I use Slate&rsquo;s <a href="https://slatedigital.com/fresh-air-2/"><strong>Fresh Air</strong></a> to add a little bit of presence to my voice and get a touch of that NPR sound. It is very easy to overdo this effect, so take a tempered hand with it. The plug-in is free if you give them your email address.</p>
+<p><img src="https://cdn.cassie.ink/images/2025/07/Screenshot%202025-07-24%20230542.png" alt="Fresh Air"></p>
+<pre tabindex="0"><code>Mid-Air: 24%
+High Air: 14%
+</code></pre><figure class="audio">
+    <audio controls preload="metadata">
+      <source src="https://cdn.cassie.ink/audio/2025/fxchainexample-9.mp3" type="audio/mpeg">
+    </audio>
+    <figcaption>Audio after Fresh Air</figcaption>
+  </figure>
+<p>Finally, for my individual track, I apply a limiter (<strong>ReaLimit</strong>) just to knock down any remaining peaks. Again, this is a fairly monotone clip, and I&rsquo;m conservative with my levels, so it doesn&rsquo;t kick in much at all here — it&rsquo;s more of a safety.</p>
+<p><img src="https://cdn.cassie.ink/images/2025/07/Screenshot%202025-07-24%20230835.png" alt="ReaLimit"></p>
+<pre tabindex="0"><code>Threshold: -2.00 dB
+Ceiling: -1.00 dB
+Release: 15.0 dB/sec
+</code></pre><figure class="audio">
+    <audio controls preload="metadata">
+      <source src="https://cdn.cassie.ink/audio/2025/fxchainexample-10.mp3" type="audio/mpeg">
+    </audio>
+    <figcaption>Audio after limiting</figcaption>
+  </figure>
+<p>That&rsquo;s the end of the processing I do on my individual track. A co-host or guest&rsquo;s chain would be fairly similar, but I would tweak the EQ curve and de-essers to suit their voice and possibly add some more aggressive noise removal depending on their recording conditions.</p>
+<p>To recap, here is the chain for my <em>individual</em> track:</p>
+<ol>
+<li>Normalize entire track to -23 LUFS (treat as one item)</li>
+<li>De-ess</li>
+<li>Mouth De-click</li>
+<li>ReaGate</li>
+<li>EQ</li>
+<li>EQ (to de-ess)</li>
+<li>Compressor</li>
+<li>Fresh Air</li>
+<li>ReaLimit</li>
+</ol>
+<p>This latest example is peaking at -1.00 dB (thanks to the limiter), and the LUFS-I measure is -15.8. That&rsquo;s a little too loud for a podcast, but we&rsquo;ll take care of that on the master track.</p>
+<h2 id="master-track-chain">Master Track Chain</h2>
+<p>The example audio I&rsquo;ve been using only has one speaker, and if I was a solo podcaster, I could just put this chain at the end of the other chain. But if you have multiple hosts, or you use sound effects, you need to make sure that the audio is balanced — like if two people are talking at the same time (which you should generally avoid anyway). Additionally, we want to hit a target of or around -19 LUFS. I don&rsquo;t fully understand LUFS but I&rsquo;m going to try to explain it nonetheless: LUFS is a measure of the <em>average perceived loudness</em> of audio. There may be spikes or some quieter portions, but on <em>average</em> we want our podcast to hit -19 LUFS (a broadcast standard for mono audio). If all podcasts do this — which they should — it will mean that you can listen to an episode of one show then switch to a different show without having to adjust your device&rsquo;s volume. Ideally, dynamically inserted ads would also hit -19.0 LUFS and therefore be at the same perceived loudness as the regular episode, too. This has not been my experience with even professional shows.</p>
+<p>Now, LUFS isn&rsquo;t the only measure we care about, because we could reach an average but still have a wide dynamic range. We&rsquo;ve already taken care of that, though, with our compression on the individual tracks.</p>
+<p>I use only one effect on the master track. It is <strong>Waves PlaylistRider Mono,</strong> which takes care of the loudness targeting for me through some wizardry. <a href="https://plugins4free.com/plugin/2753/">TriLeveler 2</a> is a great free alternative that has way more buttons and sliders, but PlaylistRider works well for a knucklehead like me.</p>
+<p><img src="https://cdn.cassie.ink/images/2025/07/Screenshot%202025-07-24%20232151.png" alt="Waves PlaylistRider Mono"></p>
+<pre tabindex="0"><code>Tonal Character: On
+Attack: Slow
+Detector Threshold: -36 dB
+Target LKFS: -19
+</code></pre><p>(I also have a Loudness Meter on the master track, but that&rsquo;s just for measuring.)</p>
+<figure class="audio">
+    <audio controls preload="metadata">
+      <source src="https://cdn.cassie.ink/audio/2025/fxchainexample-11.mp3" type="audio/mpeg">
+    </audio>
+    <figcaption>Final processed audio</figcaption>
+  </figure>
+<p>This last export measures at -18.8 LUFS with a peak of -1.0 dB and an LRA of 3.6. Nobody is going to cry about ± 0.2 LUFS, so I&rsquo;m happy with what I have. However, if you want to be really sure, you can use the <strong>Normalize/fade option</strong> when you render your final export in Reaper; after Reaper finishes processing your final, it will apply a final boost to get to your target LUFS. In my experience, this works fine, but I&rsquo;d rather do the loudness targeting on my own.</p>
+<h1 id="please-be-aware-that-i-have-absolutely-no-fucking-clue-what-im-doing-ever">Please be aware that I have absolutely no fucking clue what I&rsquo;m doing, ever.</h1>
+<p>I am sure there are audio snobs reading this and laughing at my incompetence. I hope I have made clear that I&rsquo;m a dunce who has watched a lot of YouTube tutorials, so you can spare me the elitist bullshit: it&rsquo;s on you for expecting me to speak with any kind of authority. Of course, if you have genuine, well-meaning corrections, advice, or just ideas for me to play with, I&rsquo;d love to hear that! I love to tinker; I take pride in audio that I produce (despite appearances) and enjoy learning more. At this point, I&rsquo;m happy with the audio I spit out, even though it&rsquo;s far from perfect — but I hope what <em>I&rsquo;ve</em> learned can help other jackasses like me.</p>
+<p>To anyone podcasting, or thinking about podcasting, please <em>just start.</em> I have fallen into the gear acquisition syndrome trap too many times and told myself I need a $200 microphone and dozens of VSTs to get great sound. You don&rsquo;t, and you don&rsquo;t <em>need</em> great sound, either. There&rsquo;s a level of &ldquo;good enough&rdquo; audio that will please your listeners who are probably smashing episodes through their $12 dirty buds, anyway. Focus on having fun and making shit that makes you smile. That&rsquo;s all we have in the end.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I believe the internet should be a platform for sharing information freely and openly. Unfortunately, I also believe I have two fundamental rights: (1) to be full of shit and (2) to have internet access. I hope that, as a critical thinker and consumer, you can discern that I have zero (0) fucking credibility&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Not really, but who else would design a UI like that?&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>I&rsquo;m exporting these audio files to 128kbps CBR mono MP3s, which is what my final export would look like for a podcast episode. I&rsquo;ve turned off the normalization I do within the rendering step for the sake of the examples; I&rsquo;ll explain more about that at the end.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>I find that my voice has a lot of natural sibilance; my s&rsquo;s whistle. I have considered dental surgery to correct this (not really), but I fear a monkey&rsquo;s paw-esque repercussion and have instead decided to resign myself to my lot in life (being really fucking annoying)&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>Please still podcast if you have a lisp. I do not have a lisp, and, again, my goal is to accurately capture my shitty voice, so I will not add a lisp in post.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>I didn&rsquo;t intend for this post to end on a nihilistic note, but <a href="https://genius.com/7983884">quoth Mac Miller</a>: &ldquo;I don’t know why all my albums end in death. I guess because that’s what happens in life.&rdquo;&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+    
+  <div class="tags">
+    <ul>
+        <li>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-tag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z" /></svg>
+          <a href="/tags/tech/">Tech</a>
+        </li>
+        <li>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-tag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z" /></svg>
+          <a href="/tags/podcasting/">Podcasting</a>
+        </li>
+        <li>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-tag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z" /></svg>
+          <a href="/tags/audio/">Audio</a>
+        </li>
+    </ul>
+  </div>
+
+  </article>
+  
+
+  </main>
+  <footer>
+        <ul class="social">
+        <li>
+            <a href="mailto:me@cassie.ink" aria-label="Email">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+            </a>
+        </li>
+        <li>
+            <a href="/index.xml" aria-label="RSS">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f26522" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-rss">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                    <path d="M4 4a16 16 0 0 1 16 16" />
+                    <path d="M4 11a9 9 0 0 1 9 9" />
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a rel="me" href="https://social.lol/@cass" aria-label="Mastodon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6364ff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-mastodon">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M18.648 15.254c-1.816 1.763 -6.648 1.626 -6.648 1.626a18.262 18.262 0 0 1 -3.288 -.256c1.127 1.985 4.12 2.81 8.982 2.475c-1.945 2.013 -13.598 5.257 -13.668 -7.636l-.026 -1.154c0 -3.036 .023 -4.115 1.352 -5.633c1.671 -1.91 6.648 -1.666 6.648 -1.666s4.977 -.243 6.648 1.667c1.329 1.518 1.352 2.597 1.352 5.633s-.456 4.074 -1.352 4.944z" />
+                    <path d="M12 11.204v-2.926c0 -1.258 -.895 -2.278 -2 -2.278s-2 1.02 -2 2.278v4.722m4 -4.722c0 -1.258 .895 -2.278 2 -2.278s2 1.02 2 2.278v4.722" />
+                  </svg>
+            </a>
+        </li>
+        <li>
+            <a href="https://listenbrainz.org/user/babyspace/" aria-label="Listen Brainz">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#eb743b"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-metabrainz"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7v10l7 4v-18z" /><path d="M21 7v10l-7 4v-18z" /></svg>
+            </a>
+        </li>
+    </ul>
+    <p class="forget">
+        don't forget to have fun.
+    </p>
+    <p class="copyright">
+        all errors &copy; cassie
+    </p>
+
+  </footer>
+</body>
+</html>

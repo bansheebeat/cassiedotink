@@ -255,6 +255,13 @@ nav ul {
   }
 }
 
+.page pre {
+  margin: 0;
+  padding: 2.5% 5%;
+  background-color: var(--background-shade);
+  font-family: monospace;
+}
+
 .page article h2, h3 {
   font-size: 2rem;
   color: var(--claret);
@@ -286,6 +293,23 @@ nav ul {
 
 .page article img {
   max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.page .audio {
+
+  audio {
+    display: block;
+    margin: auto;
+  }
+
+  figcaption {
+    text-align: center;
+    font-family: monospace;
+    font-size: .9rem;
+    font-style: italic;
+  }
 }
 
 /* section */
