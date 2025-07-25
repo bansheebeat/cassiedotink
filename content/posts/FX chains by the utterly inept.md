@@ -206,7 +206,7 @@ And here's the raw audio again, just for the sake of comparison:
 
 {{<audio src="https://cdn.cassie.ink/audio/2025/fxchainexample-1.mp3" caption="Raw Audio" >}}
 
-This last export measures at -18.8 LUFS with a peak of -1.0 dB and an LRA of 3.6. Nobody is going to cry about ± 0.2 LUFS, so I'm happy with what I have. However, if you want to be really sure, you can use the **Normalize/fade option** when you render your final export in Reaper; after Reaper finishes processing your final, it will apply a final boost to get to your target LUFS. In my experience, this works fine, but I'd rather do the loudness targeting on my own.
+This last export measures at -18.8 LUFS with a peak of -1.0 dB and an LRA of 3.6. Nobody is going to cry about ± 0.2 LUFS, so I'm happy with what I have. However, if you want to be really sure, you can use the **Normalize/fade** option when you render your final export in Reaper; after Reaper finishes processing the export, it will apply a final boost to get to your target LUFS. In my experience, this works fine, but I'd rather do the loudness targeting on my own.
 
 # Please be aware that I have absolutely no fucking clue what I'm doing, ever.
 I am sure there are audio snobs reading this and laughing at my incompetence. I hope I have made clear that I'm a dunce who has watched a lot of YouTube tutorials, so you can spare me the elitist bullshit: it's on you for expecting me to speak with any kind of authority. Of course, if you have genuine, well-meaning corrections, advice, or just ideas for me to play with, I'd love to hear that! I love to tinker; I take pride in audio that I produce (despite appearances) and enjoy learning more. At this point, I'm happy with the audio I spit out, even though it's far from perfect — but I hope what *I've* learned can help other jackasses like me.
@@ -215,7 +215,7 @@ To anyone podcasting, or thinking about podcasting, please *just start.* I have 
 
 [^1]: I believe the internet should be a platform for sharing information freely and openly. Unfortunately, I also believe I have two fundamental rights: (1) to be full of shit and (2) to have internet access. I hope that, as a critical thinker and consumer, you can discern that I have zero (0) fucking credibility
 [^2]: Not really, but who else would design a UI like that?
-[^3]: I'm exporting these audio files to 128kbps CBR mono MP3s, which is what my final export would look like for a podcast episode. I've turned off the normalization I do within the rendering step for the sake of the examples; I'll explain more about that at the end.
+[^3]: I'm exporting these audio files to 128kbps CBR mono MP3s, which is what my final export would look like for a podcast episode.
 [^4]: I find that my voice has a lot of natural sibilance; my s's whistle. I have considered dental surgery to correct this (not really), but I fear a monkey's paw-esque repercussion and have instead decided to resign myself to my lot in life (being really fucking annoying)
 [^5]: Please still podcast if you have a lisp. I do not have a lisp, and, again, my goal is to accurately capture my shitty voice, so I will not add a lisp in post.
 [^6]: I didn't intend for this post to end on a nihilistic note, but [quoth Mac Miller](https://genius.com/7983884): "I don’t know why all my albums end in death. I guess because that’s what happens in life."
