@@ -202,6 +202,10 @@ Target LKFS: -19
 
 {{<audio src="https://cdn.cassie.ink/audio/2025/fxchainexample-11.mp3" caption="Final processed audio" >}}
 
+And here's the raw audio again, just for the sake of comparison:
+
+{{<audio src="https://cdn.cassie.ink/audio/2025/fxchainexample-1.mp3" caption="Raw Audio" >}}
+
 This last export measures at -18.8 LUFS with a peak of -1.0 dB and an LRA of 3.6. Nobody is going to cry about ± 0.2 LUFS, so I'm happy with what I have. However, if you want to be really sure, you can use the **Normalize/fade option** when you render your final export in Reaper; after Reaper finishes processing your final, it will apply a final boost to get to your target LUFS. In my experience, this works fine, but I'd rather do the loudness targeting on my own.
 
 # Please be aware that I have absolutely no fucking clue what I'm doing, ever.
