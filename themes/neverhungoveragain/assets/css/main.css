@@ -265,6 +265,8 @@ nav ul {
 .page article h2, h3 {
   font-size: 2rem;
   color: var(--claret);
+  font-family: 'Domaine Display', Georgia, serif;
+  text-transform: uppercase;
 }
 
 .page article hr {
