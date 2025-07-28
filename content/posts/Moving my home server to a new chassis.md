@@ -16,11 +16,11 @@ I purchased a rack mount case (Rosewill RSV-L4500U) off of the [hardwareswap](ht
 
 Easy enough, right? I've been tinkering with and building PCs for over ten years now. I'm at a stage where I can put one together and confidently turn it on on the first try. There was a bit of an adjustment period to a proper server case (particularly the drive cages — I like the idea of them, but the screwless design is a proper pain in the ass), but for the most part, this was smooth sailing — at least in the context of what was to come.
 
-![The new case](https://cdn.cassie.ink/images/2024/02/PXL_20240219_164002815.jpg "The new case")
+![The new case](https://cdn.cassie.land/images/2024/02/PXL_20240219_164002815.jpg "The new case")
 
-![The old server](https:///cdn.cassie.ink/images/2024/02/PXL_20240219_164215573.jpg "The old server")
+![The old server](https:///cdn.cassie.land/images/2024/02/PXL_20240219_164215573.jpg "The old server")
 
-![Transferred](https:///cdn.cassie.ink/images/2024/02/PXL_20240219_180817832.jpg "Transfered")
+![Transferred](https:///cdn.cassie.land/images/2024/02/PXL_20240219_180817832.jpg "Transfered")
 
 I'm normally better at straightening up the cables, but with a non-modular PSU, I don't have a lot of options. I'll replace it one day...
 
