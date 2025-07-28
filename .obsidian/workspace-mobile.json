@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/week-notes/25.md",
+                "file": "content/week-notes/025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "25"
+              "title": "025"
             }
           }
         ]
@@ -133,7 +133,20 @@
   },
   "active": "df152da4c3c17af0",
   "lastOpenFiles": [
-    "content/week-notes/025 unused.md",
-    "content/week-notes/25.md"
+    "themes/neverhungoveragain/layouts/shortcodes/audio.html",
+    "themes/neverhungoveragain/layouts/shortcodes",
+    "public/week-notes/25/index.html",
+    "public/week-notes/25",
+    "public/week-notes/025-unused/index.html",
+    "public/week-notes/025-unused",
+    "public/tags/podcasting/index.xml",
+    "public/tags/podcasting/index.html",
+    "public/tags/podcasting",
+    "public/tags/audio/index.xml",
+    "public/tags/audio/index.html",
+    "content/week-notes/025.md",
+    "content/week-notes/25.md",
+    "content/posts/FX chains by the utterly inept.md",
+    "content/week-notes/025 unused.md"
   ]
 }
