@@ -5,12 +5,12 @@ tags:
   - week-notes
 draft: true
 ---
-# Doing
+## Doing
 
-# Reading
+## Reading
 
-# Watching
+## Watching
 
-# Playing
+## Playing
 
-# Listening
+## Listening
