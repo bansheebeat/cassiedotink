@@ -170,8 +170,9 @@ nav ul {
     }
 
     a {
+      color: var(--text);
       text-decoration: none;
-      border-bottom: medium dotted var(--blue);
+      border-bottom: medium dotted var(--text);
     }
   }
 
@@ -223,6 +224,19 @@ nav ul {
 
 .home article h2:first-of-type {
   text-align: center;
+}
+
+.home article .jump {
+  text-transform: uppercase;
+  font-family: 'Domaine Display', Georgia, serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+
+  svg {
+    width: 20px;
+    margin-right: 5px;
+  }
 }
 
 .home .all {
