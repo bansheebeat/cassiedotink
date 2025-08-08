@@ -21,24 +21,8 @@
               "icon": "lucide-file",
               "title": "027"
             }
-          },
-          {
-            "id": "b7103edc2d26ab5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/test.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "test"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +158,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7103edc2d26ab5a",
+  "active": "ba905e99df533d15",
   "lastOpenFiles": [
     "content/week-notes/027.md",
     "content/posts/test.md",
