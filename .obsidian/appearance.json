@@ -1,4 +1,6 @@
 {
   "accentColor": "#1291a9",
-  "textFontFamily": "Domaine Text"
+  "textFontFamily": "Domaine Text",
+  "baseFontSize": 20,
+  "baseFontSizeAction": true
 }
