@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Using Hugo to generate a podcast feed.md",
+                "file": "content/week-notes/028.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Using Hugo to generate a podcast feed"
+              "title": "028"
             }
           }
         ]
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Using Hugo to generate a podcast feed.md",
+                "file": "content/week-notes/028.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Using Hugo to generate a podcast feed"
+              "title": "Outline of 028"
             }
           },
           {
@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -158,8 +158,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf03b0656e0056cc",
+  "active": "caf2074a3f9acbd7",
   "lastOpenFiles": [
+    "content/week-notes/027.md",
+    "content/week-notes/028.md",
+    "content/posts/Using Hugo to generate a podcast feed.md",
     "syntax_dark.css",
     "syntax_light.css",
     "public/css/syntax.css",
@@ -170,12 +173,8 @@
     "public/css/syntax_light.css",
     "public/css/syntax_dark.css",
     "themes/neverhungoveragain/assets/css/syntax_dark.css",
-    "themes/neverhungoveragain/assets/css/syntax_light.css",
     "content/posts/turning 30.md",
-    "content/posts/Using Hugo to generate a podcast feed.md",
-    "content/week-notes/028.md",
     "content/posts/2025-08-11.md",
-    "content/week-notes/027.md",
     "content/posts/test.md",
     "content/week-notes/026.md",
     "content/templates/(week notes N).md",
