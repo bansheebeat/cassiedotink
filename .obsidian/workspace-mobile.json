@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Using Hugo to generate a podcast feed.md",
+                "file": "content/week-notes/028.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Using Hugo to generate a podcast feed"
+              "title": "028"
             }
           }
         ]
@@ -133,6 +133,7 @@
   },
   "active": "df152da4c3c17af0",
   "lastOpenFiles": [
+    "content/posts/Using Hugo to generate a podcast feed.md",
     "content/week-notes/028.md",
     "themes/neverhungoveragain/assets/css/syntax.css",
     "public/week-notes/028/index.html",
@@ -144,7 +145,6 @@
     "public/posts/hosting-a-podcast-for-pennies-a-day/index.html",
     "public/posts/hosting-a-podcast-for-pennies-a-day",
     "public/hugo-podcast/index.html",
-    "content/posts/Using Hugo to generate a podcast feed.md",
     "content/posts/turning 30.md",
     "content/week-notes/027.md",
     "content/week-notes/026.md",
