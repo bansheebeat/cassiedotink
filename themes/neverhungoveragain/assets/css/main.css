@@ -3,8 +3,8 @@
   --text: #231f20;
   --background: #f4f4f4;
   --background-shade: #e8e8e8;
-  --blue: #1291A9;
-  --claret: #0e4e60;
+  --blue: #117A92;
+  --claret: #117A92;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,8 +12,8 @@
     --text: #f4f4f4;
     --background: #231f20;
     --background-shade: #1f1b1c;
-    --blue: #1bbbdb;
-    --claret: #5da8bb;
+    --blue: #1595B2;
+    --claret: #1595B2;
   }
 }
 
@@ -23,7 +23,7 @@ body {
   color: var(--text);
   font-family: 'Domaine Text', serif;
   line-height: 1.5;
-  max-width: 800px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   padding: 5%;
@@ -42,6 +42,41 @@ sup {
     border: none;
   }
 }
+
+.highlight {
+  max-width: 900px;
+  font-size: 1rem;
+}
+
+.highlight pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  padding: 0.5% 1.5%;
+}
+
+code {
+}
+
+table {
+  border: 1px solid var(--blue);
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+
+  th {
+    border: 1px solid var(--blue);
+  }
+
+  tr {
+    
+  }
+
+  td {
+    border: 1px solid var(--blue);
+    padding: 5px 10px;
+  }
+}
+
 
 /* header */
 header {
@@ -282,10 +317,7 @@ nav ul {
 }
 
 .page pre {
-  margin: 0;
-  padding: 2.5% 5%;
-  background-color: var(--background-shade);
-  font-family: monospace;
+  
 }
 
 .page article h2, h3 {
@@ -293,6 +325,7 @@ nav ul {
   color: var(--claret);
   font-family: 'Domaine Display', Georgia, serif;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .page article hr {

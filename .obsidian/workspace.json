@@ -8,18 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f83b38ff735bcd79",
+            "id": "cf03b0656e0056cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/week-notes/028.md",
+                "file": "content/posts/Using Hugo to generate a podcast feed.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "028"
+              "title": "Using Hugo to generate a podcast feed"
             }
           }
         ]
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "content/posts/Using Hugo to generate a podcast feed.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
+              "title": "Outline of Using Hugo to generate a podcast feed"
             }
           },
           {
@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -158,10 +158,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f83b38ff735bcd79",
+  "active": "cf03b0656e0056cc",
   "lastOpenFiles": [
-    "content/posts/2025-08-11.md",
+    "syntax_dark.css",
+    "syntax_light.css",
+    "public/css/syntax.css",
+    "themes/neverhungoveragain/assets/css/syntax.css",
+    "themes/neverhungoveragain/layouts/_partials/css/syntax_light.css",
+    "themes/neverhungoveragain/layouts/_partials/css/syntax_dark.css",
+    "themes/neverhungoveragain/layouts/_partials/css",
+    "public/css/syntax_light.css",
+    "public/css/syntax_dark.css",
+    "themes/neverhungoveragain/assets/css/syntax_dark.css",
+    "themes/neverhungoveragain/assets/css/syntax_light.css",
+    "content/posts/turning 30.md",
+    "content/posts/Using Hugo to generate a podcast feed.md",
     "content/week-notes/028.md",
+    "content/posts/2025-08-11.md",
     "content/week-notes/027.md",
     "content/posts/test.md",
     "content/week-notes/026.md",
@@ -182,19 +195,6 @@
     "content/week-notes/012.md",
     "content/week-notes/013.md",
     "content/week-notes/014.md",
-    "content/week-notes/015.md",
-    "content/week-notes/016.md",
-    "content/week-notes/017.md",
-    "content/week-notes/018.md",
-    "public/posts/fx-chains-by-the-utterly-inept/index.html",
-    "public/posts/fx-chains-by-the-utterly-inept",
-    "public/tags/podcasting/index.xml",
-    "public/tags/audio/index.xml",
-    "public/week-notes/25/index.html",
-    "public/week-notes/25",
-    "public/week-notes/025-unused/index.html",
-    "public/week-notes/025-unused",
-    "public/tags/podcasting/index.html",
-    "public/tags/podcasting"
+    "content/week-notes/015.md"
   ]
 }

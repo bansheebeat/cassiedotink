@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+  <meta name="description" content="I&rsquo;ve been podcasting on and off for over ten years now — all shows that I&rsquo;ve since abandoned1, either intentionally or due to time — but I&rsquo;ve kept websites for them up and running for archival purposes. Originally, the sites were powered by WordPress and podcasting plugins (PowerPress and then Podlove). I didn&rsquo;t want to continue paying to host the sites nor maintain a WordPress install2, so here&rsquo;s how I migrated the sites to Hugo and maintain them for about $12/yr (not including the cost of the domains).
+">
+
+<title>Hosting a podcast for pennies a day | cassie.ink</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>
+    <a href="http://localhost:1313/">
+        cassie
+        <svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-droplet"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" /></svg>
+        ink
+    </a>
+</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/week-notes/">Week Notes</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main class='page'>
+    
+  <article>
+    
+    <time datetime="2025-08-11T00:00:00&#43;00:00">11 August 2025</time>
+
+    <h1>Hosting a podcast for pennies a day</h1>
+
+    <div class="barcode">
+      hosting-a-podcast-for-pennies-a-day
+    </div>
+
+      <p>I&rsquo;ve been podcasting on and off for over ten years now — all shows that I&rsquo;ve since abandoned<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, either intentionally or due to time — but I&rsquo;ve kept websites for them up and running for archival purposes. Originally, the sites were powered by WordPress and podcasting plugins (PowerPress and then Podlove). I didn&rsquo;t want to continue paying to host the sites nor maintain a WordPress install<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, so here&rsquo;s how I migrated the sites to Hugo and maintain them for about $12/yr (not including the cost of the domains).</p>
+<p>I chose <a href="https://gohugo.io/">Hugo</a> because I understand how to use it. I&rsquo;m sure you could make this work with other static site generators; there&rsquo;s <a href="https://eleventy-plugin-podcaster.com/">an 11ty plugin</a> out there too which is far more advanced than what I&rsquo;ve set up. But I built this myself with minor knowledge of how to make a website. It&rsquo;s simple and it works and it probably will not need any fiddling with unless I intentionally decide to change some part of how it works. That said, if you have suggestions on how to improve or streamline this, shoot me an email! This is by no means a perfect, streamlined, optimized workflow.</p>
+<h2 id="setting-up-a-podcast-feed-in-hugo">Setting up a podcast feed in Hugo</h2>
+<p>At its core, a podcast is just audio files served by an RSS feed. Hugo already has <a href="https://gohugo.io/templates/rss/#custom-templates">an embedded RSS template</a> that it uses to syndicate your content.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> It&rsquo;s a good base to start from; we&rsquo;re basically going to use that and inject in the <a href="https://podcasters.apple.com/support/823-podcast-requirements">basic podcast tags</a> as well as some additional ones for newer features like chapter support.</p>
+<p><strong>Note:</strong> Hugo has updated the default RSS feed template since I set this up. I&rsquo;m continuing to use <a href="https://github.com/gohugoio/hugo/blob/release-0.115.0/tpl/tplimpl/embedded/templates/_default/rss.xml">the old one</a> as my base, but I&rsquo;m going through the changes I made step-by-step, so you can retro fit my edits to <a href="https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/rss.xml">the newer template</a>. Or you can just wholesale copy mine; it&rsquo;s older, but it works. You can jump to the finished feed by clicking here.</p>
+<h3 id="creating-a-custom-feed-template">Creating a custom feed template</h3>
+<p>First, create a new file at <code>layouts/index.podcast.xml</code>. Then, add the following to your Hugo config file (I use <code>toml</code> format, which I believe is the Hugo default).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#433e56;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-TOML" data-lang="TOML"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>[outputs]
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>home = [<span style="color:#1bc5e0">&#34;HTML&#34;</span>, <span style="color:#1bc5e0">&#34;RSS&#34;</span>, <span style="color:#1bc5e0">&#34;podcast&#34;</span> ] <span style="color:#b0bec5"># Sets up podcast feed</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>[outputFormats]
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>    [outputFormats.podcast]
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span>        MediaType = <span style="color:#1bc5e0">&#34;application/rss+xml&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7</span><span>        BaseName = <span style="color:#1bc5e0">&#34;feed&#34;</span> <span style="color:#b0bec5"># Your feed will be located at example.org/feed.xml. If you edit this value, you need to edit line 43 in layouts/index.podcast.xml.</span>
+</span></span></code></pre></div><p>This tells Hugo to use the new feed template that we&rsquo;re going to create. Now, let&rsquo;s work on the template.</p>
+<p>In <code>layouts/index.podcast.xml</code>, first copy and paste the default Hugo RSS feed template to use as a base. We&rsquo;re going to start by changing the <code>rss</code> tag to add podcasting namespaces. Find&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#433e56;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>&lt;rss version=&#34;2.0&#34; xmlns:atom=&#34;http://www.w3.org/2005/Atom&#34;&gt;
+</span></span></code></pre></div><p>and replace it with&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#433e56;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>&lt;rss version=&#34;2.0&#34;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>  xmlns:atom=&#34;http://www.w3.org/2005/Atom&#34;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>  xmlns:itunes=&#34;http://www.itunes.com/dtds/podcast-1.0.dtd&#34;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>  xmlns:podcast=&#34;https://podcastindex.org/namespace/1.0&#34;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>  xmlns:content=&#34;http://purl.org/rss/1.0/modules/content/&#34;&gt;
+</span></span></code></pre></div><p>This tells anything reading your feed (like a podcatcher app) that it is, indeed, a feed for podcasts.</p>
+<p>Next, let&rsquo;s take a look at the first few items in <code>&lt;channel&gt;</code> tag. Think of this as the show information. We&rsquo;ll get to the episodes later in the <code>&lt;item</code> tag. Hugo will, by default, use the site information you provided in your contact file; we&rsquo;re going to override that. I hard-coded these values, but you probably could declare them in your config file. I don&rsquo;t really plan on changing the name of my show, though, so it&rsquo;s fine to hard code them. Editing the template is just as easy as editing your config template.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I think about bringing Pitch &amp; Play back sometimes because I truly do miss podcasting and I like talking about games. I walked away from the Harry Potter one for obvious reasons, and the one before that I won&rsquo;t mention because episodes of it still exist online (outside of my control) and I&rsquo;d rather not attach myself to them.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>WordPress is a bloated monster that constantly has security patches and the founder is super problematic.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>This template has been updated since I set up my feeds; I&rsquo;m sticking with the old version.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+    
+  <div class="tags">
+    <ul>
+        <li>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-tag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z" /></svg>
+          <a href="/tags/podcasting/">Podcasting</a>
+        </li>
+        <li>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-tag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z" /></svg>
+          <a href="/tags/tech/">Tech</a>
+        </li>
+    </ul>
+  </div>
+
+  </article>
+  
+
+  </main>
+  <footer>
+        <ul class="social">
+        <li>
+            <a href="mailto:me@cassie.ink" aria-label="Email">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+            </a>
+        </li>
+        <li>
+            <a href="/index.xml" aria-label="RSS">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f26522" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-rss">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                    <path d="M4 4a16 16 0 0 1 16 16" />
+                    <path d="M4 11a9 9 0 0 1 9 9" />
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a rel="me" href="https://social.lol/@cass" aria-label="Mastodon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6364ff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-mastodon">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M18.648 15.254c-1.816 1.763 -6.648 1.626 -6.648 1.626a18.262 18.262 0 0 1 -3.288 -.256c1.127 1.985 4.12 2.81 8.982 2.475c-1.945 2.013 -13.598 5.257 -13.668 -7.636l-.026 -1.154c0 -3.036 .023 -4.115 1.352 -5.633c1.671 -1.91 6.648 -1.666 6.648 -1.666s4.977 -.243 6.648 1.667c1.329 1.518 1.352 2.597 1.352 5.633s-.456 4.074 -1.352 4.944z" />
+                    <path d="M12 11.204v-2.926c0 -1.258 -.895 -2.278 -2 -2.278s-2 1.02 -2 2.278v4.722m4 -4.722c0 -1.258 .895 -2.278 2 -2.278s2 1.02 2 2.278v4.722" />
+                  </svg>
+            </a>
+        </li>
+        <li>
+            <a href="https://listenbrainz.org/user/babyspace/" aria-label="Listen Brainz">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#eb743b"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-metabrainz"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7v10l7 4v-18z" /><path d="M21 7v10l-7 4v-18z" /></svg>
+            </a>
+        </li>
+    </ul>
+    <p class="forget">
+        don't forget to have fun.
+    </p>
+    <p class="copyright">
+        all errors &copy; cassie
+    </p>
+
+  </footer>
+</body>
+</html>

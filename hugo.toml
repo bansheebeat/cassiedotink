@@ -29,3 +29,8 @@ enableRobotsTXT = true
     name = 'Week Notes'
     pageRef = '/tags/week-notes'
     weight = 40
+
+[markup.highlight]
+    noClasses = false
+    lineNos = true
+    lineNumbersInTable = false
