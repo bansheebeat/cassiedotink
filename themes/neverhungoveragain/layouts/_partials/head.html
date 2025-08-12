@@ -5,6 +5,7 @@
 {{ else }}
     <meta name="description" content="Hi, my name is Cassie. This is my personal blog and home of the esoteric bullshit that I am incomprehensibly fixated on, which includes books, video games, music, and thinking way too much about everything.">
 {{ end }}
+<meta name="fediverse:creator" content="@cass@social.lol" />
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
