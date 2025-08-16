@@ -158,10 +158,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "caf2074a3f9acbd7",
+  "active": "cf03b0656e0056cc",
   "lastOpenFiles": [
-    "content/week-notes/027.md",
+    "content/posts/Intentional Listening.md",
     "content/week-notes/028.md",
+    "content/week-notes/027.md",
     "content/posts/Using Hugo to generate a podcast feed.md",
     "syntax_dark.css",
     "syntax_light.css",
