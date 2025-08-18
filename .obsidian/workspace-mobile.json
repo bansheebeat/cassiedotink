@@ -99,6 +99,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "content/week-notes/028.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
