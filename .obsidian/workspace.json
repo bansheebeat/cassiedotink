@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e9047e1a14e59897",
+        "id": "92fdef32d009f9c1",
         "type": "tabs",
         "children": [
           {
-            "id": "8b1d7f8281789803",
+            "id": "dacbb4448315da95",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
+                "file": "content/week-notes/029.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
+              "icon": "lucide-file",
+              "title": "029"
             }
           }
         ]
@@ -157,9 +158,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8b1d7f8281789803",
+  "active": "ba905e99df533d15",
   "lastOpenFiles": [
     "content/week-notes/028.md",
+    "content/week-notes/029.md",
     "conflict-files-obsidian-git.md",
     "content/posts/Intentional Listening.md",
     "content/week-notes/027.md",
@@ -193,7 +195,6 @@
     "content/week-notes/010.md",
     "content/week-notes/011.md",
     "content/week-notes/012.md",
-    "content/week-notes/013.md",
-    "content/week-notes/014.md"
+    "content/week-notes/013.md"
   ]
 }
