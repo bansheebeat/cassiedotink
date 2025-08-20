@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "029"
             }
+          },
+          {
+            "id": "46c886ebfb1142c3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,6 +154,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "020e6fc5e9728cba",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {},
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
           }
         ],
         "currentTab": 3
@@ -151,6 +174,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
@@ -158,7 +182,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba905e99df533d15",
+  "active": "46c886ebfb1142c3",
   "lastOpenFiles": [
     "content/week-notes/028.md",
     "content/week-notes/029.md",
