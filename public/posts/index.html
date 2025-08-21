@@ -6,6 +6,7 @@
 
     <meta name="description" content="Hi, my name is Cassie. This is my personal blog and home of the esoteric bullshit that I am incomprehensibly fixated on, which includes books, video games, music, and thinking way too much about everything.">
 
+<meta name="fediverse:creator" content="@cass@social.lol" />
 <title>Posts | cassie.ink</title>
 
     <link rel="stylesheet" href="/css/main.css">
@@ -53,13 +54,13 @@
   
   <article>
     <time>
-      11 August 2025
+      12 August 2025
     </time>
     <h2><a href="/hugo-podcast/">Using Hugo to generate a podcast feed</a></h2>
     <div class="barcode">
       hugo-podcast
     </div>
-    <p>I&rsquo;ve been podcasting on and off for over ten years now — all shows that I&rsquo;ve since abandoned<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, either intentionally or due to time — but I&rsquo;ve kept websites for them up and running for archival purposes. Originally, the sites were powered by WordPress and podcasting plugins (PowerPress and then Podlove). I didn&rsquo;t want to continue paying to host the sites nor maintain a WordPress install<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, so here&rsquo;s how I migrated the sites to Hugo. I&rsquo;m not going to cover hosting your <em>media</em> files or creating a theme for your podcast website in this post, but maybe I&rsquo;ll do another write up in the future on those topics.</p>
+    <p>I&rsquo;ve been podcasting on and off for over ten years now — all shows that I&rsquo;ve since abandoned<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, either intentionally or due to time — but I&rsquo;ve kept websites for them up and running for archival purposes. Originally, the sites were powered by WordPress and podcasting plugins (PowerPress and then Podlove). I didn&rsquo;t want to continue paying to host the sites nor maintain a WordPress install<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. I could, of course, use one of the many podcast hosting services out there — but just like I believe in owning your own space on the internet, I believe you should own and control your podcast feed (and not have to pay a company $15/mo in perpetuity). I use <a href="https://gohugo.io/">Hugo</a> (which I then deploy with Cloudflare Pages) to generate the sites and feeds; I chose Hugo  because I understand how to use it. I&rsquo;m sure you could make this work with other static site generators. There&rsquo;s <a href="https://eleventy-plugin-podcaster.com/">an 11ty plugin</a> out there, for example, which is far more advanced than what I&rsquo;ve set up. But I built this myself. It works. It does not require me to endlessly fiddle or update (unless I want to).</p>
     
   <div class="tags">
     <ul>

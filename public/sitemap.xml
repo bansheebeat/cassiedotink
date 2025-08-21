@@ -2,32 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/week-notes/028/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/week-notes/029/</loc>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/podcasting/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tech/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo-podcast/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/week-notes/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/week-notes/</loc>
-    <lastmod>2025-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/week-notes/028/</loc>
+    <lastmod>2025-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/podcasting/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tech/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-podcast/</loc>
+    <lastmod>2025-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/week-notes/027/</loc>
     <lastmod>2025-08-10T00:00:00+00:00</lastmod>
@@ -250,6 +253,12 @@
   </url><url>
     <loc>http://localhost:1313/what&#39;s-this/</loc>
     <lastmod>2023-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/house-of-leaves-appendix-ii-e-the-three-attic-whalestoe-institute-letters-may-8th-1987/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/wordpress/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>

@@ -373,6 +373,15 @@ nav ul {
   }
 }
 
+.cover {
+  width: 100%;
+  height: 100vw;
+  max-height: 500px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+}
+
 /* section */
 .section article h2 a {
   text-decoration: none;

@@ -6,14 +6,14 @@
     <description>Recent content in Posts on cassie.ink</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Hugo to generate a podcast feed</title>
       <link>http://localhost:1313/hugo-podcast/</link>
-      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/hugo-podcast/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been podcasting on and off for over ten years now — all shows that I&amp;rsquo;ve since abandoned&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, either intentionally or due to time — but I&amp;rsquo;ve kept websites for them up and running for archival purposes. Originally, the sites were powered by WordPress and podcasting plugins (PowerPress and then Podlove). I didn&amp;rsquo;t want to continue paying to host the sites nor maintain a WordPress install&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, so here&amp;rsquo;s how I migrated the sites to Hugo. I&amp;rsquo;m not going to cover hosting your &lt;em&gt;media&lt;/em&gt; files or creating a theme for your podcast website in this post, but maybe I&amp;rsquo;ll do another write up in the future on those topics.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been podcasting on and off for over ten years now — all shows that I&amp;rsquo;ve since abandoned&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, either intentionally or due to time — but I&amp;rsquo;ve kept websites for them up and running for archival purposes. Originally, the sites were powered by WordPress and podcasting plugins (PowerPress and then Podlove). I didn&amp;rsquo;t want to continue paying to host the sites nor maintain a WordPress install&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. I could, of course, use one of the many podcast hosting services out there — but just like I believe in owning your own space on the internet, I believe you should own and control your podcast feed (and not have to pay a company $15/mo in perpetuity). I use &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; (which I then deploy with Cloudflare Pages) to generate the sites and feeds; I chose Hugo  because I understand how to use it. I&amp;rsquo;m sure you could make this work with other static site generators. There&amp;rsquo;s &lt;a href=&#34;https://eleventy-plugin-podcaster.com/&#34;&gt;an 11ty plugin&lt;/a&gt; out there, for example, which is far more advanced than what I&amp;rsquo;ve set up. But I built this myself. It works. It does not require me to endlessly fiddle or update (unless I want to).&lt;/p&gt;</description>
     </item>
     <item>
       <title>FX chains by the utterly inept</title>
@@ -224,6 +224,13 @@
       <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/what&#39;s-this/</guid>
       <description>&lt;p&gt;Well, I have another blog.&lt;/p&gt;&#xA;&lt;p&gt;Welcome to &lt;a href=&#34;https://cassie.land&#34;&gt;cassie.land&lt;/a&gt;, the latest (as of writing this) web project that I&amp;rsquo;ve started and may promptly abandon.&lt;/p&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s the truth: These past few months have shown me the impermanence of online platforms. I have quit reddit with the third-party API shutdowns, and while I am probably better off for it, it does feel like losing one of the bastions of the internet I once knew. I regret to inform that I am officially an old person on the internet; I yearn for the days of hyper-specific Geocities pages with incredibly useful information written by a thirteen year old screaming into the void (and for the days where our search engines actually directed us to that information rather than some circuitous tripe written by AI that packs in every SEO keyword without actually saying anything).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>House of Leaves: Appendix II-E, The Three Attic Whalestoe Institute Letters (May 8th, 1987)</title>
+      <link>http://localhost:1313/house-of-leaves-appendix-ii-e-the-three-attic-whalestoe-institute-letters-may-8th-1987/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/house-of-leaves-appendix-ii-e-the-three-attic-whalestoe-institute-letters-may-8th-1987/</guid>
+      <description>&lt;p&gt;I’ve picked up &lt;em&gt;House of Leaves&lt;/em&gt; again, Mark Z. Danielewski’s debut novel and veritable puzzle of a book. I previously abandoned it because, as a horror novel, I was having some trouble sleeping after reading it, but I’ve wanted to read it for years and the new year seems like a good time to conquer my fears.&lt;/p&gt;&#xA;&lt;p&gt;There’s plenty of discussion around the internet regarding the book, and plenty more people who, I’m sure, have decoded the book’s many coded messages. But I’m a stingy sort who likes to do things on my own, and I thought I’d log some of it here! The first of my challenges was a letter from Appendix II-E, sent to Johnny Truant from his mother; she suspects that the director of the Whalestoe Institute, where she is institutionalized, is intercepting her letters. She is able to send a private letter to Johnny via an attendant, telling him the key to her next letter: take only the first letter of each word, separate those letters into something coherent, and find her true message (the letter itself is pure nonsense). Therefore, it’s no significant discovery on my part, but more of a fun first challenge. Warning that this is a book of psychological horror, and the contents below may be troubling or triggering (esp. for rape victims).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

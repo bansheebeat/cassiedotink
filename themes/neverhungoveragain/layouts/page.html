@@ -9,6 +9,10 @@
       {{ .Params.url }}
     </div>
 
+    {{ with .Params.cover }}
+      <div class="cover" style="background-image:url('{{ . }}');"></div>
+    {{ end }}
+
       {{ .Content }}
 
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}

@@ -1,0 +1,15 @@
+views:
+  - type: cards
+    name: Content
+    filters:
+      or:
+        - file.folder.startsWith("content/posts")
+        - file.folder.startsWith("content/week-notes")
+    order:
+      - title
+      - url
+      - date
+    sort:
+      - property: date
+        direction: DESC
+    cardSize: 510

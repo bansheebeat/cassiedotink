@@ -6,14 +6,14 @@
     <description>Recent content in Podcasting on cassie.ink</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/podcasting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Hugo to generate a podcast feed</title>
       <link>http://localhost:1313/hugo-podcast/</link>
-      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/hugo-podcast/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been podcasting on and off for over ten years now — all shows that I&amp;rsquo;ve since abandoned&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, either intentionally or due to time — but I&amp;rsquo;ve kept websites for them up and running for archival purposes. Originally, the sites were powered by WordPress and podcasting plugins (PowerPress and then Podlove). I didn&amp;rsquo;t want to continue paying to host the sites nor maintain a WordPress install&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, so here&amp;rsquo;s how I migrated the sites to Hugo. I&amp;rsquo;m not going to cover hosting your &lt;em&gt;media&lt;/em&gt; files or creating a theme for your podcast website in this post, but maybe I&amp;rsquo;ll do another write up in the future on those topics.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been podcasting on and off for over ten years now — all shows that I&amp;rsquo;ve since abandoned&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, either intentionally or due to time — but I&amp;rsquo;ve kept websites for them up and running for archival purposes. Originally, the sites were powered by WordPress and podcasting plugins (PowerPress and then Podlove). I didn&amp;rsquo;t want to continue paying to host the sites nor maintain a WordPress install&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. I could, of course, use one of the many podcast hosting services out there — but just like I believe in owning your own space on the internet, I believe you should own and control your podcast feed (and not have to pay a company $15/mo in perpetuity). I use &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; (which I then deploy with Cloudflare Pages) to generate the sites and feeds; I chose Hugo  because I understand how to use it. I&amp;rsquo;m sure you could make this work with other static site generators. There&amp;rsquo;s &lt;a href=&#34;https://eleventy-plugin-podcaster.com/&#34;&gt;an 11ty plugin&lt;/a&gt; out there, for example, which is far more advanced than what I&amp;rsquo;ve set up. But I built this myself. It works. It does not require me to endlessly fiddle or update (unless I want to).&lt;/p&gt;</description>
     </item>
     <item>
       <title>FX chains by the utterly inept</title>
