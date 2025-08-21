@@ -12,4 +12,6 @@ views:
     sort:
       - property: date
         direction: DESC
-    cardSize: 510
+    cardSize: 220
+    image: note.cover
+    imageAspectRatio: 0.25
