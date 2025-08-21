@@ -11,13 +11,15 @@
             "id": "7eca9ff9d9a5bec1",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Content.base",
-                "viewName": "Content"
+                "file": "content/week-notes/029.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Content"
+              "icon": "lucide-file",
+              "title": "029"
             }
           }
         ]
@@ -183,8 +185,10 @@
   },
   "active": "7eca9ff9d9a5bec1",
   "lastOpenFiles": [
-    "content/posts/turning 30.md",
+    "public/posts/page/8/index.html",
+    "public/posts/page/8",
     "Content.base",
+    "content/posts/turning 30.md",
     "content/posts/Revolutions.md",
     "content/week-notes/029.md",
     "content/posts/Life is Strange Episode 1 Chrysalis.md",
@@ -197,7 +201,6 @@
     "public/posts/life-is-strange-episode-1-chrysalis/index.html",
     "public/posts/life-is-strange-episode-1-chrysalis",
     "content/posts/Canopies and Drapes.md",
-    "public/canopies-and-drapes/index.html",
     "content/posts/Princess Bubblegum & Marceline Still Just Almost Girlfriends.md",
     "content/posts/House of Leaves Appendix II-E, The Three Attic Whalestoe Institute Letters (May 8th, 1987).md",
     "content/week-notes/028.md",
