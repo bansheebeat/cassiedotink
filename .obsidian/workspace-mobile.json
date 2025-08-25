@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d972deb521311a5e",
+        "id": "689a1e884f30a271",
         "type": "tabs",
         "children": [
           {
-            "id": "df152da4c3c17af0",
+            "id": "691d6785aa03ee02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/week-notes/028.md",
+                "file": "content/week-notes/029.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "028"
+              "title": "029"
             }
           }
         ]
@@ -145,10 +145,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df152da4c3c17af0",
+  "active": "691d6785aa03ee02",
   "lastOpenFiles": [
-    "content/posts/Using Hugo to generate a podcast feed.md",
+    "Content.base",
     "content/week-notes/028.md",
+    "content/posts/Using Hugo to generate a podcast feed.md",
     "themes/neverhungoveragain/assets/css/syntax.css",
     "public/week-notes/028/index.html",
     "public/week-notes/028",
