@@ -3,18 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/week-notes/030/</loc>
+    <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/week-notes/029/</loc>
-    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/week-notes/</loc>
-    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/week-notes/</loc>
+    <lastmod>2025-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/week-notes/029/</loc>
     <lastmod>2025-08-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/week-notes/028/</loc>
@@ -254,10 +257,22 @@
     <loc>http://localhost:1313/what&#39;s-this/</loc>
     <lastmod>2023-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/revolutions/</loc>
-    <lastmod>2015-03-12T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/heres-what-i-was-listening-to-in-2015/</loc>
+    <lastmod>2016-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/wordpress/</loc>
+    <lastmod>2016-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/movies/</loc>
+    <lastmod>2015-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/star-wars-has-a-problem-with-women-and-were-going-to-fix-it-together/</loc>
+    <lastmod>2015-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/star-wars/</loc>
+    <lastmod>2015-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/revolutions/</loc>
     <lastmod>2015-03-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/life-is-strange-episode-1-chrysalis/</loc>

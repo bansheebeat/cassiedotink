@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ee95acca1ccb35a7",
+        "id": "f0e11fe456abdaa2",
         "type": "tabs",
         "children": [
           {
-            "id": "7eca9ff9d9a5bec1",
+            "id": "b46ec0b0d08fd523",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/week-notes/029.md",
+                "file": "content/posts/Here’s What I Was Listening to in 2015.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "029"
+              "title": "Here’s What I Was Listening to in 2015"
             }
           }
         ]
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/week-notes/028.md",
+                "file": "content/posts/Here’s What I Was Listening to in 2015.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 028"
+              "title": "Outline of Here’s What I Was Listening to in 2015"
             }
           },
           {
@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -183,23 +183,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7eca9ff9d9a5bec1",
+  "active": "b46ec0b0d08fd523",
   "lastOpenFiles": [
-    "content/week-notes/028.md",
+    "content/week-notes/030.md",
+    "content/posts/Here’s What I Was Listening to in 2015.md",
+    "public/heres-what-i-was-listening-to-in-2015/index.html",
+    "public/heres-what-i-was-listening-to-in-2015",
+    "public/posts/heres-what-i-was-listening-to-in-2015/index.html",
+    "public/posts/heres-what-i-was-listening-to-in-2015",
+    "content/posts/Automattic's Write Brief AI is, unsurprisingly, full of shit.md",
+    "content/posts/Star Wars Has a Problem with Women and We’re Going to Fix It Together.md",
     "content/week-notes/029.md",
-    "public/posts/page/8/index.html",
-    "public/posts/page/8",
-    "Content.base",
+    "public/week-notes/030/index.html",
+    "public/week-notes/030",
+    "public/tags/star-wars/index.xml",
+    "public/tags/star-wars/index.html",
+    "public/tags/star-wars",
+    "public/tags/movies/index.xml",
+    "content/posts/Life is Strange Episode 1 Chrysalis.md",
+    "content/week-notes/028.md",
     "content/posts/turning 30.md",
     "content/posts/Revolutions.md",
-    "content/posts/Life is Strange Episode 1 Chrysalis.md",
-    "public/revolutions/index.html",
-    "public/revolutions",
-    "public/posts/revolutions/index.html",
-    "public/posts/revolutions",
-    "public/life-is-strange-episode-1-chrysalis/index.html",
-    "public/life-is-strange-episode-1-chrysalis",
-    "public/posts/life-is-strange-episode-1-chrysalis/index.html",
     "content/posts/Canopies and Drapes.md",
     "content/posts/Princess Bubblegum & Marceline Still Just Almost Girlfriends.md",
     "content/posts/House of Leaves Appendix II-E, The Three Attic Whalestoe Institute Letters (May 8th, 1987).md",
@@ -215,10 +219,6 @@
     "content/week-notes/025.md",
     "content/week-notes/001.md",
     "content/week-notes/002.md",
-    "content/week-notes/003.md",
-    "content/week-notes/004.md",
-    "content/week-notes/006.md",
-    "content/week-notes/005.md",
-    "content/week-notes/007.md"
+    "content/week-notes/003.md"
   ]
 }
