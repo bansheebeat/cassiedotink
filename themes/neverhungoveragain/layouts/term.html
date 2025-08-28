@@ -8,10 +8,10 @@
   {{ .Content }}
   {{ range .Pages }}
     <article>
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
       <time>
         {{ .PublishDate.Format "2 January 2006" }}
       </time>
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     </article>
   {{ end }}
 {{ end }}
