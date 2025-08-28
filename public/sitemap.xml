@@ -5,7 +5,7 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/week-notes/030/</loc>
+    <loc>http://localhost:1313/week-notes/30/</loc>
     <lastmod>2025-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -257,13 +257,19 @@
     <loc>http://localhost:1313/what&#39;s-this/</loc>
     <lastmod>2023-07-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/an-empty-promise-to-blog-more/</loc>
+    <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/wordpress/</loc>
+    <lastmod>2023-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/heres-what-i-was-listening-to-in-2020/</loc>
+    <lastmod>2020-12-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/movies/</loc>
     <lastmod>2016-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/women-in-a-sea-of-men-the-representation-of-women-in-the-curse-of-the-black-pearl/</loc>
-    <lastmod>2016-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/wordpress/</loc>
     <lastmod>2016-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/heres-what-i-was-listening-to-in-2015/</loc>

@@ -11,6 +11,9 @@
     <div class="barcode">
       {{ .Params.url }}
     </div>
+    {{ with .Params.cover }}
+      <div class="cover" style="background-image:url('{{ . }}');"></div>
+    {{ end }}
     {{ .Summary }}
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   </article>
