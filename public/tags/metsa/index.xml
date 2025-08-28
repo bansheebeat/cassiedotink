@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metsa on cassie.ink</title>
+    <link>http://localhost:1313/tags/metsa/</link>
+    <description>Recent content in Metsa on cassie.ink</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/metsa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Empty Promise to Blog More</title>
+      <link>http://localhost:1313/an-empty-promise-to-blog-more/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/an-empty-promise-to-blog-more/</guid>
+      <description>&lt;p&gt;This past year has emphasized to me the impermanence of online platforms. I have quit reddit with the third-party API shutdowns, and while I am probably better off for it, it does feel like losing one of the bastions of the internet I once knew. I regret to inform that I am officially an old person on the internet; I yearn for the days of hyper-specific Geocities pages with incredibly useful information written by a thirteen year old screaming into the void (and for the days where our search engines actually directed us to that information rather than some circuitous tripe written by AI that packs in every SEO keyword without actually saying anything).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
