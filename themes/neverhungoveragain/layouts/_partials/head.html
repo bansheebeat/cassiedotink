@@ -2,6 +2,10 @@
 <meta name="viewport" content="width=device-width">
 {{ if .IsPage }}
   <meta name="description" content="{{ .Summary | plainify }}">
+  <!-- Open Graph stuff -->
+    {{ with .Params.cover }}
+      <meta property="og:image" content="{{ . }}" />
+    {{ end }}
 {{ else }}
     <meta name="description" content="Hi, my name is Cassie. This is my personal blog and home of the esoteric bullshit that I am incomprehensibly fixated on, which includes books, video games, music, and thinking way too much about everything.">
 {{ end }}

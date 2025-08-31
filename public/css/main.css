@@ -149,8 +149,8 @@ nav ul {
 }
 
 @media only screen and (max-width: 600px) {
-  .home article h2, .page h1, .section article h2 {
-    font-size: 2rem;
+  .home article h2, .page h1, .section article h2, .home article h2 a {
+    font-size: 2rem !important;
   }
 }
 
