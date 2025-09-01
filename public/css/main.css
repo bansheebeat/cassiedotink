@@ -374,6 +374,16 @@ nav ul {
 
 }
 
+.cover {
+  width: 100%;
+  height: 100vw;
+  max-height: 500px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+}
+
+/* Shortcodes */
 .page .audio {
 
   audio {
@@ -389,13 +399,31 @@ nav ul {
   }
 }
 
-.cover {
-  width: 100%;
-  height: 100vw;
-  max-height: 500px;
-  background-size: cover;
-  background-position: center;
-  margin-top: 10px;
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: var(--blue);
+  color: #fff;
+  padding: 2%;
+
+  .label {
+    font-family: 'Domaine Display', Georgia, serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-right: 5px;
+  }
+}
+
+figcaption {
+  text-align: center;
+  font-size: .9rem;
+  font-style: italic;
 }
 
 /* section */

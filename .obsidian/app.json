@@ -1,4 +1,5 @@
 {
-  "newFileLocation": "folder",
-  "newFileFolderPath": "content/posts"
+  "newFileLocation": "current",
+  "newFileFolderPath": "content/posts",
+  "promptDelete": false
 }

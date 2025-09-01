@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drafts on cassie.ink</title>
+    <link>http://localhost:1313/drafts/</link>
+    <description>Recent content in Drafts on cassie.ink</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/drafts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dad</title>
+      <link>http://localhost:1313/dad/</link>
+      <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dad/</guid>
+      <description>&lt;p&gt;My father left when I was six and never stopped leaving. At school events, scheduled visits, personal lows, I scanned the crowd for his face and didn&amp;rsquo;t find it. I grew used to his absence and started to resent the appearances he made; when he did show up, I&amp;rsquo;d wish he hadn&amp;rsquo;t. At my college graduation, he parted with the gift, &amp;ldquo;I&amp;rsquo;m glad you&amp;rsquo;re not a fuck up like me,&amp;rdquo; turning my achievements into his own deluded, narcissistic pursuit of sympathy. He at least — and unwittingly — stumbled upon a truth: I succeeded despite his example and influence. Never because of it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/drafts/turning-30/</link>
+      <pubDate>Mon, 25 Nov 2024 23:56:38 -0500</pubDate>
+      <guid>http://localhost:1313/drafts/turning-30/</guid>
+      <description>&lt;p&gt;My thirtieth birthday party, the day before my actual turn from one decade to the next, was a beautiful night. My mom, both pre-emptively staking out her territory as an Italian-American grandmother and (past but an adverb?) fulfilling regrets at never having been able to throw me a childhood party, brought too much food and snacks and love — or staying up and out past the early afternoon, which is a kind of love for us; my friends, older than me in years and with busy families and schedules, brought wisdom and comfort in growing older gracefully; and my friends closer in age drove great distances to celebrate &lt;em&gt;me&lt;/em&gt; — or at least, with me.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
