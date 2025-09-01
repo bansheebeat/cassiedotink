@@ -4,22 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "fde8f1681d813673",
+        "id": "5fea6dafee0d1c53",
         "type": "tabs",
         "children": [
           {
-            "id": "5f0567674abbf888",
+            "id": "2b46c64e05ab651c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "content/drafts/025 unused.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Content.base",
+                "viewName": "Content"
               },
-              "icon": "lucide-file",
-              "title": "025 unused"
+              "icon": "lucide-layout-grid",
+              "title": "Content"
             }
           }
         ]
@@ -182,11 +180,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba905e99df533d15",
+  "active": "2b46c64e05ab651c",
   "lastOpenFiles": [
+    "content/week-notes/031.md",
+    "content/drafts/025 unused.md",
     "public/drafts/025-unused/index.html",
     "public/drafts/025-unused",
-    "content/week-notes/031.md",
     "content/posts/2019-12-20 My Top Ten Albums from the 2010s.md",
     "Content.base",
     "content/posts/2019-11-13 My Top Ten Video Games from the 2010s.md",
@@ -197,7 +196,6 @@
     "public/my-top-ten-video-games-from-the-2010s",
     "public/posts/2019-11-13-my-top-ten-video-games-from-the-2010s/index.html",
     "public/posts/2019-11-13-my-top-ten-video-games-from-the-2010s",
-    "public/posts/2019-11-13/index.html",
     "content/posts/2024-04-14 Your silence will not protect you.md",
     "content/posts/2016-09-28 Women in a Sea of Men.md",
     "content/posts/2024-08-28 what's this (and how it works).md",
