@@ -54,9 +54,6 @@ sup {
   padding: 0.5% 1.5%;
 }
 
-code {
-}
-
 table {
   border: 1px solid var(--blue);
   width: 100%;
@@ -128,7 +125,7 @@ nav ul {
 }
 
 /* home, page, section - common */
-.home time::after, .page time::after, .section time::after {
+.home time::after, .page time::after {
   content: ' ';
   background: var(--text);
   width: 150px;
@@ -137,7 +134,7 @@ nav ul {
   margin: 2% auto 0 auto;
 }
 
-.home article h2, .page h1, .section article h2 {
+.home article h2, .page h1 {
   font-family: 'Domaine Display', Georgia, serif;
   font-weight: 900;
   text-transform: uppercase;
@@ -149,12 +146,12 @@ nav ul {
 }
 
 @media only screen and (max-width: 600px) {
-  .home article h2, .page h1, .section article h2, .home article h2 a {
+  .home article h2, .page h1, .home article h2 a {
     font-size: 2rem !important;
   }
 }
 
-.home article time, .page time, .section article time {
+.home article time, .page time {
   font-family: 'Domaine Display', Georgia, serif;
   font-weight: normal;
   font-style: italic;
@@ -164,12 +161,12 @@ nav ul {
 }
 
 @media only screen and (max-width: 600px) {
-  .home article time, .page time, .section article time {
+  .home article time, .page time {
     font-size: 1.25rem;
   }
 }
 
-.home .barcode, .page .barcode, .section .barcode {
+.home .barcode, .page .barcode {
   font-family: 'Libre Barcode', sans-serif;
   font-size: 2rem;
   text-align: center;
@@ -182,7 +179,7 @@ nav ul {
 }
 
 @media only screen and (max-width: 600px) {
-  .home .barcode, .page .barcode, .section .barcode {
+  .home .barcode, .page .barcode {
     font-size: 1rem;
   }
 }
@@ -237,7 +234,7 @@ nav ul {
 }
 
 @media only screen and (max-width: 600px) {
-  .home blockquote, .section blockquote {
+  .home blockquote {
     margin: 0;
   }
 }
@@ -426,31 +423,7 @@ figcaption {
   font-style: italic;
 }
 
-/* section */
-.section article h2 a {
-  text-decoration: none;
-  border: none;
-  color: var(--text);
-}
-
-.section h1 {
-  font-family: 'Domaine Display', Georgia, serif;
-  font-weight: 900;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--claret);
-}
-
-.section article:first-of-type {
-  padding-top: 0;
-}
-
-.section article {
-  border-bottom: 1px dotted var(--text);
-  padding: 7.5% 0;
-}
-
-  /* pagination */
+/* pagination */
     .pagination {
       list-style-type: none;
       padding: 7.5% 0 0 0;
@@ -483,8 +456,8 @@ figcaption {
       width: 18px;
     }
 
-/* tag page */
-.term h1 {
+/* tag & section page */
+.term h1, .section h1 {
   font-family: 'Domaine Display', Georgia, serif;
   font-weight: 900;
   text-align: center;
@@ -494,7 +467,7 @@ figcaption {
   padding-top: 7.5%
 }
 
-.term article {
+.term article, .section article {
   display: flex;
   justify-content: space-between;
   align-items: center;
