@@ -11,13 +11,15 @@
             "id": "2b46c64e05ab651c",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Content.base",
-                "viewName": "Content"
+                "file": "content/week-notes/031.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Content"
+              "icon": "lucide-file",
+              "title": "031"
             }
           }
         ]
@@ -182,12 +184,12 @@
   },
   "active": "2b46c64e05ab651c",
   "lastOpenFiles": [
+    "Content.base",
     "content/week-notes/031.md",
     "content/drafts/025 unused.md",
     "public/drafts/025-unused/index.html",
     "public/drafts/025-unused",
     "content/posts/2019-12-20 My Top Ten Albums from the 2010s.md",
-    "Content.base",
     "content/posts/2019-11-13 My Top Ten Video Games from the 2010s.md",
     "themes/neverhungoveragain/layouts/shortcodes/image.html",
     "themes/neverhungoveragain/layouts/shortcodes/boxes.html",
@@ -216,7 +218,6 @@
     "content/posts/2024-03-10 Moving my home server to a new chassis.md",
     "content/posts/2023-07-30 Media Log (July 2023).md",
     "content/posts/2024-02-04 Media Log (January 2024).md",
-    "content/posts/2023-08-31 Media Log (August 2023).md",
-    "content/posts/2023-12-28 LITR 308 Emily Dickinson & Queer Theory.md"
+    "content/posts/2023-08-31 Media Log (August 2023).md"
   ]
 }
