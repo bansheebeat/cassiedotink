@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9de6f060307787ec",
+        "id": "44cba2c26307bd5f",
         "type": "tabs",
         "children": [
           {
-            "id": "78ddd8adaeb34132",
+            "id": "c514744e9e227a66",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -140,7 +140,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78ddd8adaeb34132",
+  "active": "c514744e9e227a66",
   "lastOpenFiles": [
     "content/week-notes/031.md",
     "content/week-notes/030.md",
