@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "577f6866fac7907d",
+        "id": "44cba2c26307bd5f",
         "type": "tabs",
         "children": [
           {
-            "id": "b278077bcdcebf7f",
+            "id": "c514744e9e227a66",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -140,8 +140,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b278077bcdcebf7f",
+  "active": "c514744e9e227a66",
   "lastOpenFiles": [
+    "content/week-notes/031.md",
     "content/week-notes/030.md",
     "public/women-in-a-sea-of-men-the-representation-of-women-in-the-curse-of-the-black-pearl/index.html",
     "public/women-in-a-sea-of-men-the-representation-of-women-in-the-curse-of-the-black-pearl",
