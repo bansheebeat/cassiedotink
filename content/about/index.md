@@ -1,5 +1,6 @@
 ---
 title: about
+cover: https://cdn.cassie.ink/images/2025/09/me.png
 ---
 
 # hi, my name is cassie.

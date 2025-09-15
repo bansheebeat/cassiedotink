@@ -1,9 +1,9 @@
 {{ define "main" }}
   <article>
 
-    <div class="barcode">
-      {{ .Params.url }}
-    </div>
+    {{ with .Params.cover }}
+      <div class="cover" style="background-image:url('{{ . }}');"></div>
+    {{ end }}
 
       {{ .Content }}
 
