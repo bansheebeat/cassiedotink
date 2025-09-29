@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "44cba2c26307bd5f",
+        "id": "74a006f79488f3da",
         "type": "tabs",
         "children": [
           {
-            "id": "c514744e9e227a66",
+            "id": "c58ff1d44d8264d3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -140,8 +140,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c514744e9e227a66",
+  "active": "c58ff1d44d8264d3",
   "lastOpenFiles": [
+    "content/week-notes/034.md",
+    "content/week-notes/033.md",
+    "public/week-notes/032/index.html",
+    "public/week-notes/032",
+    "content/week-notes/032.md",
     "content/week-notes/031.md",
     "content/week-notes/030.md",
     "public/women-in-a-sea-of-men-the-representation-of-women-in-the-curse-of-the-black-pearl/index.html",
@@ -152,8 +157,6 @@
     "public/week-notes/030",
     "public/tags/star-wars/index.xml",
     "public/tags/star-wars/index.html",
-    "public/tags/star-wars",
-    "public/tags/movies/index.xml",
     "content/posts/Women in a Sea of Men.md",
     "content/posts/Star Wars Has a Problem with Women and We’re Going to Fix It Together.md",
     "content/posts/Here’s What I Was Listening to in 2020.md",
