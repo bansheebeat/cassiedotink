@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d9fcacc5997e1033",
+        "id": "f495018b0b1bf612",
         "type": "tabs",
         "children": [
           {
-            "id": "cdc65922ef2bcd0a",
+            "id": "c696c37e6cc53af6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/about/index.md",
+                "file": "content/week-notes/032.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "032"
             }
           }
         ]
@@ -182,22 +182,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdc65922ef2bcd0a",
+  "active": "c696c37e6cc53af6",
   "lastOpenFiles": [
+    "content/week-notes/034.md",
+    "public/week-notes/34/index.html",
+    "public/week-notes/34",
+    "public/week-notes/33/index.html",
+    "public/week-notes/33",
+    "public/week-notes/32/index.html",
+    "public/week-notes/32",
     "content/week-notes/Untitled.base",
+    "content/week-notes/032.md",
+    "content/week-notes/031.md",
     "content/week-notes/Untitled 3.base",
     "content/week-notes/Untitled 2.base",
     "content/week-notes/Untitled 1.base",
-    "content/week-notes/032.md",
-    "public/week-notes/032/index.html",
-    "public/week-notes/032",
-    "content/week-notes/031.md",
-    "public/week-notes/31/index.html",
-    "public/week-notes/31",
-    "Content.base",
     "content/drafts/025 unused.md",
-    "public/drafts/025-unused/index.html",
-    "public/drafts/025-unused",
     "content/posts/2019-12-20 My Top Ten Albums from the 2010s.md",
     "content/posts/2019-11-13 My Top Ten Video Games from the 2010s.md",
     "content/posts/2024-04-14 Your silence will not protect you.md",
@@ -218,7 +218,6 @@
     "content/posts/2024-01-01 my year in lists.md",
     "content/posts/2024-08-02 Moving to a rack mount setup.md",
     "content/posts/2024-03-10 Moving my home server to a new chassis.md",
-    "content/posts/2023-07-30 Media Log (July 2023).md",
-    "content/posts/2024-02-04 Media Log (January 2024).md"
+    "content/posts/2023-07-30 Media Log (July 2023).md"
   ]
 }
