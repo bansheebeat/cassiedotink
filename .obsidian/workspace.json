@@ -8,18 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c696c37e6cc53af6",
+            "id": "e2f5890a381c2c1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/week-notes/034.md",
+                "file": "content/week-notes/035.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "034"
+              "title": "035"
             }
           }
         ]
@@ -123,22 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "content/week-notes/035.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "caf2074a3f9acbd7",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of 035"
             }
           },
           {
@@ -166,9 +157,19 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "63eea7ca7aec45ef",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -182,10 +183,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c696c37e6cc53af6",
+  "active": "e2f5890a381c2c1b",
   "lastOpenFiles": [
-    "content/week-notes/032.md",
     "content/week-notes/034.md",
+    "content/week-notes/035.md",
+    "content/week-notes/032.md",
     "conflict-files-obsidian-git.md",
     "public/week-notes/033/index.html",
     "public/week-notes/033",
