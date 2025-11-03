@@ -15,7 +15,7 @@
               "state": {
                 "file": "content/week-notes/035.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
