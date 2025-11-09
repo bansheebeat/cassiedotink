@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f495018b0b1bf612",
+        "id": "6ccd28d878aa7d81",
         "type": "tabs",
         "children": [
           {
-            "id": "c696c37e6cc53af6",
+            "id": "df37fc04e3bd51c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/week-notes/034.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "034"
+              "title": "New tab"
             }
           }
         ]
@@ -90,19 +85,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f6da12deeffe7b4b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          },
-          {
             "id": "3fca5d840b32c282",
             "type": "leaf",
             "state": {
@@ -123,22 +105,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "content/week-notes/036.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "caf2074a3f9acbd7",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of 036"
             }
           },
           {
@@ -146,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "footnotes",
-              "state": {
-                "file": "content/week-notes/029.md"
-              },
+              "state": {},
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
@@ -166,13 +137,23 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "b9a8750b4e22e72d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 401.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,10 +163,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c696c37e6cc53af6",
+  "active": "df37fc04e3bd51c7",
   "lastOpenFiles": [
-    "content/week-notes/032.md",
+    "content/week-notes/036.md",
+    "content/week-notes/035.md",
     "content/week-notes/034.md",
+    "content/week-notes/032.md",
     "conflict-files-obsidian-git.md",
     "public/week-notes/033/index.html",
     "public/week-notes/033",
@@ -217,7 +200,6 @@
     "content/posts/2014-08-14 Princess Bubblegum & Marceline Still Just Almost Girlfriends.md",
     "content/posts/2023-08-18 On Teaching.md",
     "content/posts/2023-07-31 Old Woman Yells at the Cloud.md",
-    "content/posts/2024-01-01 my year in lists.md",
-    "content/posts/2024-08-02 Moving to a rack mount setup.md"
+    "content/posts/2024-01-01 my year in lists.md"
   ]
 }
