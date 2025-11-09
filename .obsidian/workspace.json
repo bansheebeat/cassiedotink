@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "412a9232188120de",
+        "id": "5a80e9a4604e0269",
         "type": "tabs",
         "children": [
           {
-            "id": "d80a72f10bdf8cb0",
+            "id": "9c6a52d2474fb159",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -182,13 +182,13 @@
   },
   "active": "83bd9893cb580bb0",
   "lastOpenFiles": [
+    "content/week-notes/034.md",
+    "content/week-notes/035.md",
+    "content/week-notes/036.md",
     "content/week-notes/037.md",
     "content/templates/weeknotes.md",
     "Content.base",
-    "content/week-notes/036.md",
     "conflict-files-obsidian-git.md",
-    "content/week-notes/035.md",
-    "content/week-notes/034.md",
     "content/week-notes/032.md",
     "public/week-notes/033/index.html",
     "public/week-notes/033",

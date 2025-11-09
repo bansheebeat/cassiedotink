@@ -1,5 +1,5 @@
 ---
-title: "(WN #)"
+title: (WN#)
 date: "{{date}}"
 tags:
   - week-notes
