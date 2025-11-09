@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "74a006f79488f3da",
+        "id": "0ce078767e766fd1",
         "type": "tabs",
         "children": [
           {
-            "id": "c58ff1d44d8264d3",
+            "id": "89cbfe2b7706b18c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -140,8 +140,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c58ff1d44d8264d3",
+  "active": "89cbfe2b7706b18c",
   "lastOpenFiles": [
+    "content/week-notes/036.md",
     "content/week-notes/034.md",
     "content/week-notes/033.md",
     "public/week-notes/032/index.html",
