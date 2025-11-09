@@ -1,6 +1,6 @@
 ---
 title: about
-cover: https://cdn.cassie.ink/images/2025/11/me.jpg
+cover: https://cdn.cassie.ink/images/2025/11/me.png
 ---
 
 # hi, my name is cassie.
@@ -12,5 +12,4 @@ this site is currently built using [hugo](https://gohugo.io). I edit my posts in
 ## find me on
 * **email:** me@cassie.ink (preferred, and please do — I love emails)
 * **mastodon:** [cass@social.lol](https://social.lol/@cass)
-* **bluesky:** [@bigcass.bsky.social](https://bsky.app/profile/bigcass.bsky.social)
 * **listenbrainz:** [babyspace](https://listenbrainz.org/user/babyspace/)
