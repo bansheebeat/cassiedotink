@@ -11,10 +11,15 @@
             "id": "df37fc04e3bd51c7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -163,13 +168,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df37fc04e3bd51c7",
+  "active": "b9a8750b4e22e72d",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "content/week-notes/036.md",
     "content/week-notes/035.md",
     "content/week-notes/034.md",
     "content/week-notes/032.md",
-    "conflict-files-obsidian-git.md",
     "public/week-notes/033/index.html",
     "public/week-notes/033",
     "content/week-notes/033.md",
