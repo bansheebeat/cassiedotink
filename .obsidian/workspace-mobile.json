@@ -135,6 +135,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "bases:Create new base": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
