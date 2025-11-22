@@ -1,0 +1,41 @@
+name: push
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22.4'
+
+      - name: Setup Hugo
+        uses: https://github.com/peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: build
+        run: hugo --minify
+
+      - name: 📂 SFTP uploader # Upload to SFTP
+        uses: wangyucode/sftp-upload-action@v2.0.4
+        with:
+          host: ${{ secrets.NFSN_HOSTNAME }} # Recommended to put the credentials in github secrets.
+          username: ${{ secrets.NFSN_USERNAME }}
+          password: ${{ secrets.NFSN_PASSWORD }}
+          compress: false # Compression
+          forceUpload: true # Optional, Force uploading all files, Default to false(upload only newer files).
+          localDir: "/public/" # Required, Absolute or relative to cwd.
+          remoteDir: "/home/public" # Required, Absolute path only.
+          exclude: ".git,.DS_Store,**/node_modules" # Optional. exclude patterns (glob) like .gitignore, use ',' to split, Default to ''.
