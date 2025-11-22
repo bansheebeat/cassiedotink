@@ -6,7 +6,7 @@ on:
       - master
 jobs:
   Hugo-Deploy:
-    runs-on: ubuntu-latest
+    runs-on: docker
     steps:
       - run: echo "🎉 The job was automatically triggered."
       - run: echo "🐧 This job is now running!"
