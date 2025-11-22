@@ -33,7 +33,7 @@ jobs:
         run: hugo --minify
 
       - name: 📂 SFTP uploader # Upload to SFTP
-        uses: wangyucode/sftp-upload-action@v2.0.4
+        uses: https://github.com/wangyucode/sftp-upload-action@v2.0.4
         with:
           host: ${{ secrets.NFSN_HOSTNAME }} # Recommended to put the credentials in github secrets.
           username: ${{ secrets.NFSN_USERNAME }}
