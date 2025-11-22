@@ -20,7 +20,7 @@ jobs:
       - run: echo "💡 The repository has been cloned to the runner."
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: https://github.com/peaceiris/actions-hugo@v3
         with:
           # hugo-version: '0.134.1' or remove this for the latest
           extended: true
@@ -30,7 +30,7 @@ jobs:
           ls          
 
       - name: Build
-        run: hugo
+        run: hugo --minify
 
       - name: 📂 SFTP uploader # Upload to SFTP
         uses: wangyucode/sftp-upload-action@v2.0.4
