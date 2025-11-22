@@ -1,0 +1,48 @@
+name: publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0 # all history for all branches and tags\
+          
+      - uses: actions/cache@v3
+        id: cache
+        with:
+          path: |
+            ~/.cache/go-build
+            ~/go
+          key: ${{ runner.os }}-go-
+
+      - uses: actions/setup-go@v4
+        with:
+          go-version: '>=1.21.0'
+
+      - name: Install Hugo
+        run: |
+          go install -tags extended github.com/gohugoio/hugo@latest
+
+      - uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/go-build
+            ~/go
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
+            
+      - name: Build
+        run: |
+          hugo --minify
+
+      - name: Deploy
+        run: >
+        sshpass -p "${{ secrets.NFSN_PASSWORD }}" rsync -avz -e "ssh -o StrictHostKeyChecking=no" --delete protected/ "${{ secrets.NFSN_USERNAME }}"@"${{ secrets.NFSN_HOSTNAME }}":/home/public/
