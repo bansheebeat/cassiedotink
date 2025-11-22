@@ -14,9 +14,6 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y%m%d%H%M%S')"
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
@@ -28,3 +25,13 @@ jobs:
           extended: true
       - name: build
         run: hugo --minify
+      - name: Deploy to SFTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.0
+        with:
+          server: ${{ secrets.NFSN_HOSTNAME }}
+          username: ${{ secrets.NFSN_USERNAME }}
+          password: ${{ secrets.NFSN_PASSWORD }} # Uncomment if using password
+          # ssh_private_key: ${{ secrets.SFTP_PRIVATE_KEY }} # Uncomment if using SSH key
+          local_dir: ./public/ # Adjust to your build output directory
+          remote_dir: /home/public/ # Adjust to your web server's target directory
+          protocol: sftp
