@@ -22,12 +22,8 @@ jobs:
       - name: Setup Hugo
         uses: https://github.com/peaceiris/actions-hugo@v3
         with:
-          # hugo-version: '0.134.1' or remove this for the latest
+          hugo-version: 'latest'
           extended: true
-
-      - name: List files in the repository
-        run: |
-          ls          
 
       - name: Build
         run: hugo --minify
