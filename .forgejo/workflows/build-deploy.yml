@@ -45,4 +45,4 @@ jobs:
 
       - name: Deploy
         run: >
-        sshpass -p "${{ secrets.NFSN_PASSWORD }}" rsync -avz -e "ssh -o StrictHostKeyChecking=no" --delete protected/ "${{ secrets.NFSN_USERNAME }}"@"${{ secrets.NFSN_HOSTNAME }}":/home/public/
+        sshpass -p "${{ secrets.NFSN_PASSWORD }}" rsync -avz -e "ssh -o StrictHostKeyChecking=no" --delete protected/ "${{ secrets.NFSN_USERNAME }}"@"${{ secrets.NFSN_HOSTNAME }}"/public/
