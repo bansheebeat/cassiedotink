@@ -1,6 +1,7 @@
 ---
 title: about
 cover: https://cdn.cassie.ink/images/2025/11/me.png
+type: about
 ---
 
 # hi, my name is cassie.

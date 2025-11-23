@@ -18,11 +18,11 @@ enableRobotsTXT = true
 
 [menus]
   [[menus.main]]
-    name = 'About'
+    name = '/about'
     pageRef = '/about'
     weight = 10
   [[menus.main]]
-    name = 'Archive'
+    name = '/archive'
     pageRef = '/archive'
     weight = 30
 
