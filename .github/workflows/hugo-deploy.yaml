@@ -1,47 +1,35 @@
-name: Hugo Deploy
-run-name: cassie is testing out Actions 🚀
-on:
-  push:
-    branches:
-      - master
+name: Build Hugo and Publish as Release
+
+on: [ push, workflow_dispatch ]
+
 jobs:
-  Hugo-Deploy:
+  buiild:
+    name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 The job was automatically triggered."
-      - run: echo "🐧 This job is now running!"
-
-      - name: Check out repository code
+    - name: Check out repository code
         uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
 
-      - run: echo "💡 The repository has been cloned to the runner."
-
-      - name: Setup Hugo
-      env:
+    - name: Setup Hugo
+        env:
           HUGO_VERSION: latest
         run: |
           mkdir ~/hugo
           cd ~/hugo
           curl -L "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz" --output hugo.tar.gz
           tar -xvzf hugo.tar.gz
-          sudo mv hugo /usr/local/bin 
-      - name: Build
-        run: hugo --minify
+          sudo mv hugo /usr/local/bin
 
-      - name: 📂 SFTP uploader # Upload to SFTP
-        uses: wangyucode/sftp-upload-action@v2.0.4
+    - name: Publish to Webspace
+        uses: wangyucode/sftp-upload-action@v1.4.8
         with:
           host: ${{ secrets.NFSN_HOSTNAME }}
           username: ${{ secrets.NFSN_USERNAME }}
           password: ${{ secrets.NFSN_PASSWORD }}
-          compress: false
+          dryRun: false
           forceUpload: true
           localDir: './dist'
-          remoteDir: "/home/public"
-          exclude: ".git,.DS_Store,**/node_modules"
-
-
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+          remoteDir: ${{ secrets.WEBSPACE_PATH }}
