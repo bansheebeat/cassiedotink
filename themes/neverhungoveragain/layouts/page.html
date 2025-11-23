@@ -20,10 +20,7 @@
 
   {{ with .Params.comments }}
   <comments>
-    <section id="comments" class="article-content">
-      <h2>Comments</h2>
-      <p>With an account on the Fediverse or Mastodon, you can respond to this <a href="https://{{ .host }}/@{{ .username }}/{{ .id }}">post</a>. Since Mastodon is decentralized, you can use your existing account hosted by another Mastodon server or compatible platform if you don't have an account on this one. Known non-private replies are displayed below.</p>
-    
+      <h2>Comments</h2>    
       <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
       <div id="comments-wrapper">
         <noscript><p>Loading comments relies on JavaScript. Try enabling JavaScript and reloading, or visit <a href="https://{{ .host }}/@{{ .username }}/{{ .id }}">the original post</a> on Mastodon.</p></noscript>
@@ -129,7 +126,7 @@
     
                   let instanceBadge = document.createElement("a");
                   instanceBadge.className = "instance";
-                  instanceBadge.setAttribute("href", status.account.url);
+                  
                   instanceBadge.setAttribute("title", `@${ status.account.username }@${ instance }`);
                   instanceBadge.setAttribute("rel", "external nofollow");
                   instanceBadge.textContent = instance;
@@ -208,7 +205,6 @@
           }
           document.getElementById("load-comment").addEventListener("click", loadComments);
       </script>
-    </section>   
   </comments>
   {{ end }}
 
