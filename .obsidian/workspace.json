@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bc840175a32e79e9",
+        "id": "baa9a6c89fa09c4e",
         "type": "tabs",
         "children": [
           {
-            "id": "90d89e159537252e",
+            "id": "2109227121b90c81",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -185,15 +185,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba905e99df533d15",
+  "active": "2109227121b90c81",
   "lastOpenFiles": [
-    "content/week-notes/037.md",
+    "Content.base",
     "content/week-notes/038.md",
+    "content/week-notes/037.md",
     "content/week-notes/034.md",
     "content/week-notes/035.md",
     "content/week-notes/036.md",
     "content/templates/weeknotes.md",
-    "Content.base",
     "conflict-files-obsidian-git.md",
     "content/week-notes/032.md",
     "public/week-notes/033/index.html",
@@ -221,7 +221,6 @@
     "content/posts/2023-08-15 Stages of Moving.md",
     "content/posts/2024-08-08 smooth runs the water where the brook is deep.md",
     "content/posts/2015-03-12 Revolutions.md",
-    "content/posts/2024-11-07 Reflections on elections.md",
-    "content/posts/2014-08-14 Princess Bubblegum & Marceline Still Just Almost Girlfriends.md"
+    "content/posts/2024-11-07 Reflections on elections.md"
   ]
 }
