@@ -589,5 +589,12 @@
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;h1 id=&#34;hi-my-name-is-cassie&#34;&gt;hi, my name is cassie.&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;m an English teacher from New York. This is the home of the esoteric bullshit that I am incomprehensibly fixated on, which includes books, video games, music, and thinking way too much about everything.&lt;/p&gt;&#xA;&lt;p&gt;this site is currently built using &lt;a href=&#34;https://gohugo.io&#34;&gt;hugo&lt;/a&gt;. I edit my posts in Obsidian (with the help of &lt;a href=&#34;https://github.com/ViscousPot/GitSync&#34;&gt;GitSync&lt;/a&gt; on mobile) and sync them to a repo on &lt;a href=&#34;https://32bit.cafe/&#34;&gt;32bitcafe&lt;/a&gt;. I use Cloudflare Pages to build and serve the site. The current theme is heavily inspired by Joyce Manor&amp;rsquo;s &lt;em&gt;Never Hungover Again&lt;/em&gt;, a very good album that everyone should listen to.&lt;/p&gt;&#xA;&lt;h2 id=&#34;find-me-on&#34;&gt;find me on&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;email:&lt;/strong&gt; &lt;a href=&#34;mailto:me@cassie.ink&#34;&gt;me@cassie.ink&lt;/a&gt; (preferred, and please do — I love emails)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;mastodon:&lt;/strong&gt; &lt;a href=&#34;https://social.lol/@cass&#34;&gt;cass@social.lol&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;listenbrainz:&lt;/strong&gt; &lt;a href=&#34;https://listenbrainz.org/user/babyspace/&#34;&gt;babyspace&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;</description>
     </item>
+    <item>
+      <title>archive</title>
+      <link>http://localhost:1313/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

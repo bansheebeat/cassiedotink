@@ -456,8 +456,8 @@ figcaption {
       width: 18px;
     }
 
-/* tag & section page */
-.term h1, .section h1 {
+/* tag, section, & archive page */
+.term h1, .section h1, .archive h1 {
   font-family: 'Domaine Display', Georgia, serif;
   font-weight: 900;
   text-align: center;
@@ -467,19 +467,31 @@ figcaption {
   padding-top: 7.5%
 }
 
-.term article, .section article {
+.archive h2.year {
+  color: var(--blue);
+  font-weight: 900;
+  font-family: 'Domaine Display', Georgia, serif;
+  font-size: 2rem;
+}
+
+.archive h2.year:not(:first-of-type) {
+  padding-top: 5%;
+}
+
+.term article, .section article, .page.archive article {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px dotted var(--text);
-  padding: 2.5% 0;
+  border-bottom: 1px solid var(--text-10);
+  padding: 2% 0;
 
   h2 {
     margin: 0;
-    font-family: 'Domaine Display', Georgia, serif;
-    text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     width: 80%;
+    text-align: left;
+    text-transform: none;
+    font-weight: 400;
 
     a {
       color: var(--text);
@@ -488,11 +500,42 @@ figcaption {
   }
 
   time {
-    font-family: 'Domaine Display', Georgia, serif;
     font-weight: normal;
     font-style: italic;
     width: 170px;
+    font-size: 1rem;
+    text-align: left;
+    display: inline;
+    text-transform: uppercase;
   }
+
+  time::after {
+    display: none;
+  }
+}
+
+/* archive filter */
+#filter {
+
+  h2 {
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+  }
+
+  li {
+    font-size: 1.25rem;
+  }
+
 }
 
 

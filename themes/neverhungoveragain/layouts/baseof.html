@@ -7,7 +7,7 @@
   <header>
     {{ partial "header.html" . }}
   </header>
-  <main class='{{ if .IsHome }}home{{ else }}{{ .Kind }}{{ end }}'>
+  <main class='{{ if .IsHome }}home{{ else }}{{ .Kind }} {{ .Type }}{{ end }}'>
     {{ block "main" . }}{{ end }}
   </main>
   <footer>

@@ -1,0 +1,29 @@
+{{ define "main" }}
+<h1>archive</h1>
+<div id="filter">
+    <h2>or, just show me...</h2>
+    <ul>
+        <li>
+            <a href="/posts/">
+                posts
+            </a>
+        </li>
+        <li>
+            <a href="/tags/week-notes/">
+                week notes
+            </a>
+        </li>
+    </ul>
+</div>
+    {{ range (where .Site.RegularPages "Type" "in" (slice "posts" "week-notes")).GroupByDate "2006" }}
+    <h2 class="year">{{ .Key }}</h2>
+    {{ range .Pages }}
+        <article>
+            <time>
+            {{ .PublishDate.Format "2 January 2006" }}
+            </time>
+            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        </article>
+    {{- end -}}
+    {{ end }}
+{{ end }}

@@ -34,3 +34,9 @@ enableRobotsTXT = true
     noClasses = false
     lineNos = true
     lineNumbersInTable = false
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 5
+    ordered = false
