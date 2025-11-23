@@ -1,0 +1,44 @@
+name: Hugo Deploy
+run-name: cassie is testing out Actions 🚀
+on:
+  push:
+    branches:
+      - master
+jobs:
+  Hugo-Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered."
+      - run: echo "🐧 This job is now running!"
+
+      - name: Check out repository code
+        uses: actions/checkout@v4
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - run: echo "💡 The repository has been cloned to the runner."
+
+      - name: Setup Hugo
+        uses: https://github.com/peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: 📂 SFTP uploader # Upload to SFTP
+        uses: https://github.com/wangyucode/sftp-upload-action@v2.0.4
+        with:
+          host: ${{ secrets.NFSN_HOSTNAME }} # Recommended to put the credentials in github secrets.
+          username: ${{ secrets.NFSN_USERNAME }}
+          password: ${{ secrets.NFSN_PASSWORD }}
+          compress: false # Compression
+          forceUpload: true # Optional, Force uploading all files, Default to false(upload only newer files).
+          localDir: "/public/" # Required, Absolute or relative to cwd.
+          remoteDir: "/home/public" # Required, Absolute path only.
+          exclude: ".git,.DS_Store,**/node_modules" # Optional. exclude patterns (glob) like .gitignore, use ',' to split, Default to ''.
+
+
+      - run: echo "🍏 This job's status is ${{ job.status }}."
