@@ -22,13 +22,10 @@ enableRobotsTXT = true
     pageRef = '/about'
     weight = 10
   [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
+    name = 'Archive'
+    pageRef = '/archive'
     weight = 30
-  [[menus.main]]
-    name = 'Week Notes'
-    pageRef = '/tags/week-notes'
-    weight = 40
+
 
 [markup.highlight]
     noClasses = false
