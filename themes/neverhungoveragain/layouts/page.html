@@ -17,5 +17,11 @@
 
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   </article>
-  
+
+  {{ with .Params.comments }}
+  <comments>
+    {{ partial "comments.html" }}
+  </comments>
+  {{ end }}
+
 {{ end }}

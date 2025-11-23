@@ -6,6 +6,10 @@ tags:
   - games
 draft: false
 cover: https://cdn.cassie.ink/images/2019/gamescolor.png
+comments:
+  host: social.lol
+  username: cass
+  id: 115131396709470556
 ---
 Another decade in the book, another opportunity to represent my life in lists and data.
 
