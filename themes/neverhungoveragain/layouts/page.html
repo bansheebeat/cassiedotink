@@ -10,7 +10,8 @@
     </div>
 
     {{ with .Params.cover }}
-      <div class="cover" style="background-image:url('{{ . }}');"></div>
+      <div class="cover" style="background-image:url('{{ . }}');"><img class="cover" src="{{ . }}" /></div>
+      
     {{ end }}
 
       {{ .Content }}

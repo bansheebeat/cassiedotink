@@ -383,6 +383,10 @@ nav ul {
 
 }
 
+.page .cover img {
+  display: none;
+}
+
 .about h1 {
   color: var(--blue);
 }
