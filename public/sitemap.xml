@@ -8,6 +8,9 @@
     <loc>http://localhost:1313/week-notes/39/</loc>
     <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/meta/</loc>
+    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -28,9 +31,6 @@
   </url><url>
     <loc>http://localhost:1313/week-notes/37/</loc>
     <lastmod>2025-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/meta/</loc>
-    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/week-notes/36/</loc>
     <lastmod>2025-11-09T00:00:00+00:00</lastmod>
