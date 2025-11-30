@@ -35,10 +35,6 @@
             <li class="rating">{{ . }}</li>
           {{ end }}
         {{ else }}
-          <li class="started">
-            <span class="label">Started:</span>
-            {{ .Date | time.Format "2 Jan 2006" }}
-          </li>
           {{ with .Params.status }}
             <li class="status">
               <span class="label">Status:</span>
