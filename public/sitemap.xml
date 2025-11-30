@@ -2,19 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-11-23T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/week-notes/39/</loc>
+    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/week-notes/38/</loc>
-    <lastmod>2025-11-23T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-11-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/week-notes/</loc>
-    <lastmod>2025-11-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/week-notes/</loc>
+    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/american-born-chinese/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/</loc>
+    <lastmod>2025-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/week-notes/38/</loc>
     <lastmod>2025-11-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/week-notes/37/</loc>
@@ -34,6 +43,9 @@
   </url><url>
     <loc>http://localhost:1313/week-notes/33/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/villette/</loc>
+    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/week-notes/32/</loc>
     <lastmod>2025-09-14T00:00:00+00:00</lastmod>

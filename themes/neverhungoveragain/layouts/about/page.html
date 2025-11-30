@@ -2,7 +2,9 @@
   <article>
 
     {{ with .Params.cover }}
-      <div class="cover" style="background-image:url('{{ . }}');"></div>
+      <div class="cover">
+        <img src="{{ . }}" />
+      </div>
     {{ end }}
 
       {{ .Content }}

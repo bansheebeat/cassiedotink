@@ -1,0 +1,42 @@
+{{ define "main" }}
+  <h1>Bookshelf</h1>
+  <div id="read">
+  {{ range .Pages }}
+    <a href="{{ .Permalink }}">
+    <article>
+        {{ with .Params.cover }}
+            <div class="bookcover">
+                <img src="{{ . }}" />
+            </div>
+        {{ end }}
+        <h2 class="title">{{ .Title }}</h2>
+        <span class="author">by {{ .Params.author }}</span>
+
+        {{ if .Params.summary }}
+          <div class="summary">
+            {{ .Summary }}
+          </div>
+        {{ end }}
+
+        <ul class="meta">
+            <li class="status">
+                {{ .Params.status }}
+
+                {{ if .Params.rating }}
+                   ( {{ .Params.rating }})
+                {{ end }}
+                
+                –
+            </li>
+            <li class="time">
+                <time class="time">
+                    {{ .PublishDate.Format "2 January 2006" }}
+                </time>
+            </li>
+        </ul> 
+    </article>
+    </a>
+  {{ end }}
+  </div>
+  <p>I started tracking the books I've read in November of 2025. I have read way more than this! It is important to me to establish this credibility because I have half of an English degree and teach English as a day job!</p>
+{{ end }}

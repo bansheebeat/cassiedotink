@@ -24,8 +24,11 @@ enableRobotsTXT = true
   [[menus.main]]
     name = '/archive'
     pageRef = '/archive'
+    weight = 20
+  [[menus.main]]
+    name = '/books'
+    pageRef = '/books'
     weight = 30
-
 
 [markup.highlight]
     noClasses = false

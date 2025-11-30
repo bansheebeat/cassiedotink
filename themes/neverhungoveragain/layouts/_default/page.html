@@ -10,8 +10,10 @@
     </div>
 
     {{ with .Params.cover }}
-      <div class="cover" style="background-image:url('{{ . }}');"><img class="cover" src="{{ . }}" /></div>
-      
+    <div class="cover">
+      <img src="{{ . }}" />
+      <div class="overlay"></div>
+    </div>
     {{ end }}
 
       {{ .Content }}
@@ -208,5 +210,4 @@
       </script>
   </comments>
   {{ end }}
-
 {{ end }}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on cassie.ink</title>
+    <link>http://localhost:1313/books/</link>
+    <description>Recent content in Books on cassie.ink</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>American Born Chinese</title>
+      <link>http://localhost:1313/books/american-born-chinese/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/books/american-born-chinese/</guid>
+      <description>re-read it because I assigned it to my college students</description>
+    </item>
+    <item>
+      <title>Villette</title>
+      <link>http://localhost:1313/books/villette/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/books/villette/</guid>
+      <description>aka I create my own personal hell by promising a student I&amp;rsquo;d read something and then I&amp;rsquo;m very busy</description>
+    </item>
+  </channel>
+</rss>

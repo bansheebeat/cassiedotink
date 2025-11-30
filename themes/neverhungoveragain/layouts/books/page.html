@@ -1,0 +1,63 @@
+{{ define "main" }}
+  <article>
+    <div class="author">{{ .Params.author }}</div>
+
+    <h1>{{ .Title }}</h1>
+
+    <div class="barcode">
+      {{ .Params.isbn }}
+    </div>
+
+    <div class="info">
+      {{ with .Params.cover }}
+        <div class="bookcover">
+          <img src="{{ . }}" />
+        </div>
+      {{ end }}
+
+      <ul class="meta">
+        <li class="started">
+          <span class="label">Started:</span>
+          {{ .Date | time.Format "2 Jan 2006" }}
+        </li>
+        {{ if .Params.lastmod }}
+          <li class="finished">
+            <span class="label">Finished:</span>
+            {{ .Lastmod | time.Format "2 Jan 2006" }}
+          </li>
+          {{ with .Params.status }}
+            <li class="status">
+              <span class="label">Status:</span>
+              {{ . }}
+            </li>
+          {{ end }}
+          {{ with .Params.rating }}
+            <li class="rating">{{ . }}</li>
+          {{ end }}
+        {{ else }}
+          <li class="started">
+            <span class="label">Started:</span>
+            {{ .Date | time.Format "2 Jan 2006" }}
+          </li>
+          {{ with .Params.status }}
+            <li class="status">
+              <span class="label">Status:</span>
+              {{ . }}
+            </li>
+          {{ end }}
+        {{ end }}        
+      </ul>
+      
+      <div class="content">
+        {{ if .Params.summary }}
+          <div class="summary">
+            {{ .Summary }}
+          </div>
+        {{ end }}
+        {{ .Content }}
+      </div>
+    </div>
+
+  </article>
+
+{{ end }}
