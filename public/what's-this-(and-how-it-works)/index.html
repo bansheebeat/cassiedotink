@@ -27,9 +27,6 @@ So why the move? I love bearblog and recommend it to just about anyone who wants
 
       <script src="/js/main.js"></script>
 
-<script src="http://localhost:1313/js/purify.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script type="module" src="http://localhost:1313/js/mastodon-comments.js"></script>
 
 </head>
 <body>
@@ -77,13 +74,23 @@ So why the move? I love bearblog and recommend it to just about anyone who wants
 <p><strong>So why the move?</strong> I love bearblog and recommend it to just about anyone who wants to get into blogging and the small web — it&rsquo;s dead simple for folks with no web expertise, it has an awesome community, and the discover page allows you to share your content and connect with folks also using the platform. Unfortunately, I am, at heart, a tinkerer — bearblog felt a little <em>too</em> easy, and a little limiting for some of the visions I have. And, ultimately, I just want to <strong>own my content</strong> and <strong>embrace new technologies and challenges</strong>.</p>
 <p>I&rsquo;m committed to pushing myself to blog because I love writing and want to do it more. I keep a physical journal for my more private thoughts and neuroses (affectionately nicknamed my &ldquo;little fucking diary&rdquo;), but I also think there&rsquo;s value in creating a public log of what I&rsquo;m doing, what I&rsquo;m into, what I&rsquo;m thinking. I have a complicated relationship with the internet and probably spend way too much time on it, but I love to be online and connect with other like-minded people. Blogging — and blogging in a space that I own and control and can set boundaries with — feels like the healthiest way to do that.</p>
 <p>And I changed the domain because I think it&rsquo;s funny. I still love cassie.land and may come up with some other use for it.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> But I refer to my hobbies and interests often (and jokingly) as my <strong>esoteric bullshit</strong>, and this website is a tribute to that.</p>
-<h2 id="how-it-works">how it works</h2>
-<p>The basic setup is not too complicated. I use <a href="https://gohugo.io/">Hugo</a> to generate the site from a series of Markdown files (my posts and pages) along with a custom theme I made myself. That&rsquo;s all stored in <a href="https://github.com/bansheebeat/esotericbullshit">a public Github repository</a>, and when changes are pushed to the repo, it rebuilds the site on Github Pages and makes it accessible to the web.</p>
+<h2 id="how-it-works" class="anchor">
+    <a href="#how-it-works">
+        how it works
+        <span class="tooltip"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 15l6 -6" /><path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" /><path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" /></svg></span>
+    </a>
+  
+</h2><p>The basic setup is not too complicated. I use <a href="https://gohugo.io/">Hugo</a> to generate the site from a series of Markdown files (my posts and pages) along with a custom theme I made myself. That&rsquo;s all stored in <a href="https://github.com/bansheebeat/esotericbullshit">a public Github repository</a>, and when changes are pushed to the repo, it rebuilds the site on Github Pages and makes it accessible to the web.</p>
 <p>Previously, on bearblog, I was writing my posts in an Obsidian vault that was stored on my NAS at home. I used Syncthing to be able to access it from my phone wherever I was; when a post was finished, I would just copy and paste it into the bearblog editor and publish. This mostly worked for me, and I liked being able to write from any device. So one of the stipulations I set for myself in moving to Hugo was that I needed to be able to write and publish posts from mobile.</p>
 <p>Posting from my PC isn&rsquo;t hard; I still write in Obsidian, and I just push the changes to Github from my PC. Mobile presented more of a challenge. I spent a lot of time going in circles and reading various guides on how to do it — I explored <a href="https://github.com/Vinzent03/obsidian-git">obsidian-git</a> but ruled it out due to issues pulling large numbers of files; I thought about just using Github&rsquo;s website in my browser and adding files that way; I considered diving into <a href="https://termux.dev/en/">Termux</a> to clone and push from my phone. All of that just seemed so fiddly or complicated or just had too many drawbacks; most of all, I didn&rsquo;t want to create any barriers to writing. I just wanted to <strong><em>write</em></strong> and have the words show up online. No extra steps.</p>
 <p>Finally, I stumbled on Ben Butterworth&rsquo;s post, <a href="https://orth.uk/obsidian-sync/">Syncing Obsidian Vault on macOS and Android, for free, using git</a>. He recommended the Android app <a href="https://gitjournal.io/">Gitjournal</a>, and then everything clicked into place: Gitjournal gives me an easy editor for writing/editing my content on my phone and handles the commits and pushes to the repository for me. I&rsquo;d really like to use Obsidian&rsquo;s Android app, but right now, there&rsquo;s a <a href="https://github.com/GitJournal/GitJournal/issues/925">noted issue</a> with Gitjournal that prevents the repo from being stored on the file system (which I would then just point my Android Obsidian vault to). I&rsquo;m hopeful it will be resolved soon and I can use my preferred app, but Gitjournal works just fine for now. Best of all, this setup is <strong>practically idiot-proof</strong> (hi, it&rsquo;s me)<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> and presents few to no barriers to what&rsquo;s important: <strong>the writing</strong>.</p>
-<h2 id="afoot-and-lighthearted">afoot and lighthearted</h2>
-<p>So what now? I&rsquo;m going to keep blogging and trying new things; this is just the new home for it all. And because it&rsquo;s all owned, managed, and generated by me, I can do whatever the fuck I want with it. Right now, it&rsquo;s just a standard blog, but I plan to get weird with it. Thanks for reading and joining along with me.</p>
+<h2 id="afoot-and-lighthearted" class="anchor">
+    <a href="#afoot-and-lighthearted">
+        afoot and lighthearted
+        <span class="tooltip"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 15l6 -6" /><path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" /><path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" /></svg></span>
+    </a>
+  
+</h2><p>So what now? I&rsquo;m going to keep blogging and trying new things; this is just the new home for it all. And because it&rsquo;s all owned, managed, and generated by me, I can do whatever the fuck I want with it. Right now, it&rsquo;s just a standard blog, but I plan to get weird with it. Thanks for reading and joining along with me.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -109,7 +116,6 @@ So why the move? I love bearblog and recommend it to just about anyone who wants
 
   </article>
 
-  
 
   </main>
   <footer>
