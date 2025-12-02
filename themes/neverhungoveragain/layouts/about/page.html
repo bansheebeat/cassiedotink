@@ -2,9 +2,10 @@
   <article>
 
     {{ with .Params.cover }}
-      <div class="cover">
-        <img src="{{ . }}" />
-      </div>
+    <div class="cover">
+      <img src="{{ . }}" />
+      <div class="overlay"></div>
+    </div>
     {{ end }}
 
       {{ .Content }}
