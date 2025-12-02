@@ -259,7 +259,7 @@ nav ul {
       text-align: center;
     }
 
-    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    .anchor a {
       border: none;
       position: relative;
       transition: all 0.5s ease;
