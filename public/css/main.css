@@ -329,6 +329,12 @@ nav ul {
       border-radius: 15px;
     }
 
+    code {
+      background-color: var(--background-shade);
+      padding: 4px 10px;
+      border-radius: 15px;
+    }
+
     pre {
       background-color: var(--background-shade);
       border-radius: 15px;
