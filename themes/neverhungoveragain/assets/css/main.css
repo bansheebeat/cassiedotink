@@ -321,6 +321,10 @@ nav ul {
 /* home.html that isn't shared with page.html */
 .home article {
   border-bottom: 2px solid var(--text-10);
+
+  h2.anchor {
+    display: none;
+  }
 }
 
 /* page.html that isn't shared with home.html */
