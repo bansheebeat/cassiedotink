@@ -258,6 +258,24 @@ nav ul {
       text-transform: uppercase;
       text-align: center;
     }
+
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+      border: none;
+      position: relative;
+      transition: all 0.5s ease;
+      margin-right: -30px;
+    }
+
+    .tooltip {
+      opacity: 0;
+      transition: all 0.25s ease;
+      color: var(--text);
+    }
+
+    h2 a:hover .tooltip, h3 a:hover .tooltip, h4 a:hover .tooltip, h5 a:hover .tooltip, h6 a:hover .tooltip {
+      opacity: .5;
+      transition: all 0.25s ease;
+    }
   }
 
   .cover {
@@ -351,24 +369,6 @@ nav ul {
 
     h3 {
       font-size: 1.5rem;
-    }
-
-    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-      border: none;
-      position: relative;
-      transition: all 0.5s ease;
-      margin-right: -30px;
-    }
-
-    .tooltip {
-      opacity: 0;
-      transition: all 0.25s ease;
-      color: var(--text);
-    }
-
-    h2 a:hover .tooltip, h3 a:hover .tooltip, h4 a:hover .tooltip, h5 a:hover .tooltip, h6 a:hover .tooltip {
-      opacity: .5;
-      transition: all 0.25s ease;
     }
 
     hr {
