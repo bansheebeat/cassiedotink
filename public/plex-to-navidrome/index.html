@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="cassie.ink" />
+<link rel="manifest" href="/site.webmanifest" />
+
+  <meta name="description" content="I started accumulating my music library in the mid-2000s by downloading shit off Limewire. At the time of writing, that library is approaching nearly 20,000 songs and around 200GB in size.1 As a teen married to my computer, I used various apps to listen to and manage the library — iTunes so I could sync with my iPod Nano, Winamp when I wanted something local, and then eventually foobar2000 when Winamp went the way of the buffalo. Once the smartphone era came around, I used Google Play Music to upload the library to their servers , and that bridged the gap between my locally stored media and listening on the go from whatever device. Frankly, at the time, I couldn&rsquo;t believe that Google was allowing something like this — absolutely none of the music was purchased through them and I wasn&rsquo;t paying a cent to access it. After a few years, Google shut down Play Music and attempted to transition everyone to YouTube Music. My response was a resounding &ldquo;Fuck that,&rdquo; and so I did what any normal person would do: I built a home server so that I could, essentially, host my own Spotify.2
+">
+  
+    
+      <meta property="og:image" content="https://cdn.cassie.ink/images/2025/12/playlists.png" />
+    
+
+<meta name="fediverse:creator" content="@cass@social.lol" />
+<title>Moving from Plex to Navidrome for music | cassie.ink</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+  
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>
+    <a href="http://localhost:1313/">
+        cassie
+        <svg  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-droplet"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" /></svg>
+        ink
+    </a>
+</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/about/">/about</a>
+    </li>
+    <li>
+      <a href="/archive/">/archive</a>
+    </li>
+    <li>
+      <a href="/books/">/books</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main class='
+    
+      page
+      posts
+      
+        f6a0fbfb1f68dd0c45859861fabec0f4
+      
+    '>
+    
+  <article>
+    
+    <time datetime="2025-12-06T00:00:00&#43;00:00">6 December 2025</time>
+
+    <h1>Moving from Plex to Navidrome for music</h1>
+
+    <div class="barcode">
+      plex-to-navidrome
+    </div>
+
+    
+    <div class="cover">
+      <img src="https://cdn.cassie.ink/images/2025/12/playlists.png" />
+      <div class="overlay"></div>
+    </div>
+    
+
+      <p>I started accumulating my music library in the mid-2000s by downloading shit off Limewire. At the time of writing, that library is approaching nearly 20,000 songs and around 200GB in size.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> As a teen married to my computer, I used various apps to listen to and manage the library — iTunes so I could sync with my iPod Nano, Winamp when I wanted something local, and then eventually foobar2000 when Winamp went the way of the buffalo. Once the smartphone era came around, I used Google Play Music to upload the library to their servers , and that bridged the gap between my locally stored media and listening on the go from whatever device. Frankly, at the time, I couldn&rsquo;t believe that Google was allowing something like this — absolutely none of the music was purchased through them and I wasn&rsquo;t paying a cent to access it. After a few years, Google shut down Play Music and attempted to transition everyone to YouTube Music. My response was a resounding &ldquo;Fuck that,&rdquo; and so I did what any normal person would do: I <a href="/moving-my-home-server-to-a-new-chassis/">built a home server</a> so that I could, essentially, host my own Spotify.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>I&rsquo;ve been using Plex (and Plexamp) for music ever since then. I&rsquo;m reasonably happy with it: I think Plexamp specifically is an awesome app with a lot of great features for music sickos like me. But Plex is a closed source corporate entity which I inherently do not trust. The early signs of enshittification are appearing, and I&rsquo;m getting more and more wary of any service collecting my data. Honestly, I&rsquo;m terrified of being trapped within an ecosystem: I want something that offers data portability, that I can, without major effort, jump away from while still retaining things like ratings and playlists.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p>Happily, there are open source application that offer similar features to Plex. I&rsquo;ve started playing around with <a href="https://jellyfin.org/">Jellyfin</a>, which seems to offer parity for movies and TV (though the Roku app sucks). It supports music just fine, but its focus is clearly video streaming.</p>
+<p>Luckily, the world of self-hosting is rich, so research eventually led me to Navidrome, which I can run alongside Jellyfin. I&rsquo;ve already <a href="/week-notes/39/#listening">started playing around with Symfoninum</a> as a Plexamp replacement on mobile, and there are a bunch of desktop apps for accessing Navidrome. Importantly, all of those apps synchronize with Navidrome — so I can seamlessly move from one to the other, mobile to desktop, while retaining my playlists and favorites.</p>
+<h2 id="moving-playlists-from-plex-to-navidrome" class="anchor">
+    <a href="#moving-playlists-from-plex-to-navidrome">
+        Moving playlists from Plex to Navidrome
+        <span class="tooltip"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 15l6 -6" /><path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" /><path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" /></svg></span>
+    </a>
+  
+</h2><p>Smart playlists are easy enough to recreate using a desktop app like Feishin. Smaller hand-made playlists aren&rsquo;t a big deal to recreate, but I have some others that are quite large. I started with <a href="https://www.ryananddebi.com/2021/05/10/plex-export-playlists-to-m3u/">this tutorial</a>; my early steps, reproduced here, are mostly the same, but I&rsquo;m including a few tweaks and extra steps to get the playlists into Navidrome.</p>
+<p>First, using <a href="https://github.com/WebTools-NG/WebTools-NG">WebTools-NG</a>, connect to your Plex server. Then, go to ExportTools and select the following from the dropdowns:</p>
+<ul>
+<li><strong>Export Type:</strong> Playlist</li>
+<li><strong>Sub Type:</strong> Audio</li>
+<li><strong>Media Library:</strong> Pick the playlist you want</li>
+<li><strong>Export Level:</strong> All
+Hit the green <strong>Export Media</strong> button. It will prompt you for an item start/end, but just leave the defaults so that it grabs the whole playlist. The dialog box will run through the process; wait until it says <em>Job finished</em> and then check the output directory.</li>
+</ul>
+<p><img src="https://cdn.cassie.ink/images/2025/12/1-webtools.png" alt="WebTools-NG Screenshot" loading="lazy" /></p>
+<p>WebTools-NG spits the playlist out as a <code>.csv</code> file; we&rsquo;ll need to do some editing to make this work in Navidrome. Open your preferred spreadsheet app (I&rsquo;m using Excel<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>, but the steps are probably reproducible in any equivalent) and start a blank document. Then, import the <code>.csv</code> file that WebTools-NG created. In Excel, you do this by going to Data &gt; From Text/CSV. Set the delimiter to <code>|</code>, then load the data. You should get a big spreadsheet with a bunch of columns.</p>
+<p><img src="https://cdn.cassie.ink/images/2025/12/2-excel.png" alt="Raw spreadsheet in excel" loading="lazy" /></p>
+<p>The only column that matters to us is <strong>Part File Combined</strong>, which has the full path to your media. For me, this is column Y. Delete the other columns.</p>
+<p>We now need to to get this file ready for Navidrome:</p>
+<ol>
+<li>Replace the column header (Part File Combined) with <code>#EXTM3U</code>.</li>
+<li>Find and replace (Ctrl+H) the folder paths so that they match Navidrome, if necessary — this depends on your personal setup. For me, I run Plex on my Unraid NAS, and the data path is <code>/data/Music/</code>. Navidrome, however, maps this just as <code>/music/</code>. Make whatever changes are correct for you.</li>
+<li>Note any paths that contain commas, e.g. the album <em>No One’s First, and You’re Last</em> by Modest Mouse, because these won&rsquo;t import correctly.</li>
+</ol>
+<p>Save the resulting file as a <code>csv</code>. Then, change the file extension to <code>m3u</code>. Copy that file over into the data path you use for Navidrome.</p>
+<p>Go into your playlists in Navidrome and find the playlist. You may have to give Navidrome a minute to scan, and you might have to toggle the Auto-import setting for the playlist.</p>
+<p><img src="https://cdn.cassie.ink/images/2025/12/4-navidrome.png" alt="Navidrome screenshot" loading="lazy" /></p>
+<p>This is a handy screen to check to see how many tracks were imported on the playlist and compare that to Plex. Your playlist should now be accessible in Navidrome — but you&rsquo;ll have to manually add any tracks that contained commas in the file path.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<h3 id="automating-this-process" class="anchor">
+    <a href="#automating-this-process">
+        Automating this process
+        <span class="tooltip"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 15l6 -6" /><path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" /><path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" /></svg></span>
+    </a>
+  
+</h3><p>Because I had so many playlists, I wanted to automate things a little. I imported all of the <code>.csv</code> files from WebTools-NG into a single Excel document. Then, I set up an Excel macro with the following steps:</p>
+<ol>
+<li>Delete A:X</li>
+<li>Delete B:H</li>
+<li>Autofit column(s)</li>
+<li>Set cell A1 to <code>#EXTM3U</code></li>
+<li>Replace all &lsquo;/data/Music/&rsquo; with &lsquo;/music/&rsquo;</li>
+</ol>
+<p>I ran that on each sheet. Then, I ran a VBA script to export all those files to  new <code>.csv</code> files in a directory.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
+<pre tabindex="0"><code>    Sub ExportAllSheetsToCSV()
+        Dim wsSheet As Worksheet
+        Dim Filename As String
+        Dim SavePath As String
+
+        &#39;Prompt user to choose a save directory
+        SavePath = Application.InputBox(&#34;Enter the full path where you want to save the CSV files&#34;, &#34;Enter Path&#34;, Type:=2)
+        If SavePath = &#34;&#34; Then Exit Sub
+
+        &#39; Loop through each worksheet in the active workbook
+        For Each wsSheet In ThisWorkbook.Worksheets
+            &#39; Define the filename for each CSV file
+            Filename = SavePath &amp; &#34;\&#34; &amp; wsSheet.Name &amp; &#34;.csv&#34;
+
+            &#39; Save the current worksheet as a CSV file
+            wsSheet.SaveAs Filename:=Filename, FileFormat:=xlCSV, CreateBackup:=False
+
+            &#39; Close the new CSV file (it is automatically opened by SaveAs)
+            &#39; Application.ActiveWorkbook.Close
+        Next wsSheet
+
+        &#39; Notify user that the process is complete
+        MsgBox &#34;All sheets have been exported to CSV files in the selected folder.&#34;, vbInformation
+    End Sub
+</code></pre><p>After that, I batch renamed those files from <code>.csv</code> to <code>.m3u</code> using <a href="https://learn.microsoft.com/en-us/windows/powertoys/powerrename">PowerRename</a>.</p>
+<p><img src="https://cdn.cassie.ink/images/2025/12/desktop.png" alt="PowerRename Screenshot" loading="lazy" /></p>
+<p>I still had to manually go in and add the songs with commas in the file paths (I went back to the spreadsheet and filtered for cells that contained a comma to narrow this down easily), but this saved me a lot of clicking.</p>
+<h2 id="importing-favorites" class="anchor">
+    <a href="#importing-favorites">
+        Importing favorites
+        <span class="tooltip"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 15l6 -6" /><path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" /><path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" /></svg></span>
+    </a>
+  
+</h2><p>I mark tracks I like in Plex with a star. Plex supports five star ratings, but I&rsquo;ve set it to just one star (which Plex translates to five stars) as a sort of favoriting system. I have nearly 1000 songs rated this way and absolutely did not want to do this one by one.</p>
+<p>I created a smart playlist in Plex that contained all the songs I&rsquo;d starred. Then, I followed the steps above to import that playlist into Navidrome. I manually added in the songs with commas. Then, using the desktop app <a href="https://github.com/jeffvli/feishin">Feishin</a>, I opened the playlist, hit Ctrl+A to select everything, and favorited them all at once.</p>
+<hr>
+<p>All in all, the process took me just a few hours of effort. Plex and other big apps (Spotify, Apple Music, etc.) want to make it hard for you to move your data around to keep you locked into the platform, so we have to rely on hacky processes like these to get that data out. This isn&rsquo;t the case with open platforms like Navidrome — playlists, for example, have a handy export button that will spit you out an M3U. I will still run Plex while I see how well Navidrome works out in practice and while I transition my video files to Jellyfin, but from my early usage, it&rsquo;s promising — and it feels a lot better to be running an open source software that isn&rsquo;t at the whims of a corporation.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I&rsquo;m recently working on replacing a lot of the legacy media (128kbps MP3s) with FLACs, so it&rsquo;s really ballooned in size.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>fuck Spotify; read <em>Mood Machine</em>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>play history doesn&rsquo;t really matter to me because I&rsquo;ve been scrobbling to last.fm (and mirroring to Listenbrainz) since 2010. It would be nice to have a music player that pulls that data for historical play counts, but I think that&rsquo;s a big ask.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>fuck microsoft; I haven&rsquo;t gotten around to switching to an open-source office suite, and I get access to ms office for free through my job&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>I tried escaping the commas with <code>\,</code> but that didn&rsquo;t work. I also tried wrapping the paths in quotation marks, also to no avail. I suppose a solution could be to rename all your files so that the paths don&rsquo;t contain commas, but I don&rsquo;t want to do that. If you have a workaround, please get in touch!&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>Google&rsquo;s AI gave me this script and I couldn&rsquo;t find a source for it. It worked for me, but I think it&rsquo;s important to explicitly mark AI. If you know where the AI pulled this from, please let me know so I can properly credit them.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+
+    
+  <div class="tags">
+    <ul>
+        <li>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-tag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z" /></svg>
+          <a href="/tags/music/">Music</a>
+        </li>
+        <li>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-tag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z" /></svg>
+          <a href="/tags/tech/">Tech</a>
+        </li>
+        <li>
+          <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.5"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-tag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M3 6v5.172a2 2 0 0 0 .586 1.414l7.71 7.71a2.41 2.41 0 0 0 3.408 0l5.592 -5.592a2.41 2.41 0 0 0 0 -3.408l-7.71 -7.71a2 2 0 0 0 -1.414 -.586h-5.172a3 3 0 0 0 -3 3z" /></svg>
+          <a href="/tags/self-hosting/">Self-Hosting</a>
+        </li>
+    </ul>
+  </div>
+
+  </article>
+
+
+  </main>
+  <footer>
+    
+    <ul class="social">
+        <li>
+            <a href="mailto:me@cassie.ink" aria-label="Email">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+            </a>
+        </li>
+        <li>
+            <a href="/index.xml" aria-label="RSS">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f26522" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-rss">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                    <path d="M4 4a16 16 0 0 1 16 16" />
+                    <path d="M4 11a9 9 0 0 1 9 9" />
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a rel="me" href="https://social.lol/@cass" aria-label="Mastodon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6364ff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-mastodon">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M18.648 15.254c-1.816 1.763 -6.648 1.626 -6.648 1.626a18.262 18.262 0 0 1 -3.288 -.256c1.127 1.985 4.12 2.81 8.982 2.475c-1.945 2.013 -13.598 5.257 -13.668 -7.636l-.026 -1.154c0 -3.036 .023 -4.115 1.352 -5.633c1.671 -1.91 6.648 -1.666 6.648 -1.666s4.977 -.243 6.648 1.667c1.329 1.518 1.352 2.597 1.352 5.633s-.456 4.074 -1.352 4.944z" />
+                    <path d="M12 11.204v-2.926c0 -1.258 -.895 -2.278 -2 -2.278s-2 1.02 -2 2.278v4.722m4 -4.722c0 -1.258 .895 -2.278 2 -2.278s2 1.02 2 2.278v4.722" />
+                  </svg>
+            </a>
+        </li>
+        <li>
+            <a href="https://listenbrainz.org/user/babyspace/" aria-label="Listen Brainz">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#eb743b"  stroke-width="1"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-metabrainz"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7v10l7 4v-18z" /><path d="M21 7v10l-7 4v-18z" /></svg>
+            </a>
+        </li>
+    </ul>
+    <p class="forget">
+        don't forget to have fun.
+    </p>
+    <p class="copyright">
+        all errors &copy; cassie
+    </p>
+    
+  <nav>
+    <ul>
+    <li>
+      <a href="/about/">/about</a>
+    </li>
+    <li>
+      <a href="/archive/">/archive</a>
+    </li>
+    <li>
+      <a href="/books/">/books</a>
+    </li>
+    </ul>
+  </nav>
+
+  </footer>
+</body>
+</html>
