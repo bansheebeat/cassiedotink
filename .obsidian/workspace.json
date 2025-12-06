@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/2025-12-06 Plex to Navidrome.md",
+                "file": "content/week-notes/040.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-06 Plex to Navidrome"
+              "title": "040"
             }
           }
         ]
@@ -187,8 +187,8 @@
   },
   "active": "17292b1750216522",
   "lastOpenFiles": [
-    "content/posts/2025-08-12 Using Hugo to generate a podcast feed.md",
     "content/posts/2025-12-06 Plex to Navidrome.md",
+    "content/posts/2025-08-12 Using Hugo to generate a podcast feed.md",
     "public/tags/navidrome/index.xml",
     "public/tags/navidrome/index.html",
     "public/tags/navidrome",
