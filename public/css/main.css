@@ -240,10 +240,6 @@ nav ul {
   }
 
   @media only screen and (max-width: 600px) {
-    .tags ul {
-      display: block;
-    }
-  
     .tags ul li {
       justify-content: center;
     }
