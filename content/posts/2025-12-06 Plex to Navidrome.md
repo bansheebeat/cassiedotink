@@ -6,7 +6,7 @@ tags:
   - music
   - tech
   - self-hosting
-draft: true
+draft: false
 cover: https://cdn.cassie.ink/images/2025/12/playlists.png
 ---
 I started accumulating my music library in the mid-2000s by downloading shit off Limewire. At the time of writing, that library is approaching nearly 20,000 songs and around 200GB in size.[^1] As a teen married to my computer, I used various apps to listen to and manage the library — iTunes so I could sync with my iPod Nano, Winamp when I wanted something local, and then eventually foobar2000 when Winamp went the way of the buffalo. Once the smartphone era came around, I used Google Play Music to upload the library to their servers , and that bridged the gap between my locally stored media and listening on the go from whatever device. Frankly, at the time, I couldn't believe that Google was allowing something like this — absolutely none of the music was purchased through them and I wasn't paying a cent to access it. After a few years, Google shut down Play Music and attempted to transition everyone to YouTube Music. My response was a resounding "Fuck that," and so I did what any normal person would do: I [built a home server](/moving-my-home-server-to-a-new-chassis/) so that I could, essentially, host my own Spotify.[^2]
