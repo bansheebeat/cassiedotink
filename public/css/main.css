@@ -528,10 +528,14 @@ nav ul {
       .summary {
         font-style: italic;
         margin-bottom: 1%;
-        background-color: var(--background-shade-lighter);
-        border: 1px solid var(--background-shade);
-        padding: 2%;
+        /*padding: 2%;
         border-radius: 15px;
+        background-color: var(--background-shade-lighter);
+        border: 1px solid var(--background-shade);*/
+        font-size: 1.4rem;
+        padding: 2% 0;
+        font-family: var(--accent-font);
+        font-weight: normal;
       }
 
       blockquote p {
