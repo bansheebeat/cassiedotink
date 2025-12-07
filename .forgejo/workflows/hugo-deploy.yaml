@@ -3,7 +3,7 @@ run-name: cassie is testing out Actions 🚀
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
