@@ -357,9 +357,12 @@ nav ul {
       background-color: var(--background-shade);
       border-radius: 15px;
       padding: 2.5% 5%;
+      color: var(--text);
+      white-space: pre-wrap;
 
       code {
         background-color: transparent;
+        color: var(--text);
       }
     }
 

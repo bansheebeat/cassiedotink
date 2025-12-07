@@ -6,8 +6,15 @@
     <description>Recent content in Tech on cassie.ink</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moving from Plex to Navidrome for music</title>
+      <link>http://localhost:1313/plex-to-navidrome/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/plex-to-navidrome/</guid>
+      <description>&lt;p&gt;I started accumulating my music library in the mid-2000s by downloading shit off Limewire. At the time of writing, that library is approaching nearly 20,000 songs and around 200GB in size.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; As a teen married to my computer, I used various apps to listen to and manage the library — iTunes so I could sync with my iPod Nano, Winamp when I wanted something local, and then eventually foobar2000 when Winamp went the way of the buffalo. Once the smartphone era came around, I used Google Play Music to upload the library to their servers , and that bridged the gap between my locally stored media and listening on the go from whatever device. Frankly, at the time, I couldn&amp;rsquo;t believe that Google was allowing something like this — absolutely none of the music was purchased through them and I wasn&amp;rsquo;t paying a cent to access it. After a few years, Google shut down Play Music and attempted to transition everyone to YouTube Music. My response was a resounding &amp;ldquo;Fuck that,&amp;rdquo; and so I did what any normal person would do: I &lt;a href=&#34;http://localhost:1313/moving-my-home-server-to-a-new-chassis/&#34;&gt;built a home server&lt;/a&gt; so that I could, essentially, host my own Spotify.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Using Hugo to generate a podcast feed</title>
       <link>http://localhost:1313/hugo-podcast/</link>

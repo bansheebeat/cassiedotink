@@ -129,31 +129,31 @@ Hit the green <strong>Export Media</strong> button. It will prompt you for an it
 <li>Replace all &lsquo;/data/Music/&rsquo; with &lsquo;/music/&rsquo;</li>
 </ol>
 <p>I ran that on each sheet. Then, I ran a VBA script to export all those files to  new <code>.csv</code> files in a directory.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
-<pre tabindex="0"><code>    Sub ExportAllSheetsToCSV()
-        Dim wsSheet As Worksheet
-        Dim Filename As String
-        Dim SavePath As String
 
-        &#39;Prompt user to choose a save directory
-        SavePath = Application.InputBox(&#34;Enter the full path where you want to save the CSV files&#34;, &#34;Enter Path&#34;, Type:=2)
-        If SavePath = &#34;&#34; Then Exit Sub
+<pre tabindex="0"><code>Sub ExportAllSheetsToCSV()
+    Dim wsSheet As Worksheet
+    Dim Filename As String
+    Dim SavePath As String
 
-        &#39; Loop through each worksheet in the active workbook
-        For Each wsSheet In ThisWorkbook.Worksheets
-            &#39; Define the filename for each CSV file
-            Filename = SavePath &amp; &#34;\&#34; &amp; wsSheet.Name &amp; &#34;.csv&#34;
+    &#39;Prompt user to choose a save directory
+    SavePath = Application.InputBox(&#34;Enter the full path where you want to save the CSV files&#34;, &#34;Enter Path&#34;, Type:=2)
+    If SavePath = &#34;&#34; Then Exit Sub
 
-            &#39; Save the current worksheet as a CSV file
-            wsSheet.SaveAs Filename:=Filename, FileFormat:=xlCSV, CreateBackup:=False
+    &#39; Loop through each worksheet in the active workbook
+    For Each wsSheet In ThisWorkbook.Worksheets
+        &#39; Define the filename for each CSV file
+        Filename = SavePath &amp; &#34;\&#34; &amp; wsSheet.Name &amp; &#34;.csv&#34;
 
-            &#39; Close the new CSV file (it is automatically opened by SaveAs)
-            &#39; Application.ActiveWorkbook.Close
-        Next wsSheet
+        &#39; Save the current worksheet as a CSV file
+        wsSheet.SaveAs Filename:=Filename, FileFormat:=xlCSV, CreateBackup:=False
 
-        &#39; Notify user that the process is complete
-        MsgBox &#34;All sheets have been exported to CSV files in the selected folder.&#34;, vbInformation
-    End Sub
-</code></pre><p>After that, I batch renamed those files from <code>.csv</code> to <code>.m3u</code> using <a href="https://learn.microsoft.com/en-us/windows/powertoys/powerrename">PowerRename</a>.</p>
+        &#39; Close the new CSV file (it is automatically opened by SaveAs)
+        &#39; Application.ActiveWorkbook.Close
+    Next wsSheet
+
+    &#39; Notify user that the process is complete
+    MsgBox &#34;All sheets have been exported to CSV files in the selected folder.&#34;, vbInformation
+End Sub</code></pre><p>After that, I batch renamed those files from <code>.csv</code> to <code>.m3u</code> using <a href="https://learn.microsoft.com/en-us/windows/powertoys/powerrename">PowerRename</a>.</p>
 <p><img src="https://cdn.cassie.ink/images/2025/12/desktop.png" alt="PowerRename Screenshot" loading="lazy" /></p>
 <p>I still had to manually go in and add the songs with commas in the file paths (I went back to the spreadsheet and filtered for cells that contained a comma to narrow this down easily), but this saved me a lot of clicking.</p>
 <h2 id="importing-favorites" class="anchor">
@@ -165,7 +165,7 @@ Hit the green <strong>Export Media</strong> button. It will prompt you for an it
 </h2><p>I mark tracks I like in Plex with a star. Plex supports five star ratings, but I&rsquo;ve set it to just one star (which Plex translates to five stars) as a sort of favoriting system. I have nearly 1000 songs rated this way and absolutely did not want to do this one by one.</p>
 <p>I created a smart playlist in Plex that contained all the songs I&rsquo;d starred. Then, I followed the steps above to import that playlist into Navidrome. I manually added in the songs with commas. Then, using the desktop app <a href="https://github.com/jeffvli/feishin">Feishin</a>, I opened the playlist, hit Ctrl+A to select everything, and favorited them all at once.</p>
 <hr>
-<p>All in all, the process took me just a few hours of effort. Plex and other big apps (Spotify, Apple Music, etc.) want to make it hard for you to move your data around to keep you locked into the platform, so we have to rely on hacky processes like these to get that data out. This isn&rsquo;t the case with open platforms like Navidrome — playlists, for example, have a handy export button that will spit you out an M3U. I will still run Plex while I see how well Navidrome works out in practice and while I transition my video files to Jellyfin, but from my early usage, it&rsquo;s promising — and it feels a lot better to be running an open source software that isn&rsquo;t at the whims of a corporation.</p>
+<p>All in all, the process took me just a few hours of effort. Plex and other big apps (Spotify, Apple Music, etc.) want to make it hard for you to move your data around to keep you locked into the platform, so we have to rely on hacky processes like these to get that data out. This isn&rsquo;t the case with open platforms like Navidrome — playlists, for example, have a handy export button that will spit you out an M3U. I will still run Plex while I see how well Navidrome works out in practice and while I transition my video files to Jellyfin, but from my early usage, it&rsquo;s promising — and it feels a lot better to be running an open source software that isn&rsquo;t at the whims of a corporation. I&rsquo;ve still got to figure out how I want to set up remote access — Plex generally makes this very easy, but I&rsquo;m caught behind CGNAT by my ISP (a local outfit that I&rsquo;m otherwise very happy with), so it hasn&rsquo;t worked for me. I&rsquo;m already using Tailscale to access my other self-hosted services, so I&rsquo;ll probably just stick with that and downloading offline files when I don&rsquo;t have a reliable connection.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>

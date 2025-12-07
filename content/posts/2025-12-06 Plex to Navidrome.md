@@ -62,30 +62,30 @@ Because I had so many playlists, I wanted to automate things a little. I importe
 I ran that on each sheet. Then, I ran a VBA script to export all those files to  new `.csv` files in a directory.[^7]
 
 ```
-    Sub ExportAllSheetsToCSV()
-        Dim wsSheet As Worksheet
-        Dim Filename As String
-        Dim SavePath As String
+Sub ExportAllSheetsToCSV()
+    Dim wsSheet As Worksheet
+    Dim Filename As String
+    Dim SavePath As String
 
-        'Prompt user to choose a save directory
-        SavePath = Application.InputBox("Enter the full path where you want to save the CSV files", "Enter Path", Type:=2)
-        If SavePath = "" Then Exit Sub
+    'Prompt user to choose a save directory
+    SavePath = Application.InputBox("Enter the full path where you want to save the CSV files", "Enter Path", Type:=2)
+    If SavePath = "" Then Exit Sub
 
-        ' Loop through each worksheet in the active workbook
-        For Each wsSheet In ThisWorkbook.Worksheets
-            ' Define the filename for each CSV file
-            Filename = SavePath & "\" & wsSheet.Name & ".csv"
+    ' Loop through each worksheet in the active workbook
+    For Each wsSheet In ThisWorkbook.Worksheets
+        ' Define the filename for each CSV file
+        Filename = SavePath & "\" & wsSheet.Name & ".csv"
 
-            ' Save the current worksheet as a CSV file
-            wsSheet.SaveAs Filename:=Filename, FileFormat:=xlCSV, CreateBackup:=False
+        ' Save the current worksheet as a CSV file
+        wsSheet.SaveAs Filename:=Filename, FileFormat:=xlCSV, CreateBackup:=False
 
-            ' Close the new CSV file (it is automatically opened by SaveAs)
-            ' Application.ActiveWorkbook.Close
-        Next wsSheet
+        ' Close the new CSV file (it is automatically opened by SaveAs)
+        ' Application.ActiveWorkbook.Close
+    Next wsSheet
 
-        ' Notify user that the process is complete
-        MsgBox "All sheets have been exported to CSV files in the selected folder.", vbInformation
-    End Sub
+    ' Notify user that the process is complete
+    MsgBox "All sheets have been exported to CSV files in the selected folder.", vbInformation
+End Sub
 ```
 
 After that, I batch renamed those files from `.csv` to `.m3u` using [PowerRename](https://learn.microsoft.com/en-us/windows/powertoys/powerrename). 
