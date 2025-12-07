@@ -3,29 +3,26 @@ run-name: cassie is testing out Actions 🚀
 on:
   push:
     branches:
-      - master
+      - main
+
 jobs:
-  Hugo-Deploy:
+  deploy:
     runs-on: docker
     steps:
-      - run: echo "🎉 The job was automatically triggered."
-      - run: echo "🐧 This job is now running!"
-
-      - name: Check out repository code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      - run: echo "💡 The repository has been cloned to the runner."
-
-      - name: Setup Hugo
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+      - name: setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.25.1"
+      - name: setup Hugo
         uses: https://github.com/peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
-          extended: true
-
-      - name: Build
+          hugo-version: "latest"
+          extended: false
+      - name: build site
         run: hugo --minify
 
       - name: 📂 SFTP uploader # Upload to SFTP
