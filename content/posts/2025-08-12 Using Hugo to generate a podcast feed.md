@@ -214,7 +214,7 @@ Now, for the actual *duration* of the episode, we need `itunes:duration`.
 ```go-html-template
 <itunes:duration>{{ .Params.episodeDuration }}</itunes:duration>
 ```
-I'm choosing to remain consistent with the code's syntax; I wish it was `enclosure size` because duration and length are too interchangeable, but it's not, so we will have to solider on.
+I'm choosing to remain consistent with the code's syntax; I wish it was `enclosure size` because duration and length are too interchangeable, but it's not, so we will have to soldier on.
 
 Podcast feeds can also have some episodes marked explicit and some non-explicit, so we have to declare that on an episode-to-episode basis. Imagine, for example, that your show as a *whole* isn't generally explicit, but on a particular episode, you discuss a Chuck Tingle book — you can mark just that episode as explicit.
 ```go-html-template
